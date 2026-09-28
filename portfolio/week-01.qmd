@@ -1,8 +1,8 @@
 ---
 title: "Character Map"
 week: 1
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
@@ -18,8 +18,67 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 - Objective, responsibility, repertoire, dan risiko tiap character.
 - Satu contoh perubahan language ketika character berubah.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 1](../examples/week-01.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+## Lima character
+
+| Domain dan character | Person & relationship | Objective & responsibility | Repertoire & language | Risiko dan latihan |
+|---|---|---|---|---|
+| Intra-Self — reflective learner | Diri sendiri saat debugging kode | Mencari sumber error dengan tenang | Self-talk, "Apa asumsi saya yang salah?" | Frustrasi; ambil jeda 5 menit |
+| Family — anak | Orang tua di rumah | Memberi kabar dan mendengarkan | Tanya kabar, "Bagaimana hari ini?" | Mengabaikan pesan; balas dalam 1 jam |
+| Friends — teman diskusi | Teman seangkatan | Saling mendukung dan bertukar pikiran | Listening, "Gimana menurutmu?" | Memotong pembicaraan; tunggu jeda |
+| Work — peer mentor | Teman sekelompok praktikum | Membantu evaluasi pemahaman materi | Check-in, review, "Bagian mana yang bingung?" | Menggurui; perbanyak bertanya |
+| Community — staf himpunan | Ketua himpunan dan staf lain | Mensukseskan program kerja | Summary, voting, "Ada masukan lain?" | Pasif; ajukan satu ide tiap rapat |
+
+## Konteks performance
+
+**Tanggal dan setting:** 30 September 2026, Diskusi evaluasi pasca-Praktikum 3 OOP via Discord.
+
+**Persons dan relationship:** Agas, Ariya, dan Naufal (Teman seangkatan/sekelompok praktikum). Hubungan pertemanan suportif.
+
+**Objective dan initial state:** Mengatasi rasa frustrasi Ariya terkait kegagalannya di praktikum tanpa membuatnya merasa diremehkan atau digurui. Initial state: Ariya kebingungan dan kecewa karena gagal menyelesaikan modul Praktikum 3.
+
+## Evidence
+
+::: {.evidence-block}
+**Transcript singkat:**
+Agas: "Ariya, kulihat evaluasi praktikum 3 OOP kemarin kurang maksimal ya? Ada kendala di mananya?"
+Ariya: "Iya, aku stuck di bagian implementasi inheritance sama Polymorphism-nya nih. Pas di-compile pas praktikum error terus, waktunya keburu abis."
+Agas: "Oke, jadi masalahnya di pemahaman struktur OOP-nya. Mau coba kita review bareng kode praktikummu malam ini jam 8 biar kuis minggu depan aman?"
+Ariya: "Boleh banget, thanks Gas."
+
+*Kontribusi saya:* Menggali kendala tanpa menghakimi kegagalannya, dan menawarkan solusi kolaboratif untuk evaluasi materi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Berperan sebagai teman yang suportif (peer mentor), bukan sekadar ikut mengeluh soal susahnya praktikum. |
+| Objective & state | State awal: Ariya frustrasi dan kebingungan. State akhir: Ariya lega karena ada jadwal *review* kode bersama. |
+| Repertoire & language | Menggunakan pertanyaan terbuka ("Ada kendala di mananya?") daripada menghakimi ("Kok bisa error?"). |
+| Response & adaptation | Menyesuaikan penawaran bantuan (me-review kode) setelah tahu kendalanya adalah *error* kompilasi saat praktikum. |
+| Agreement/action | Sepakat melakukan bedah kode praktikum 3 jam 20.00 malam ini. |
+| Relationship outcome | Hubungan tetap baik, Ariya tidak merasa dipojokkan atas nilai praktikumnya dan merasa dibantu. |
+
+## Penggunaan AI
+
+Tidak menggunakan AI dalam menyusun percakapan, murni dari pengalaman diskusi pasca-praktikum OOP minggu lalu.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Naufal (Observer): "Bagus, kamu nggak menggurui tapi nawarin buat nge-review bareng kodenya Ariya."
+
+**Adaptation/replay:** Ke depannya, saya akan mengajak teman-teman untuk berdiskusi *sebelum* praktikum dimulai, bukan hanya evaluasi sesudahnya.
+
+**Next practice:** Melakukan diskusi persiapan (sharing session) H-1 sebelum praktikum dilaksanakan.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Berpindah dari teman biasa menjadi mentor sebaya yang solutif |
+| Objective & State | 4 | Jelas mengubah state dari frustrasi menjadi terencana |
+| Repertoire, Language & AI | 3 | Bahasa empati sudah tepat, namun bisa lebih eksplisit |
+| Response & Adaptation | 4 | Cepat beradaptasi setelah tahu masalahnya di pemahaman OOP |
+| Agreement, Action & Relationship | 3 | Tindakan jelas, relationship terjaga |
+
+**Total:** 18 / 20

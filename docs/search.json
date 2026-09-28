@@ -1641,7 +1641,7 @@
     "href": "portfolio/week-04.html#evidence-wajib",
     "title": "Five-Language Translation Portfolio",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 4 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1652,7 +1652,7 @@
     "href": "portfolio/week-04.html#konteks-performance",
     "title": "Five-Language Translation Portfolio",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 18 Oktober 2026. Penyesuaian komunikasi melalui teks.\nPersons dan relationship: Beragam audiens.\nObjective dan initial state: Menyampaikan core meaning: “Sistem akan mengalami downtime selama 2 jam pada hari Sabtu dini hari untuk migrasi database, dan pengguna mungkin akan ter-logout.”",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1663,7 +1663,7 @@
     "href": "portfolio/week-04.html#evidence",
     "title": "Five-Language Translation Portfolio",
     "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "text": "Evidence\n\nCore Meaning: “Downtime 2 jam Sabtu jam 02.00-04.00 untuk migrasi database, user akan ter-logout.”\n\nFriend (Non-IT): “Eh, aplikasi kita bakal mati bentar ya Sabtu subuh jam 2 sampe jam 4. Nanti pagi pas lo buka, paling minta login ulang aja. Jangan kaget ya.”\nTechnical Peer (Developer lain): “Guys, window untuk migrasi DB ke AWS RDS fix ya Sabtu jam 02.00-04.00. Bakal ada service interruption dan token session akan expired, jadi API calls bakal balikin 401. Pastiin skrip retry kalian aman.”\nManager/Dosen Pembimbing: “Pak, kami jadwalkan maintenance sistem hari Sabtu pukul 02.00-04.00 untuk migrasi database guna meningkatkan kapasitas. Risiko terburuk adalah pengguna harus login ulang di pagi hari.”\nCustomer (Pengguna akhir): “Halo Kak! Untuk meningkatkan kenyamanan Kakak, kami akan melakukan pemeliharaan rutin pada hari Sabtu (20/10) pukul 02.00-04.00 WIB. Aplikasi tidak dapat diakses pada jam tersebut. Kakak mungkin perlu masuk/login kembali setelahnya. Terima kasih atas pengertiannya!”\nPublic (Twitter/X): “⚠️ [PENGUMUMAN MAINTENANCE] ⚠️ Akan ada pemeliharaan sistem pada Sabtu (20/10) pukul 02.00 - 04.00 WIB. Layanan akan dihentikan sementara. Pastikan menyimpan pekerjaan Anda sebelumnya. Info lanjut cek link di bio! #MaintenanceUpdate”",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1674,7 +1674,7 @@
     "href": "portfolio/week-04.html#analisis-komunikasi",
     "title": "Five-Language Translation Portfolio",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nSaya menyesuaikan peran mulai dari teman biasa hingga representasi perusahaan (Customer/Public).\n\n\nObjective & state\nTarget paham bahwa akan ada gangguan namun tidak perlu panik, karena sudah terencana.\n\n\nRepertoire & language\nKepada Technical Peer menggunakan jargon (RDS, token session, 401). Kepada Customer memakai bahasa empatik (“meningkatkan kenyamanan”).\n\n\nResponse & adaptation\nFormat panjang pesan berbeda. Untuk Public, menggunakan emoji sebagai attention grabber.\n\n\nAgreement/action\nPesan tersampaikan sesuai konteks, tidak ada kepanikan yang tidak perlu.\n\n\nRelationship outcome\nKredibilitas dan profesionalisme terjaga sesuai peran di setiap kelompok.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1685,7 +1685,7 @@
     "href": "portfolio/week-04.html#penggunaan-ai",
     "title": "Five-Language Translation Portfolio",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nMenggunakan ChatGPT untuk meminta proofread bahasa untuk versi Public dan Customer agar terdengar lebih natural dan ramah pelanggan.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1696,7 +1696,7 @@
     "href": "portfolio/week-04.html#feedback-dan-tindak-lanjut",
     "title": "Five-Language Translation Portfolio",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Dosen pembimbing membalas (Manager version): “Baik, pastikan backup sudah dilakukan sebelum jam 2.” (Pesan tersampaikan dan fokus pada risiko).\nAdaptation/replay: Jika membuat pengumuman lagi, saya akan menambahkan detail mitigasi risiko pada pesan untuk Manager.\nNext practice: Melatih empati dengan memposisikan diri sebagai pembaca sebelum menekan tombol kirim.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1707,7 +1707,7 @@
     "href": "portfolio/week-04.html#self-assessment",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nLima adaptasi peran terlihat jelas bedanya\n\n\nObjective & State\n4\nInti pesan tetap terjaga (Downtime 2 jam, login ulang)\n\n\nRepertoire, Language & AI\n4\nPemanfaatan AI efektif, variasi bahasa sangat sesuai\n\n\nResponse & Adaptation\n3\nFeedback manager divalidasi\n\n\nAgreement, Action & Relationship\n4\nKomunikasi berjalan sesuai ekspektasi\n\n\n\nTotal: 19 / 20",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1740,7 +1740,7 @@
     "href": "portfolio/week-02.html#evidence-wajib",
     "title": "Intra-Self Communication Journal",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nSatu episode komunikasi dengan diri sendiri.\nInitial story dan sedikitnya dua alternative narratives.\nInternal agreement dan bukti tindakan berikutnya.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 2 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nSatu episode komunikasi dengan diri sendiri.\nInitial story dan sedikitnya dua alternative narratives.\nInternal agreement dan bukti tindakan berikutnya.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1751,7 +1751,7 @@
     "href": "portfolio/week-02.html#konteks-performance",
     "title": "Intra-Self Communication Journal",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 4 Oktober 2026, di kamar kos setelah melihat nilai kuis Sistem Operasi.\nPersons dan relationship: Diri sendiri (Agastya).\nObjective dan initial state: Mengubah emosi negatif dan rasa putus asa menjadi rencana belajar yang konkret. Initial state: Merasa gagal karena nilai kuis di bawah rata-rata.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1762,7 +1762,7 @@
     "href": "portfolio/week-02.html#evidence",
     "title": "Intra-Self Communication Journal",
     "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "text": "Evidence\n\nJurnal Intra-Self: - Event: Melihat pengumuman nilai kuis Sisop. - Fact: Nilai kuis saya 55. Rata-rata kelas 65. - Emotion: Kecewa, sedih, merasa tidak pintar. - Initial Story: “Saya memang payah di mata kuliah hafalan dan low-level seperti ini. Saya pasti akan gagal di UTS nanti.”",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1773,7 +1773,7 @@
     "href": "portfolio/week-02.html#analisis-komunikasi",
     "title": "Intra-Self Communication Journal",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nKarakter awal: The Victim (merasa tidak berdaya). Karakter tujuan: Reflective Learner.\n\n\nObjective & state\nBerpindah dari reaction (menyalahkan diri) menuju response (mencari letak kesalahan kuis).\n\n\nRepertoire & language\nMengubah internal language dari “Saya payah” menjadi “Materi mana yang belum saya kuasai?”\n\n\nResponse & adaptation\nAlternative Narrative 1: “Kuisnya memang susah, semua orang juga nilainya jelek.” (Menolak tanggung jawab).  Alternative Narrative 2: “Saya mendapat 55 karena saya hanya belajar H-1. Jika saya belajar dicicil, hasilnya akan berbeda.” (Mengambil kendali).\n\n\nAgreement/action\nInternal Agreement: Saya akan mereview jawaban kuis besok jam 16.00 dan membuat ringkasan materi per minggu.\n\n\nRelationship outcome\nHubungan dengan diri sendiri menjadi lebih sehat; self-compassion meningkat.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1784,7 +1784,7 @@
     "href": "portfolio/week-02.html#penggunaan-ai",
     "title": "Intra-Self Communication Journal",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nSaya menggunakan AI (Gemini) untuk membantu membedakan mana yang merupakan Fact dan mana yang merupakan Story dari curhatan awal saya.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1795,7 +1795,7 @@
     "href": "portfolio/week-02.html#feedback-dan-tindak-lanjut",
     "title": "Intra-Self Communication Journal",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: AI menunjukkan bahwa kalimat “Saya pasti gagal UTS” adalah story berbasis asumsi masa depan, bukan fakta.\nAdaptation/replay: Mengganti story tersebut dengan narasi yang berorientasi pada perbaikan (Growth Mindset).\nNext practice: Menulis Fact vs Story di catatan HP setiap kali mengalami kegagalan sebelum merespons secara reaktif.",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1806,7 +1806,7 @@
     "href": "portfolio/week-02.html#self-assessment",
     "title": "Intra-Self Communication Journal",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nPerpindahan dari Victim ke Reflective Learner sangat jelas\n\n\nObjective & State\n4\nEmosi berhasil diregulasi menjadi action plan\n\n\nRepertoire, Language & AI\n3\nPenggunaan AI dimanfaatkan untuk membedah bias kognitif\n\n\nResponse & Adaptation\n4\nAlternative narrative berhasil menemukan akar masalah (belajar H-1)\n\n\nAgreement, Action & Relationship\n3\nAction plan jelas dan realistis\n\n\n\nTotal: 18 / 20",
     "crumbs": [
       "Beranda",
       "Intra-Self Communication Journal"
@@ -1817,7 +1817,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSelesai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSelesai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSelesai\n\n\n17\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSelesai\n\n\n19\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSelesai\n\n\n18\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
@@ -3295,7 +3295,7 @@
     "href": "about.html",
     "title": "Profil Mahasiswa",
     "section": "",
-    "text": "Field\nIsi\n\n\n\n\nNama\nNama Mahasiswa\n\n\nNIM\nNIM\n\n\nProgram studi\nProgram Studi\n\n\nAngkatan\nAngkatan\n\n\nEmail\nnama@kampus.ac.id\n\n\nMata kuliah\nKIPP-2 — Komunikasi Inter Personal dan Publik\n\n\nDosen\nArmein Z. R. Langi\n\n\nSemester\nSemester / Tahun Akademik"
+    "text": "Field\nIsi\n\n\n\n\nNama\nAgastya Tristan Dhaniswara\n\n\nNIM\n18225093\n\n\nProgram studi\nSistem dan Teknologi Informasi\n\n\nAngkatan\n2025\n\n\nEmail\n18225093@std.stei.itb.ac.id\n\n\nMata kuliah\nKIPP-2 — Komunikasi Inter Personal dan Publik\n\n\nDosen\nArmein Z. R. Langi\n\n\nSemester\nSemester / Tahun Akademik"
   },
   {
     "objectID": "about.html#pernyataan-portfolio",
@@ -4401,7 +4401,7 @@
     "href": "index.html",
     "title": "Portfolio Pembelajaran",
     "section": "",
-    "text": "Nama Mahasiswa\n\n\nNIM · Program Studi · Angkatan\nPortfolio ini merekam perkembangan kompetensi pada mata kuliah Komunikasi Inter Personal dan Publik. Setiap klaim pencapaian harus terhubung pada evidence, feedback, refleksi, dan tindakan perbaikan."
+    "text": "Agastya Tristan Dhaniswara\n\n\n18225093 · Sistem dan Teknologi Informasi · 2025\nPortfolio ini merekam perkembangan kompetensi pada mata kuliah Komunikasi Inter Personal dan Publik. Setiap klaim pencapaian harus terhubung pada evidence, feedback, refleksi, dan tindakan perbaikan."
   },
   {
     "objectID": "index.html#mulai-dari-sini",
@@ -4780,7 +4780,7 @@
     "href": "portfolio/week-01.html#evidence-wajib",
     "title": "Character Map",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima character dari sedikitnya tiga domain kehidupan.\nObjective, responsibility, repertoire, dan risiko tiap character.\nSatu contoh perubahan language ketika character berubah.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 1 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nLima character dari sedikitnya tiga domain kehidupan.\nObjective, responsibility, repertoire, dan risiko tiap character.\nSatu contoh perubahan language ketika character berubah.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4791,7 +4791,7 @@
     "href": "portfolio/week-01.html#konteks-performance",
     "title": "Character Map",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 30 September 2026, Rapat progres Tugas Besar (Tubes) via Discord.\nPersons dan relationship: Agastya (Ketua Kelompok), Budi, dan Citra (Anggota). Hubungan pertemanan seangkatan namun profesional dalam tugas.\nObjective dan initial state: Mengatasi keterlambatan progres modul backend (Budi) tanpa merusak hubungan pertemanan. Initial state: Modul backend terlambat 2 hari.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4802,7 +4802,7 @@
     "href": "portfolio/week-01.html#evidence",
     "title": "Character Map",
     "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "text": "Evidence\n\nTranscript singkat: Agastya: “Budi, modul backend belum di-push ya? Ada kendala?” Budi: “Iya, gue stuck di bagian autentikasi JWT nih. Error terus.” Agastya: “Oke, jadi masalahnya di JWT. Mau coba kita pair-programming malam ini jam 8?” Budi: “Boleh banget, thanks Gas.”\nKontribusi saya: Menggali kendala tanpa menyalahkan, dan menawarkan solusi kolaboratif.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4813,7 +4813,7 @@
     "href": "portfolio/week-01.html#analisis-komunikasi",
     "title": "Character Map",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nBerperan sebagai ketua kelompok yang solutif, bukan sekadar teman yang memaklumi.\n\n\nObjective & state\nState awal: Terlambat, Budi kebingungan. State akhir: Ada jadwal pair-programming.\n\n\nRepertoire & language\nMenggunakan pertanyaan terbuka (“Ada kendala?”) daripada tuduhan (“Kok belum selesai?”).\n\n\nResponse & adaptation\nMenyesuaikan penawaran bantuan setelah tahu kendalanya teknis (JWT).\n\n\nAgreement/action\nSepakat pair-programming jam 20.00 malam ini.\n\n\nRelationship outcome\nHubungan tetap baik, Budi tidak merasa dipojokkan dan merasa dibantu.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4824,7 +4824,7 @@
     "href": "portfolio/week-01.html#penggunaan-ai",
     "title": "Character Map",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nTidak menggunakan AI dalam menyusun percakapan, murni dari pengalaman rapat tubes minggu lalu.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4835,7 +4835,7 @@
     "href": "portfolio/week-01.html#feedback-dan-tindak-lanjut",
     "title": "Character Map",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Citra (Observer): “Bagus, kamu nggak langsung marah tapi nanya masalahnya dulu.”\nAdaptation/replay: Ke depannya, saya akan lebih proaktif menanyakan progres di pertengahan minggu, bukan saat deadline.\nNext practice: Melakukan check-in informal H-2 sebelum tenggat waktu.",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4846,7 +4846,7 @@
     "href": "portfolio/week-01.html#self-assessment",
     "title": "Character Map",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nBerpindah dari teman menjadi ketua kelompok solutif\n\n\nObjective & State\n4\nJelas mengubah state dari stuck menjadi terencana\n\n\nRepertoire, Language & AI\n3\nBahasa sudah tepat, namun bisa lebih eksplisit\n\n\nResponse & Adaptation\n4\nCepat beradaptasi setelah tahu masalahnya JWT\n\n\nAgreement, Action & Relationship\n3\nTindakan jelas, relationship terjaga\n\n\n\nTotal: 18 / 20",
     "crumbs": [
       "Beranda",
       "Character Map"
@@ -4879,7 +4879,7 @@
     "href": "portfolio/week-03.html#evidence-wajib",
     "title": "Relationship Conversation",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTranscript atau catatan percakapan.\nEvidence listening dan response.\nAnalisis relationship state sebelum dan sesudah.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 3 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nTranscript atau catatan percakapan.\nEvidence listening dan response.\nAnalisis relationship state sebelum dan sesudah.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4890,7 +4890,7 @@
     "href": "portfolio/week-03.html#konteks-performance",
     "title": "Relationship Conversation",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 11 Oktober 2026, Chat WhatsApp dan obrolan di kafe dekat kampus.\nPersons dan relationship: Agastya dan Rian (Teman seangkatan). Rian sering meminjam tugas koding tanpa berusaha sendiri terlebih dahulu.\nObjective dan initial state: Menetapkan batasan (boundary) agar Rian belajar mandiri, tanpa merusak pertemanan (repair & boundary). Initial state: Agastya merasa dimanfaatkan, Rian merasa Agastya teman yang selalu bisa diandalkan untuk mencontek.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4901,7 +4901,7 @@
     "href": "portfolio/week-03.html#evidence",
     "title": "Relationship Conversation",
     "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "text": "Evidence\n\nTranscript percakapan (Paraphrase): Rian: “Gas, minta script tugas DAA dong, gue belom kelar nih.” Agastya: “Yan, lo stuck di bagian mananya?” Rian: “Belom mulai sama sekali hahaha, pusing gue mikirin logikanya.” Agastya: “Gini Yan, gue ngerasa kurang nyaman kalau ngasih full script gitu aja, karena jatuhnya gue ngerjain tugas lo. Gue mau bantu, tapi gimana kalau kita bahas logikanya bareng? Lo coba bikin pseudocode-nya dulu, nanti gue review.” Rian: “Oh.. oke deh. Paham. Sorry ya Gas sering ngerepotin. Nanti malem gue coba bikin strukturnya dulu deh.”",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4912,7 +4912,7 @@
     "href": "portfolio/week-03.html#analisis-komunikasi",
     "title": "Relationship Conversation",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nSaya bertindak sebagai teman yang mendukung (Supportive Friend) sekaligus menjaga integritas akademis.\n\n\nObjective & state\nState awal: Rian meminta jawaban instan. State akhir: Rian setuju untuk mencoba sendiri dan saya menetapkan batasan.\n\n\nRepertoire & language\nPenggunaan kalimat “Gue ngerasa kurang nyaman kalau…” (I-statement) untuk menghindari kesan menyerang/menuduh.\n\n\nResponse & adaptation\nRian menerima dengan baik karena penolakan saya dibarengi dengan tawaran bantuan alternatif (membahas logika).\n\n\nAgreement/action\nRian akan membuat pseudocode terlebih dahulu sebelum berdiskusi malam ini.\n\n\nRelationship outcome\nPertemanan tetap terjalin, rasa hormat meningkat karena batasan yang jelas.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4923,7 +4923,7 @@
     "href": "portfolio/week-03.html#penggunaan-ai",
     "title": "Relationship Conversation",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nTidak menggunakan AI.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4934,7 +4934,7 @@
     "href": "portfolio/week-03.html#feedback-dan-tindak-lanjut",
     "title": "Relationship Conversation",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Dari refleksi pribadi, I-statement sangat efektif menurunkan tensi. Rian tidak defensif.\nAdaptation/replay: Jika Rian memaksa, saya akan menggunakan teknik “Broken Record” untuk tetap mengulang batasan yang sama dengan tenang.\nNext practice: Melatih penggunaan I-statement untuk situasi-situasi lain yang membutuhkan asertivitas.",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4945,7 +4945,7 @@
     "href": "portfolio/week-03.html#self-assessment",
     "title": "Relationship Conversation",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nKarakter asertif terbangun namun tetap bersahabat\n\n\nObjective & State\n4\nBoundary berhasil dikomunikasikan dengan jelas\n\n\nRepertoire, Language & AI\n3\nI-statement digunakan dengan tepat\n\n\nResponse & Adaptation\n4\nTawaran solusi alternatif meredakan potensi konflik\n\n\nAgreement, Action & Relationship\n3\nKesepakatan tercapai, saling pengertian terbentuk\n\n\n\nTotal: 17 / 20",
     "crumbs": [
       "Beranda",
       "Relationship Conversation"
@@ -4978,7 +4978,7 @@
     "href": "portfolio/week-05.html#evidence-wajib",
     "title": "Professional Discovery Interview",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nInitial assumption dan pertanyaan discovery.\nTranscript/paraphrase serta problem impact dan constraint.\nShared problem statement yang dikonfirmasi partner.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 5 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nInitial assumption dan pertanyaan discovery.\nTranscript/paraphrase serta problem impact dan constraint.\nShared problem statement yang dikonfirmasi partner.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -4989,7 +4989,7 @@
     "href": "portfolio/week-05.html#konteks-performance",
     "title": "Professional Discovery Interview",
     "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "text": "Konteks performance\nTanggal dan setting: 25 Oktober 2026, Wawancara klien via Google Meet.\nPersons dan relationship: Agastya (Developer) dan Ibu Rani (Pemilik Toko Kue).\nObjective dan initial state: Menggali masalah pencatatan pesanan di toko Ibu Rani sebelum membuat solusi perangkat lunak. Initial state: Asumsi awal saya, beliau butuh website e-commerce yang canggih.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -5000,7 +5000,7 @@
     "href": "portfolio/week-05.html#evidence",
     "title": "Professional Discovery Interview",
     "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "text": "Evidence\n\nInitial Assumption: Ibu Rani butuh website untuk pelanggan memesan kue secara online. Discovery Question: “Boleh diceritakan Bu, biasanya kesulitan terbesar saat merekap pesanan setiap hari itu di bagian mana?”\nParaphrase Percakapan: Rani: “Aduh Mas, masalah saya itu bukan pelanggan susah pesen. Pelanggan biasa pesan via WA, itu gampang. Susahnya itu saya sering lupa mencatat pesanan dari WA ke buku tulis. Kadang pesanan bentrok tanggalnya.” Agastya: “Oh, jadi pesanan masuk lewat WA sebenarnya sudah lancar, tapi proses memindahkan data dari WA ke buku manual yang sering bikin kesalahan jadwal ya Bu?” Rani: “Betul sekali. Saya pengennya ada sistem yang bisa bantu ngingetin pesanan hari ini apa aja dari data WA itu.”\nShared Problem Statement: “Toko Kue Ibu Rani membutuhkan alat untuk mencatat dan menjadwalkan pesanan masuk dari WhatsApp secara otomatis/terstruktur, untuk menghindari kelalaian penjadwalan dan pesanan ganda.”",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -5011,7 +5011,7 @@
     "href": "portfolio/week-05.html#analisis-komunikasi",
     "title": "Professional Discovery Interview",
     "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "text": "Analisis komunikasi\n\n\n\n\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nBerperan sebagai Consultant/Analyst yang mengeksplorasi, bukan Sales yang memaksakan produk.\n\n\nObjective & state\nBerhasil menggugurkan asumsi awal (website e-commerce) menjadi akar masalah sesungguhnya (manajemen pesanan internal).\n\n\nRepertoire & language\nMenggunakan pertanyaan terbuka (“kesulitan terbesar…”) dan paraphrasing untuk memvalidasi.\n\n\nResponse & adaptation\nMerespons temuan baru dengan mengubah arah solusi dari “Customer-facing web” ke “Internal order management system”.\n\n\nAgreement/action\nKlien mengkonfirmasi Shared Problem Statement sebagai fokus utama pengembangan aplikasi.\n\n\nRelationship outcome\nKlien merasa didengarkan dan dimengerti kebutuhannya, membangun rasa percaya.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -5022,7 +5022,7 @@
     "href": "portfolio/week-05.html#penggunaan-ai",
     "title": "Professional Discovery Interview",
     "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
+    "text": "Penggunaan AI\nTidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi mandiri.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -5033,7 +5033,7 @@
     "href": "portfolio/week-05.html#feedback-dan-tindak-lanjut",
     "title": "Professional Discovery Interview",
     "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ibu Rani berkata, “Iya Mas benar banget kalimatnya, persis itu masalah saya.”\nAdaptation/replay: Mengurangi kebiasaan langsung menawarkan solusi teknologi sebelum klien selesai mengeluh/bercerita.\nNext practice: Selalu menggunakan teknik paraphrasing (mengulang dengan kata-kata sendiri) di setiap akhir cerita klien untuk konfirmasi.",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -5044,7 +5044,7 @@
     "href": "portfolio/week-05.html#self-assessment",
     "title": "Professional Discovery Interview",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nMampu menahan diri untuk tidak langsung proposing solusi\n\n\nObjective & State\n4\nShared problem statement tervalidasi oleh partner\n\n\nRepertoire, Language & AI\n4\nParaphrasing digunakan dengan sangat efektif\n\n\nResponse & Adaptation\n4\nAsumsi awal berhasil digugurkan berkat discovery\n\n\nAgreement, Action & Relationship\n3\nKlien merasa diakui permasalahannya\n\n\n\nTotal: 18 / 20",
     "crumbs": [
       "Beranda",
       "Professional Discovery Interview"
@@ -6524,5 +6524,16 @@
     "title": "Minggu 14 — AI-Mediated Communication",
     "section": "Pegangan satu menit",
     "text": "Pegangan satu menit\n\nUse AI to increase human competence. Keep authority explicit. Keep relationship-critical communication human-owned."
+  },
+  {
+    "objectID": "portfolio/week-01.html#lima-character",
+    "href": "portfolio/week-01.html#lima-character",
+    "title": "Character Map",
+    "section": "Lima character",
+    "text": "Lima character\n\n\n\n\n\n\n\n\n\n\nDomain dan character\nPerson & relationship\nObjective & responsibility\nRepertoire & language\nRisiko dan latihan\n\n\n\n\nIntra-Self — reflective learner\nDiri sendiri saat debugging kode\nMencari sumber error dengan tenang\nSelf-talk, “Apa asumsi saya yang salah?”\nFrustrasi; ambil jeda 5 menit\n\n\nFamily — anak\nOrang tua di rumah\nMemberi kabar dan mendengarkan\nTanya kabar, “Bagaimana hari ini?”\nMengabaikan pesan; balas dalam 1 jam\n\n\nFriends — teman diskusi\nTeman seangkatan\nSaling mendukung dan bertukar pikiran\nListening, “Gimana menurutmu?”\nMemotong pembicaraan; tunggu jeda\n\n\nWork — ketua kelompok\nAnggota kelompok tubes\nMencapai target milestone tubes\nCheck-in, delegasi, “Siapa yang pegang ini?”\nMicromanaging; beri kepercayaan\n\n\nCommunity — staf himpunan\nKetua himpunan dan staf lain\nMensukseskan program kerja\nSummary, voting, “Ada masukan lain?”\nPasif; ajukan satu ide tiap rapat",
+    "crumbs": [
+      "Beranda",
+      "Character Map"
+    ]
   }
 ]

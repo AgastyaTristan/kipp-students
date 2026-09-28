@@ -1,8 +1,8 @@
 ---
 title: "Professional Discovery Interview"
 week: 5
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
@@ -18,8 +18,60 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 - Transcript/paraphrase serta problem impact dan constraint.
 - Shared problem statement yang dikonfirmasi partner.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 5](../examples/week-05.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+## Konteks performance
+
+**Tanggal dan setting:** 25 Oktober 2026, Diskusi santai di kosan untuk tugas pendahuluan Object Oriented Programming (OOP).
+
+**Persons dan relationship:** Agas (Mahasiswa) dan Ariya (Teman seangkatan yang berjualan aneka jajanan di kosan).
+
+**Objective dan initial state:** Menggali masalah pencatatan dagangan Ariya untuk dimodelkan menjadi konsep Kelas (Class), Atribut, dan Objek pada materi awal OOP. Initial state: Asumsi awal Agas, Ariya butuh dibuatkan rancangan program aplikasi kasir (*Point of Sale*) yang lengkap dengan *database*.
+
+## Evidence
+
+::: {.evidence-block}
+**Initial Assumption:** Ariya butuh dirancangkan sistem kasir otomatis karena sering salah hitung uang jualan.
+**Discovery Question:** "Boleh diceritain Ya (Ariya), selama jualan jajanan di kos, biasanya yang bikin repot pas ngurusin datanya itu di bagian mana?"
+
+**Paraphrase Percakapan:**
+Ariya: "Masalahnya bukan di hitung-hitungan uangnya Gas. Itu gampang. Susahnya itu aku sering bingung misahin pesanan kue kering sama kue basah karena tanggal kedaluwarsanya beda-beda. Kadang aku malah ngasih kue basah yang umurnya tinggal sehari ke pembeli yang mesen buat dibawa pulang kampung."
+Agas: "Oh, jadi yang bikin repot itu bukan rekap keuangannya, tapi karena klasifikasi jajanannya nggak rapi, kamu jadi kesulitan ngelacak atribut penting kayak tanggal *expired* untuk tipe kue yang beda-beda ya?"
+Ariya: "Bener banget. Aku cuma pengen data barang jualanku itu tertata rapi kategorinya, biar aku tahu perlakuan tiap jenis kue itu gimana."
+
+**Shared Problem Statement:**
+"Ariya membutuhkan model data konseptual yang mengklasifikasikan produk jajanan berdasarkan jenisnya (Kue Basah vs Kue Kering) beserta atribut penyertanya (tanggal *expired*), untuk mempermudah pemantauan kualitas barang."
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Berperan sebagai Analis Pemula yang mencari esensi masalah, bukan *programmer* ambisius yang mendiktekan solusi *software* kompleks. |
+| Objective & state | Berhasil menggugurkan asumsi awal (Aplikasi kasir) menjadi akar masalah sebenarnya (Kebutuhan pemodelan klasifikasi data). |
+| Repertoire & language | Menggunakan teknik paraphrasing untuk memvalidasi fokus masalah. |
+| Response & adaptation | Merespons temuan baru dengan mengarahkan solusi murni ke pembuatan hirarki dasar Class/Object di OOP. |
+| Agreement/action | Ariya mengkonfirmasi rumusan masalah yang lebih sederhana ini sesuai dengan realita dagangannya. |
+| Relationship outcome | Ariya merasa sangat terbantu merapikan pikirannya, tanpa merasa dijejali dengan jargon teknis aplikasi. |
+
+## Penggunaan AI
+
+Tidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi mandiri dari catatan materi minggu pertama OOP.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Ariya membalas, "Iya Gas persis kayak gitu pokok masalahnya. Asal aku bisa ngelompokkin data jenisnya dengan bener, hidupku udah tenang."
+
+**Adaptation/replay:** Menghindari membayangkan *software* besar di kepala saat mengerjakan tugas *Requirement* awal. Mulai biasakan memikirkan level konseptual/objek terkecil.
+
+**Next practice:** Rutin menggunakan *paraphrasing* untuk konfirmasi masalah, agar tidak *"over-engineer"* solusi.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Mampu menahan diri mendikte sistem yang "keren" |
+| Objective & State | 4 | Shared problem statement tervalidasi oleh partner |
+| Repertoire, Language & AI | 4 | Paraphrasing sangat efektif menangkap inti masalah (klasifikasi) |
+| Response & Adaptation | 4 | Kebutuhan disesuaikan dengan konsep dasar materi awal OOP |
+| Agreement, Action & Relationship | 3 | Partner setuju dengan ruang lingkup identifikasi masalahnya |
+
+**Total:** 18 / 20
