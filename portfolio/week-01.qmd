@@ -30,7 +30,7 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 
 ## Konteks performance
 
-**Tanggal dan setting:** 30 September 2026, Diskusi evaluasi pasca-Praktikum 3 OOP via Discord.
+**Tanggal dan setting:** 25 September 2026, Diskusi evaluasi pasca-Praktikum 3 OOP.
 
 **Persons dan relationship:** Agas, Ariya, dan Naufal (Teman seangkatan/sekelompok praktikum). Hubungan pertemanan suportif.
 
@@ -42,7 +42,7 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 **Transcript singkat:**
 Agas: "Ariya, kulihat evaluasi praktikum 3 OOP kemarin kurang maksimal ya? Ada kendala di mananya?"
 Ariya: "Iya, aku stuck di bagian implementasi inheritance sama Polymorphism-nya nih. Pas di-compile pas praktikum error terus, waktunya keburu abis."
-Agas: "Oke, jadi masalahnya di pemahaman struktur OOP-nya. Mau coba kita review bareng kode praktikummu malam ini jam 8 biar kuis minggu depan aman?"
+Agas: "Oke, jadi masalahnya di pemahaman struktur OOP-nya. Mau coba kita review bareng kode praktikummu malam ini jam 8 biar praktikum minggu depan aman?"
 Ariya: "Boleh banget, thanks Gas."
 
 *Kontribusi saya:* Menggali kendala tanpa menghakimi kegagalannya, dan menawarkan solusi kolaboratif untuk evaluasi materi.
@@ -61,7 +61,7 @@ Ariya: "Boleh banget, thanks Gas."
 
 ## Penggunaan AI
 
-Tidak menggunakan AI dalam menyusun percakapan, murni dari pengalaman diskusi pasca-praktikum OOP minggu lalu.
+Tidak menggunakan AI dalam menyusun percakapan.
 
 ## Feedback dan tindak lanjut
 

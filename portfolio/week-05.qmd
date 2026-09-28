@@ -1,7 +1,7 @@
 ---
 title: "Professional Discovery Interview"
 week: 5
-status: "Siap dinilai"
+status: "Selesai"
 self_score: "18"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
@@ -20,49 +20,49 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 
 ## Konteks performance
 
-**Tanggal dan setting:** 25 Oktober 2026, Diskusi santai di kosan untuk tugas pendahuluan Object Oriented Programming (OOP).
+**Tanggal dan setting:** 18 September 2026, Diskusi santai di kampus untuk mencari studi kasus tugas Jurnal Praktikum 2 Object Oriented Programming (OOP).
 
-**Persons dan relationship:** Agas (Mahasiswa) dan Ariya (Teman seangkatan yang berjualan aneka jajanan di kosan).
+**Persons dan relationship:** Agas (Mahasiswa) dan Ariya (Teman seangkatan yang menjabat sebagai Bendahara Kelas).
 
-**Objective dan initial state:** Menggali masalah pencatatan dagangan Ariya untuk dimodelkan menjadi konsep Kelas (Class), Atribut, dan Objek pada materi awal OOP. Initial state: Asumsi awal Agas, Ariya butuh dibuatkan rancangan program aplikasi kasir (*Point of Sale*) yang lengkap dengan *database*.
+**Objective dan initial state:** Menggali masalah pencatatan uang kas Ariya untuk dimodelkan ke dalam rancangan Class dan Encapsulation (materi Praktikum 2 OOP). Initial state: Asumsi awalku, Ariya butuh bot WhatsApp pengingat untuk menagih anak-anak yang belum bayar kas.
 
 ## Evidence
 
 ::: {.evidence-block}
-**Initial Assumption:** Ariya butuh dirancangkan sistem kasir otomatis karena sering salah hitung uang jualan.
-**Discovery Question:** "Boleh diceritain Ya (Ariya), selama jualan jajanan di kos, biasanya yang bikin repot pas ngurusin datanya itu di bagian mana?"
+**Initial Assumption:** Ariya butuh program untuk *auto-blast* pesan WA penagihan uang kas kelas setiap minggu.
+**Discovery Question:** "Boleh diceritain Ya (Ariya), selama jadi bendahara kelas, biasanya yang paling bikin pusing pas ngurusin uang kas itu di bagian mananya?"
 
 **Paraphrase Percakapan:**
-Ariya: "Masalahnya bukan di hitung-hitungan uangnya Gas. Itu gampang. Susahnya itu aku sering bingung misahin pesanan kue kering sama kue basah karena tanggal kedaluwarsanya beda-beda. Kadang aku malah ngasih kue basah yang umurnya tinggal sehari ke pembeli yang mesen buat dibawa pulang kampung."
-Agas: "Oh, jadi yang bikin repot itu bukan rekap keuangannya, tapi karena klasifikasi jajanannya nggak rapi, kamu jadi kesulitan ngelacak atribut penting kayak tanggal *expired* untuk tipe kue yang beda-beda ya?"
-Ariya: "Bener banget. Aku cuma pengen data barang jualanku itu tertata rapi kategorinya, biar aku tahu perlakuan tiap jenis kue itu gimana."
+Ariya: "Masalahnya bukan di nagihnya sih Gas. Anak-anak gampang aja bayarnya. Susahnya itu aku sering lupa nyatet kalau uang kasnya tiba-tiba dipakai buat fotokopi tugas kelas atau beli spidol. Pas akhir bulan, saldo uang fisik di tanganku beda sama catetan pemasukan karena pengeluarannya nggak kerekap."
+Agas: "Oh, jadi yang bikin pusing itu bukan narik uangnya, tapi proses pencatatan arus keluar (pengeluaran) operasional kelas yang sering kelewat ya?"
+Ariya: "Bener banget. Aku cuma pengen ada struktur pencatatan sederhana yang memisahkan uang masuk sama uang keluar, biar rekap saldo akhir bulanku nggak pernah selisih."
 
 **Shared Problem Statement:**
-"Ariya membutuhkan model data konseptual yang mengklasifikasikan produk jajanan berdasarkan jenisnya (Kue Basah vs Kue Kering) beserta atribut penyertanya (tanggal *expired*), untuk mempermudah pemantauan kualitas barang."
+"Bendahara kelas membutuhkan pemodelan Class OOP sederhana (Class `BukuKas` yang mengkapsulasi logika `pemasukan` dan `pengeluaran`) untuk dijadikan studi kasus Praktikum 2 OOP, agar pelacakan saldo kas dan operasional tidak lagi selisih."
 :::
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Berperan sebagai Analis Pemula yang mencari esensi masalah, bukan *programmer* ambisius yang mendiktekan solusi *software* kompleks. |
-| Objective & state | Berhasil menggugurkan asumsi awal (Aplikasi kasir) menjadi akar masalah sebenarnya (Kebutuhan pemodelan klasifikasi data). |
+| Person & character | Berperan sebagai Analis Kebutuhan yang mendengarkan, bukan sekadar mahasiswa yang mengejar nilai praktikum dengan ide rumit. |
+| Objective & state | Berhasil menggugurkan asumsi awal (Bot Penagih WA) menjadi solusi konseptual yang sesuai dengan materi (Encapsulation OOP). |
 | Repertoire & language | Menggunakan teknik paraphrasing untuk memvalidasi fokus masalah. |
-| Response & adaptation | Merespons temuan baru dengan mengarahkan solusi murni ke pembuatan hirarki dasar Class/Object di OOP. |
-| Agreement/action | Ariya mengkonfirmasi rumusan masalah yang lebih sederhana ini sesuai dengan realita dagangannya. |
-| Relationship outcome | Ariya merasa sangat terbantu merapikan pikirannya, tanpa merasa dijejali dengan jargon teknis aplikasi. |
+| Response & adaptation | Merespons temuan baru dengan mengarahkan solusi murni ke pembuatan hirarki dasar Class untuk Praktikum 2. |
+| Agreement/action | Ariya mengkonfirmasi rumusan masalah yang lebih sederhana ini sesuai dengan keluhannya selama ini. |
+| Relationship outcome | Ariya merasa sangat terbantu dan merasa didengarkan keluh kesahnya sebagai bendahara. |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi mandiri dari catatan materi minggu pertama OOP.
+Tidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi mandiri dari modul Praktikum 2 OOP.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Ariya membalas, "Iya Gas persis kayak gitu pokok masalahnya. Asal aku bisa ngelompokkin data jenisnya dengan bener, hidupku udah tenang."
+**Feedback yang diterima:** Ariya membalas, "Iya Gas persis kayak gitu. Asal pengeluarannya gampang dicatet dan saldonya update otomatis, hidupku udah tenang."
 
-**Adaptation/replay:** Menghindari membayangkan *software* besar di kepala saat mengerjakan tugas *Requirement* awal. Mulai biasakan memikirkan level konseptual/objek terkecil.
+**Adaptation/replay:** Menghindari membayangkan *software* integrasi API yang rumit (seperti Bot WA) saat mengerjakan tugas *Requirement* awal praktikum. Mulai biasakan memikirkan level konseptual/objek terkecil terlebih dulu.
 
-**Next practice:** Rutin menggunakan *paraphrasing* untuk konfirmasi masalah, agar tidak *"over-engineer"* solusi.
+**Next practice:** Rutin menggunakan *paraphrasing* untuk konfirmasi masalah, agar tidak *"over-engineer"* solusi di setiap tugas praktikum.
 
 ## Self-assessment
 
@@ -70,8 +70,8 @@ Tidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi ma
 |---|---:|---|
 | Person & Character | 3 | Mampu menahan diri mendikte sistem yang "keren" |
 | Objective & State | 4 | Shared problem statement tervalidasi oleh partner |
-| Repertoire, Language & AI | 4 | Paraphrasing sangat efektif menangkap inti masalah (klasifikasi) |
-| Response & Adaptation | 4 | Kebutuhan disesuaikan dengan konsep dasar materi awal OOP |
-| Agreement, Action & Relationship | 3 | Partner setuju dengan ruang lingkup identifikasi masalahnya |
+| Repertoire, Language & AI | 4 | Paraphrasing sangat efektif menangkap inti masalah (arus keluar) |
+| Response & Adaptation | 4 | Kebutuhan disesuaikan dengan konsep Praktikum 2 OOP |
+| Agreement, Action & Relationship | 3 | Partner setuju dengan ruang lingkup pemecahan masalahnya |
 
 **Total:** 18 / 20
