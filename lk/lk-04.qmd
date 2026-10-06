@@ -18,10 +18,11 @@ Dalam tugas ini, Anda ditantang untuk melatih **kelenturan register dan alih rag
 ---
 
 ## **B. Identitas Mahasiswa**
-*   **Nama Lengkap:** ______________________________________
-*   **NIM:** ______________________________________
-*   **Program Studi:** ______________________________________
-*   **Tanggal Pengisian:** ______________________________________
+> **Status draf:** Konsep dipilih sebagai contoh yang relevan dengan pemodelan basis data. Lengkapi nama, NIM, dan tanggal sendiri; sesuaikan konsep bila bidang studi Anda berbeda.
+*   **Nama Lengkap:** [Isi sendiri]
+*   **NIM:** [Isi sendiri]
+*   **Program Studi:** [Isi program studi]
+*   **Tanggal Pengisian:** [Isi tanggal]
 
 ---
 
@@ -30,21 +31,21 @@ Sebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemuka
 
 1. **Konsep Teknis yang Dipilih:**
    *(Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.)*
-   *Jawab:*
+   *Jawab:* Normalisasi basis data relasional.
    
 2. **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):**
    *(Tuliskan definisi asli lengkap dengan jargon teknisnya)*
-   *Jawab:*
+   *Jawab:* Normalisasi adalah proses menata relasi dalam skema basis data berdasarkan ketergantungan data untuk mengurangi redundansi dan mencegah anomali penyisipan, pembaruan, atau penghapusan. Relasi dapat diuraikan menjadi relasi yang lebih sederhana; dekomposisi yang baik mempertahankan informasi melalui *lossless join* dan, jika memungkinkan, mempertahankan ketergantungan fungsional.
    
 3. **Daftar Jargon Teknis & Artian Sederhananya:**
    *Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.*
-   *   **Jargon 1:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 2:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 3:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
+   *   **Jargon 1:** `Redundansi` $\rightarrow$ Arti Sederhana: Data yang sama disimpan berulang kali.
+   *   **Jargon 2:** `Ketergantungan fungsional` $\rightarrow$ Arti Sederhana: Hubungan ketika suatu atribut menentukan nilai atribut lain.
+   *   **Jargon 3:** `Anomali pembaruan` $\rightarrow$ Arti Sederhana: Ketidakkonsistenan yang dapat terjadi saat data berulang hanya diperbarui di sebagian tempat.
 
 4. **Kebenaran Inti (*Marrow of the Message*):**
    *(Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia)*
-   *Jawab:*
+   *Jawab:* Normalisasi membantu menyimpan informasi secara lebih tertata agar pengulangan dan kesalahan saat data diubah dapat dikurangi.
    
 ---
 
@@ -54,31 +55,31 @@ Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai
 ### **1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)**
 *   **Karakteristik Pendengar:** Menggunakan pemikiran konkret, menyukai imajinasi, memiliki rentang perhatian pendek, dan belum mengenal istilah akademis.
 *   **Strategi:** Gunakan **analogi fisik atau cerita** yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).
-*   *Draf Terjemahan Anda:*
+   *   *Draf Terjemahan Anda:* Bayangkan setiap murid punya kartu berisi nama dan kelasnya, lalu daftar kelas menyimpan nama wali kelas satu kali. Kalau wali kelas berubah, cukup perbarui daftar kelas; kita tidak perlu menghapus dan menulis ulang nama wali di kartu setiap murid.
    
    
 ### **2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)**
 *   **Karakteristik Pendengar:** Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.
 *   **Strategi:** Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.
-*   *Draf Terjemahan Anda:*
+   *   *Draf Terjemahan Anda:* Bayangkan daftar anggota kelompok yang juga menyalin nama dosen dan ruang kelas berulang-ulang. Kalau ruangnya berubah, semua salinan harus dibetulkan. Dengan menaruh informasi kelas di satu tempat dan menghubungkannya ke anggota, perubahan lebih gampang dijaga tetap konsisten.
    
    
 ### **3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)**
 *   **Karakteristik Pendengar:** Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.
 *   **Strategi:** Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.
-*   *Draf Terjemahan Anda:*
+   *   *Draf Terjemahan Anda:* Normalisasi merancang skema relasional dengan menganalisis ketergantungan fungsional dan menerapkan bentuk normal untuk mengurangi redundansi serta anomali. Dekomposisi relasi perlu diuji agar *lossless join*; pertahankan *dependency preservation* bila memungkinkan. Bentuk normal yang dipilih tetap bergantung pada kebutuhan kueri dan rancangan sistem.
    
    
 ### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)**
 *   **Karakteristik Pendengar:** Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.
 *   **Strategi:** Tekankan **nilai tambah (*value proposition*)**, biaya (*cost*), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.
-*   *Draf Terjemahan Anda:*
+   *   *Draf Terjemahan Anda:* Normalisasi dapat mengurangi biaya koreksi dan risiko data tidak konsisten ketika informasi berubah. Manfaatnya perlu ditimbang terhadap kompleksitas skema dan kebutuhan kueri, karena pemisahan relasi dapat menambah operasi *join*. Keputusan desain sebaiknya mengikuti pola transaksi dan kebutuhan pelaporan, bukan mengejar bentuk normal sebagai tujuan tersendiri.
    
    
 ### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas)**
 *   **Karakteristik Pendengar:** Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.
 *   **Strategi:** Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.
-*   *Draf Terjemahan Anda:*
+   *   *Draf Terjemahan Anda:* Saat informasi yang sama disalin di banyak catatan, perubahan kecil bisa membuat catatan saling bertentangan. Menata informasi agar satu fakta dicatat di tempat yang tepat membantu mengurangi kesalahan dan memudahkan orang memperbaruinya; rancangan tetap perlu disesuaikan dengan cara data digunakan.
    
    
 
@@ -88,14 +89,14 @@ Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai
 *Evaluasi diri Anda setelah melakukan proses alih ragam bahasa di atas.*
 
 1. **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?**
-   *Jawab:*
+   *Jawab:* Ragam untuk anak-anak paling sulit karena analoginya harus konkret tetapi tetap akurat. Saya perlu menjelaskan bahwa normalisasi mengurangi pengulangan, bukan menjanjikan bahwa semua kesalahan data otomatis hilang.
    
 2. **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?**
-   *Jawab:*
+   *Jawab:* Proses ini mengingatkan saya bahwa keahlian bukan hanya mengetahui istilah dan aturan, melainkan juga mampu menjelaskan alasan suatu rancangan serta batas manfaatnya. Penyederhanaan yang baik tetap mempertahankan makna inti.
    
 3. **Catatan Penggunaan AI Kopilot (Jika Ada):**
    *Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI.*
-   *Jawab:*
+   *Jawab:* AI digunakan untuk membantu menyusun dan membedakan draf bahasa bagi lima audiens. Permintaan: "Bantu jelaskan normalisasi basis data relasional dalam bahasa yang sesuai untuk anak, sahabat nonteknis, rekan teknis, manajer, dan publik tanpa mengubah makna inti." Umpan balik yang saya ambil: analogi harus menunjukkan pengurangan pengulangan, sedangkan penjelasan teknis/manajerial perlu menyebut trade-off *join* dan tidak menjanjikan penghapusan semua kesalahan.
    
 
 ---

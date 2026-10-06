@@ -41,11 +41,13 @@ Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan b
 
 ## 📝 FASE 2: LEMBAR PENGERJAAN MAHASISWA
 
+> **Status:** Contoh simulasi untuk menunjukkan cara mengisi, bukan hasil wawancara. Wawancarai narasumber dengan persetujuannya, lalu ganti seluruh contoh ini dengan catatan dan koreksi nyata sebelum mengumpulkan.
+
 ### 👥 1. Profil Narasumber (Disamarkan Demi Privasi)
-*   **Nama Samaran:** 
-*   **Peran/Pekerjaan Nyata:** 
-*   **Domain Hubungan:** Rekan Kerja / Pelanggan / Rekan Mahasiswa *(Coret yang tidak perlu)*
-*   **Konteks Lingkungan:** *(Misal: Kantin Kampus, Kelompok Proyek Kelas, Administrasi Jurusan)*
+*   **Nama Samaran:** Rekan A (simulasi)
+*   **Peran/Pekerjaan Nyata:** Mahasiswa anggota kelompok tugas
+*   **Domain Hubungan:** Rekan Mahasiswa
+*   **Konteks Lingkungan:** Kelompok tugas pemodelan basis data
 
 ---
 
@@ -53,23 +55,23 @@ Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan b
 
 #### **Pertanyaan 1: Kejadian Nyata & Contoh Konkret**
 *   *Tuliskan pertanyaan Anda & contoh kasus nyata yang diceritakan narasumber:*
-    > 
+    > *Simulasi, bukan kutipan wawancara:* "Ceritakan kejadian terakhir saat koordinasi tugas kelompok terasa sulit." Rekan A menjelaskan bahwa pembagian pekerjaan dan tenggat tiap bagian belum jelas dalam diskusi kelompok, sehingga beberapa anggota menyiapkan bagian yang sama sementara bagian lain belum dikerjakan.
 
 #### **Pertanyaan 2: Dampak Nyata & Beban Masalah**
 *   *Tuliskan dampak langsung dari masalah tersebut terhadap pekerjaan, waktu, atau perasaan mereka:*
-    > 
+    > *Simulasi:* Ia perlu menghabiskan waktu untuk mengecek ulang siapa mengerjakan apa dan merasa khawatir pekerjaan tidak selesai utuh sebelum tenggat.
 
 #### **Pertanyaan 3: Pemetaan Pihak Terdampak**
 *   *Siapa saja pribadi dan peran yang ikut terganggu oleh peristiwa ini?*
-    > 
+    > *Simulasi:* Rekan A terdampak langsung; anggota kelompok lain juga berisiko mengulang pekerjaan atau terlambat menyatukan hasil.
 
 #### **Pertanyaan 4: Gambaran Keadaan yang Lebih Baik (Hasil Akhir, Bukan Fitur)**
 *   *Bagaimana situasi ideal yang diharapkan? Ingat: Fokus pada KEMAMPUAN narasumber, bukan teknologi digitalnya.*
-    > 
+    > *Simulasi:* Ia ingin mengetahui tanggung jawab masing-masing, urutan pekerjaan, dan kapan hasil perlu tersedia agar dapat mengerjakan bagiannya tepat waktu.
 
 #### **Pertanyaan 5: Batasan & Kendala Lapangan**
 *   *Apa saja kendala nyata dari segi waktu, biaya, kebijakan, atau kemampuan yang membatasi solusi mereka?*
-    > 
+    > *Simulasi:* Anggota memiliki jadwal kuliah berbeda dan waktu terbatas. Kesepakatan perlu realistis serta tidak mengandaikan semua orang selalu tersedia.
 
 ---
 
@@ -87,11 +89,11 @@ Gunakan formula terstruktur dari buku ajar berikut untuk menyusun masalah narasu
 
 ### ✍️ Draft 1: Pernyataan Masalah Awal (Sebelum Konfirmasi)
 *Susun draf pertama Anda setelah selesai mewawancarai narasumber:*
-> 
+> *Draf simulasi:* Mahasiswa anggota kelompok tugas mengalami ketidakjelasan pembagian tanggung jawab dan tenggat tiap bagian saat mengerjakan tugas pemodelan basis data, sehingga pekerjaan berisiko terulang atau terlambat disatukan. Ia membutuhkan kejelasan tentang siapa mengerjakan apa dan kapan hasil diperlukan, dengan mempertimbangkan jadwal kuliah serta waktu anggota yang terbatas.
 
 ### 🔄 Draft 2: Pernyataan Masalah Terkonfirmasi (Setelah Konfirmasi)
 *Bacakan draf pertama Anda kepada narasumber, minta masukan mereka ("Apakah rumusan ini menggambarkan situasi Anda?"), dan tulis perbaikannya di bawah ini berdasarkan koreksi narasumber:*
-> 
+> **Belum dikonfirmasi.** Draf revisi sementara untuk diuji kepada narasumber: Mahasiswa anggota kelompok tugas mengalami ketidakjelasan tentang urutan pekerjaan dan waktu penyerahan setiap bagian ketika menyelesaikan tugas bersama, sehingga sulit memperkirakan kemajuan dan menyatukan hasil tepat waktu. Ia membutuhkan kesepakatan yang dipahami semua anggota mengenai tanggung jawab dan tenggat, dengan mempertimbangkan jadwal kuliah serta ketersediaan waktu masing-masing. Ganti berdasarkan koreksi nyata narasumber; jangan menyebutnya terkonfirmasi sebelum dilakukan.
 
 ---
 
@@ -101,8 +103,7 @@ Tuliskan refleksi singkat Anda (100–150 kata) mengenai proses wawancara ini:
 2. *Asumsi awal apa yang Anda miliki yang ternyata terbukti keliru atau berubah setelah mendengarkan penjelasan narasumber secara utuh?*
 3. *Janji atau langkah kecil apa yang harus segera Anda tepati untuk menjaga kepercayaan profesional dengan narasumber ini?*
 
-> **Jurnal Refleksi:**
-> 
+> **Jurnal Refleksi (contoh simulasi, bukan pengalaman wawancara nyata; 116 kata):** Dalam skenario latihan ini, saya perlu menahan dorongan untuk langsung menyarankan alat koordinasi. Permintaan tentang pembagian tugas belum cukup untuk membuktikan bahwa teknologi adalah kebutuhan utama; saya perlu lebih dahulu memahami kejadian spesifik, dampaknya, pihak yang terdampak, dan batas waktu mereka. Asumsi awal saya adalah kelompok hanya memerlukan tempat untuk mencatat tugas, tetapi masalah bisa jadi terletak pada belum adanya kesepakatan tentang tanggung jawab dan tenggat. Sebelum merumuskan kebutuhan, saya akan memparafrasakan kembali cerita dan meminta narasumber mengoreksi rumusan masalah. Langkah kecil untuk menjaga kepercayaan adalah meminta persetujuan, menyamarkan identitas, tidak menjanjikan solusi, serta menyampaikan kapan saya akan mengirimkan ringkasan untuk diperiksa. Setelah wawancara nyata, saya harus menulis ulang refleksi ini berdasarkan pengalaman dan ucapan narasumber yang sebenarnya.
 
 ---
 
