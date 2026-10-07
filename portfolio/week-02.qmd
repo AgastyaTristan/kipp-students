@@ -30,6 +30,7 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 
 ::: {.evidence-block}
 **Jurnal Intra-Self:**
+
 - **Event:** *Stuck* selama lebih dari dua jam mencoba melakukan *tracing* kode Assembly MIPS untuk tugas Arkom.
 - **Fact:** Aku belum menemukan letak *logic error* pada pembagian register, dan *deadline* tugas sisa 12 jam lagi.
 - **Emotion:** Frustrasi, panik, dan merasa tertekan (*overwhelmed*).
