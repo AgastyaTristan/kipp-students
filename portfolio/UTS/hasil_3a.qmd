@@ -1,164 +1,171 @@
 ---
-title: "Laporan UTS KIPP - Sesi 3a"
-subtitle: "Menawarkan solusi TI dan AI - target pertama"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Sesi 3a"
+subtitle: "Kasus 3: Menawarkan Solusi TI dan AI"
+author: "Agastya Tristan Dhaniswara — 18225093"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
 execute:
   eval: false
 ---
-
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3a](../../examples/UTS/hasil_3a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI - target pertama |
-| Target | [Nama dan ID customer sesuai ZIP 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Mahasiswa / NIM / kelas | Agastya Tristan Dhaniswara / 18225093 / K-01 |
+| Tanggal / modalitas | 15 Oktober 2026 / teks |
+| Sesi / target | 3a; Dimas (K3-04) |
+| Paket | kasus_3a_18225093.zip; bank 2.0, paket 2.0 |
+| Konteks | Simulasi customer: pesan berulang, pesanan tercecer, tenaga terbatas. |
+| Kelengkapan | Transkrip ringkas/parsial; beberapa arahan fasilitator diringkas. Implementasi nyata belum diamati. |
 
 # B) Kasus dan Tujuan
 
-## Kasus dan tujuan tindakan
-
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
-
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
-
-## Profil awal komunikator
-
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
-|---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
-
-## Dugaan awal profil target dan rencana
-
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
-| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
-|---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+Mahasiswa mengusulkan website tracker pesanan. Tujuan percakapan adalah menggali kebutuhan customer, menguji kelayakan solusi, dan menyepakati uji coba dengan kontrol manusia. Dimas meminta bukti dan mengkhawatirkan input salah serta beban kerja staf.
+| Dimensi | Keadaan awal | Keadaan akhir simulasi |
+|---|---|---|
+| A | Skeptis pada klaim dan manfaat. | Bersedia mempertimbangkan tracker dengan kontrol staf dan pemeriksaan data. |
+| K | Data, metrik, dan batas solusi belum diketahui. | Uji coba membandingkan tracker dengan ekspor data. |
+| S | Implementasi serta pemeliharaan belum dinilai. | Dimas memeriksa harian; salah input diperbarui; mahasiswa mengusulkan tindak lanjut QR. |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+### U001 — Mahasiswa — Pembuka
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+“Saya menyarankan penggunaan QR sebagai tracker dan update data kondisi pesanan di QR itu.”
+### AI001 — Dimas — Simulasi awal
 
-### U001 - Mahasiswa - [Tahap]
+Dimas: “Apa bukti pendekatan ini lebih baik? Saya menangani pesan pelanggan berulang dan pesanan tercecer, tetapi saya tidak ingin membeli solusi hanya karena terdengar modern. Sebelum membahas website, apa masalah operasional yang ingin kamu pahami dari usaha saya?”
+### U002 — Mahasiswa — Penggalian kebutuhan
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+“Seberapa sering tercecer? Apa yang akan kamu lakukan?”
+### AI002 — Dimas — Simulasi awal
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+Dimas: “Dalam simulasi ini, beberapa pesan yang menanyakan status pesanan datang berulang setiap hari. Pesanan dicatat manual dari chat ke spreadsheet, jadi ada risiko satu chat terlewat saat ramai. Saya ingin tahu bagaimana website itu mengurangi risiko tanpa membuat staf memasukkan data dua kali atau menyerahkan keputusan sepenuhnya ke AI.”
+### U003 — Mahasiswa — Usulan solusi
 
-[Tempel pesan AI persis seperti sumber.]
+“Solusi website tracker pesanan. Cakupan pesanan Dimas, peran manusia dalam input data dan membuat web, data yang diperlukan data pesanan, risiko hampir tidak ada, keberhasilan 85%.”
+### AI003 — Dimas — Evaluasi usulan
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+Dimas mempertanyakan dasar angka 85%, menolak anggapan risiko hampir tidak ada, dan meminta batas uji coba serta metrik pembanding.
+### U004 — Mahasiswa — Revisi uji coba
 
+“Durasi 1 bulan pengembangan, penanggung jawab Dimas, risiko adalah salah input data, keberhasilan dari persentase pesanan tercatat.”
+### AI004 — Dimas — Kesepakatan
+
+Dimas meminta cakupan dan pembandingan terhadap catatan manual diperjelas.
+### U005 — Mahasiswa — Kesepakatan
+
+“Semua pesanan, pemeriksaan sehari sekali, membandingkan dengan data export, apabila salah diperbaiki (update).”
+### AI005 — Dimas — Kesepakatan
+
+Dimas: “Tracker mencakup semua pesanan; saya memeriksa sekali sehari dengan membandingkannya terhadap data ekspor, lalu memperbarui data yang salah. Saya setuju menilai uji coba ini sebagai alat bantu dengan kontrol manusia, bukan pengganti keputusan staf.”
+### AI006 — Fasilitator — Uji ulang
+
+Fasilitator menyampaikan bahwa satu pesanan tidak muncul karena format input berbeda dan meminta respons tanpa menyalahkan staf.
+### U006 — Mahasiswa — Uji ulang dan refleksi
+
+“Dimas menjadi bersemangat karena ada solusi; saya memeriksa dan memperbaiki web; untuk mencegah saya melakukan training penggunaan web tracker.”
+### U007 — Mahasiswa — Refleksi
+
+“Tujuan adalah untuk membantu Dimas dan mengembangkan skill saya; manfaat dibuktikan dari pesanan tercatat; risiko yang ada adalah kesalahan manusia; membuat tracker by QR.”
+### U008 — Mahasiswa — Konfirmasi
+
+Mahasiswa mengonfirmasi ringkasan cakupan semua pesanan, pemeriksaan harian terhadap ekspor, koreksi data, pelatihan, risiko salah input, dan tindak lanjut tracker berbasis QR.
 # D) Hasil, Evaluasi, dan Refleksi
 
-## Hasil tujuan dan perubahan SWOT/ASK
+| Episode | Stimulus dan respons | Makna/batas |
+|---|---|---|
+| U001–U002 | Solusi ditawarkan lebih awal; pertanyaan kemudian menggali frekuensi dan tindakan. | Penggalian awal masih perlu dimulai sebelum mengusulkan QR. |
+| U003–AI003 | Mahasiswa menyatakan risiko hampir tidak ada dan angka sukses 85% tanpa dasar. | Klaim melemahkan kredibilitas; risiko dan metrik perlu dinyatakan transparan. |
+| U004–U005 | Cakupan semua pesanan, pemeriksaan harian, pembandingan dengan ekspor, pembaruan salah input. | Kontrol manusia dan proses evaluasi menjadi lebih jelas; metrik 85% belum tervalidasi. |
+| U006 | Mahasiswa memilih memeriksa/memperbaiki web dan memberi pelatihan. | Adaptasi mengarah pada dukungan, tetapi tanggung jawab siapa yang memperbaiki data vs sistem perlu dibedakan. |
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
-
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
-|---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+Dimas menunjukkan kesediaan simulator untuk mencoba solusi setelah cakupan dan kontrol manusia dibahas. Tidak ada bukti sistem dibuat, pesanan benar-benar tercatat, atau akurasi terukur. Refleksi menekankan bantuan kepada customer, pengembangan skill, dan risiko kesalahan manusia.
 
 ## Evaluasi stimulus-respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
+### Ringkasan lima langkah diagnosis
 
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| Langkah | Isi untuk Sesi 3a |
+|---|---|
+| Observasi | Pada U001 mahasiswa langsung mengusulkan QR sebagai tracker tanpa pertanyaan. Pada U003 mahasiswa menyatakan "risiko hampir tidak ada, keberhasilan 85%". Pada AI003 Dimas mempertanyakan dasar angka 85% dan menolak anggapan risiko rendah. |
+| Hipotesis alternatif | (a) Angka 85% berasal dari perhitungan internal; (b) angka merupakan perkiraan Optimis tanpa dasar; (c) angka sengaja diberikan agar Dimas tertarik. Bukti mendukung (b): pada U004 mahasiswa menyebutkan metrik "persentase pesanan tercatat" yang berbeda dari basis angka 85%, sehingga angka pertama tidak pernah dihitung. |
+| Pertanyaan pembeda | "Angka 85% itu dari data apa, dan bagaimana kita mengetahuinya kalau salah?" — pertanyaan ini akan membedakan (a) dari (b) dan (c). |
+| Kategori status | Rasa aman: rendah; merasa dipahami: rendah; kepercayaan: rendah; kesediaan membuka informasi: sedang. Dimas tetap menjawab teknis, tetapi skeptisisme terhadap klaim tidak berkurang. |
+| Batas inferensi | Kesepakatan uji coba tidak membuktikan sistem dibuat atau akurat. Tidak ada tracker, tidak ada data ekspor, tidak ada pengukuran. |
+
+### Pemeriksaan silang: dugaan awal terhadap profil simulator
+
+| Aspek | Dugaan mahasiswa sebelum pengungkahan | Profil simulator Dimas (K3-04) | Kecocokan dan koreksi |
+|---|---|---|---|
+| Masalah yang dirasakan | Pesanan tercecer dan pesan berulang (U002). | Mencerminkan masalah yang nyata; tetapi konteks pencatatan manual dari chat ke spreadsheet tidak diketahui mahasiswa. | Sebagian benar. Mahasiswa belum tahu bahwa pencatatan manual adalah sumber risiko utama. |
+| Skeptisisme | Tidak dinyatakan; mahasiswa langsung mengusulkan. | Skeptis terhadap klaim dan manfaat. | Tidak dinyatakan. Menyebabkan penolakan pada AI003. |
+| Kebutuhan data | "data pesanan" (U003). | Butuh data, ukuran, dan batas solusi. | Terlalu umum. Tidak menyebut data ekspor sebagai pembanding. |
+| Batas risiko | "risiko hampir tidak ada" (U003). | Meragukan akurasi dan klaim manfaat. | Tidak sesuai. Bertentangan langsung dengan kekhawatiran Dimas. |
+
+Dua dari empat aspek tidak dinyatakan dan satu aspek bertentangan langsung dengan kekhawatiran Dimas. Inilah sumber deduction pada dimensi persepsi, validasi, dan eksekusi.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal atau bantuan konkret | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
+| U002 | "Seberapa sering tercecer? Apa yang akan kamu lakukan?" | Dimas menjawab terus terang: pesan status berulang setiap hari, pencatatan manual dari chat ke spreadsheet, risiko satu chat terlewat. | Kesediaan membuka informasi: meningkat. | K bertambah: mahasiswa memperoleh konteks yang tidak dimiliki sejak awal. |
+| U003 | "Risiko hampir tidak ada, keberhasilan 85%." | Dimas menolak angka dan menolak anggapan risiko rendah. | Kepercayaan: menurun. | Bukti bahwa klaim tanpa dasar langsung menurunkan kredibilitas. |
+| U004-U005 | Revisi: durasi satu bulan, risiko salah input, metrik persentase pesanan tercatat, pemeriksaan harian dengan pembanding data ekspor. | Dimas bergerak dari menolak menjadi bersedia menilai uji coba. | Kepercayaan: meningkat kembali. | S membaik karena bentuk kontrol manusia dinyatakan. |
+| U006 | Menyebut pemeriksaan dan perbaikan web serta training penggunaan. | Dimas tetap skating skeptis terhadap pembagian tugas. | K: sedang. | Batas belum jelas: siapa memperbaiki data dan siapa memperbaiki sistem. |
 
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+Kenaikan kepercayaan pada U004-U005 tidak berasal dari niat baik. Ia berasal dari dua hal yang dapat diperiksa: risiko disebut sebagai salah input, dan pembanding data ekspor disebutkan.
 
 ## Uji ulang dan pembelajaran
 
 | Unsur | Bukti/uraian |
 |---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
+| Kendala baru yang diperkenalkan | Satu pesanan tidak muncul karena format input berbeda (AI006). Ini sesuai ketentuan paket: kendala baru terkait S dan kontrol manusia. |
+| Respons pada uji ulang | U006 mahasiswa memilih memeriksa dan memperbaiki web serta melakukan training. |
+| Kekurangan respons | Responsibility belum jelas: apakah mahasiswa memperbaiki data atau memperbaiki kode, dan siapa yang mengoreksi pembanding. |
+| Revisi | Revisi terjadi pada tataran cara: ditambahkannya training dan pemeriksaan, tetapi belum pada tataran pembagian peran. |
+| Indikator perbaikan | Rekonsiliasi harian antara data tracker dan data ekspor; persentase kesesuaian; koreksi tercatat. |
+| Bukti aktual yang tersedia | Hanya kutipan dan kesepakatan. Tidak ada tracker, tidak ada data ekspor, tidak ada pengukuran. |
+| Apa yang tidak dibuktikan | Tidak ada satu pun angka yang terukur. Klaim bahwa pemeriksaan harian akan menemukan kesalahan belum pernah diuji. |
+| Transfer | Prinsip kontrol manusia dari sesi ini dipakai lagi pada sesi 3b sebagai syarat sebelum pilot diperluas. |
 
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+## Kesalahan yang saya akui dan koreksinya
+
+| Kesalahan | Giliran | Akibatnya | Koreksi yang dijalankan |
+|---|---|---|---|
+| Solusi sebelum penggalian kebutuhan | U001 | Dimas harus membuka skeptisisme dulu. Pertanyaan "seberapa sering tercecer" baru muncul pada U002, padahal konteks pencatatan manual baru diketahui pada AI002. | Pada sesi 3b urutan dibalik: U002 adalah pertanyaan tentang kekhawatiran, dan solusi QR baru dijelaskan pada U003. |
+| Angka tanpa dasar | U003 | Angka 85% dan "risiko hampir tidak ada" ditolak Dimas. | Pada U004 angka diganti definisi operasional: risiko salah input dan metrik persentase pesanan tercatat. |
+| Meremehkan risiko pengguna | U003 | Klaim risiko mendekati nol menutupi risiko yang paling relevan bagi Dimas. | Pada U004 risiko dinyatakan sebagai salah input, yaitu risiko yang berasal dari sumber masalah. |
+| Batas manusia belum dioperasionalkan | U004-U005 | Kesepakatan terbentuk, tetapi belum dapat diuji. | Diper revisited pada sesi 3b dengan indikator 90% dan quality check. Ambangnya masih memerlukan baseline. |
+| Pembagian peran belum jelas | U006 | Tidak jelas apakah mahasiswa memperbaiki data atau memperbaiki kode. | Dicatat sebagai berikut rencana: perbaiki format input di sisi tracker, koreksi isi di sisi Dimas. |
+
+## Evaluasi repertoar TAIDA
+
+| Tahap | Rencana pada bagian B | Yang benar-benar terjadi | Deviasi |
+|---|---|---|---|
+| Target | Menggali kebutuhan sebelum mengusulkan solusi. | Tidak terjadi; solusi QR lebih dulu. | Terbalik. |
+| Attention | Mengakui kekhawatiran Dimas sebelum menawarkan apa pun. | Tidak ada pada U001; skeptisisme baru muncul pada AI003. | Terlambat. |
+| Interest | Menjelaskan manfaat yang dapat diukur. | Dijelaskan sebagai klaim angka, bukan data. | Salah bentuk. |
+| Desire | Menetapkan metrik dan risiko yang dapat diuji. | Tercapai pada U004 setelah Dimas menolak. | Setelah koreksi target. |
+| Action | Uji coba dengan pemeriksaan harian dan pembanding data ekspor. | Tercapai pada AI005. | Tidak ada. |
+
+Pola yang berulang pada sesi ini: mahasiswa memulai dari tahap Action (solusi) lalu mundur ke tahap Interest dan Desire setelah ditegur. Pada sesi 3b urutan ini dibalik dan hasilnya lebih baik.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Dimensi | Skor 1-4 | ID dan kutipan bukti | Alasan |
+|---|---:|---|---|
+| Tujuan dan konteks | 3 | U001-U002, U007 | Tujuan membantu Dimas dan cakupan tracker dinyatakan. Bukan 4 karena pada U001 solusi sudah dipilih sebelum kebutuhan digali, sehingga tujuan awal belum berbasis pemahaman masalah. |
+| Persepsi dan validasi profil/status | 2 | U003, tabel Pemeriksaan silang | Klaim "risiko hampir tidak ada" dan angka 85% tidak memvalidasi kekhawatiran Dimas; justru bertentangan. Dua dari empat aspek profil tidak dinyatakan sejak awal. |
+| Pemilihan dan urutan repertoar | 2 | U001-U004 | Urutan awal feature-first: solusi, baru pertanyaan, baru angka. Bukan 3 karena urutan tidak hanya kurang ideal, tetapi terbalik dan menghasilkan dua kali koreksi. |
+| Eksekusi jelas, peduli dan konsisten | 2 | U003-U005 | Cakupan, tenggat, dan kontrol manusia akhirnya jelas. Skor 2 karena angka dan klaim risiko tidak berdasar, dan batas manusia belum dioperasionalkan menjadi langkah yang dapat dilakukan. |
+| Evaluasi dan adaptasi | 3 | U004-U006 | Menerima pembanding dengan data ekspor dan merespons format input berbeda dengan pemeriksaan serta training. Bukan 4 karena pembagian peran pada U006 masih kabur antara memperbaiki data dan memperbaiki kode. |
+| Refleksi dan lesson learned | 3 | U007 | Menyebutkan tujuan, manfaat, risiko kesalahan manusia, dan tindak lanjut. Bukan 4 karena risiko/metrik belum memiliki definisi operasional dan refleksi tidak mengakui bahwa angka 85% adalah klaim tanpa dasar. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+**Nilai sesi:** 15/24 x 100 = **62,50/100**, dihitung dari transkrip di atas.
 
-## Refleksi dan lesson learned mahasiswa
-
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
-
-## Tindak lanjut dan batas bukti
-
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+{{< include "../../includes/uts-analisis.md" >}}
 
 {{< include "../../includes/uts-penilaian.md" >}}
