@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lembar Kerja Bab 01 — Peta Karakter Komunikasi Pribadi</title>
+<meta name="description" content="Lembar Kerja Bab 1: Komunikasi Dimulai dari Manusia, Bukan dari Pesan — Peta Karakter Komunikasi Pribadi">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff; --panel:#ffffff; --fg:#1f2328; --muted:#59636e;
+  --border:#d1d9e0; --stripe:#f6f8fa; --code-bg:#eff1f3;
+  --link:#0969da; --accent:#8250df; --accent-bg:#fbefff;
+  --ok:#1a7f37; --ok-bg:#dafbe1; --warn:#9a6700; --warn-bg:#fff8c5;
+  --todo:#59636e; --todo-bg:#eaeef2;
+  --radius:8px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1117; --panel:#161b22; --fg:#e6edf3; --muted:#9198a1;
+    --border:#3d444d; --stripe:#161b22; --code-bg:#21262d;
+    --link:#4493f8; --accent:#d2a8ff; --accent-bg:#2d1b3d;
+    --ok:#3fb950; --ok-bg:#12261a; --warn:#d29922; --warn-bg:#2b2412;
+    --todo:#9198a1; --todo-bg:#21262d;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 64px}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:10px}
+.crumb span+span::before{content:"/";margin:0 8px;opacity:.6}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+.desc{color:var(--muted);margin:0 0 18px}
+
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.meta li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);
+  background:var(--stripe);border:1px solid var(--border);border-radius:99px;padding:3px 11px}
+.meta b{color:var(--fg);font-weight:600}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;
+  border-radius:99px;border:1px solid transparent;white-space:nowrap}
+.b-ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.b-warn{color:var(--warn);background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-todo{color:var(--todo);background:var(--todo-bg);border-color:var(--border)}
+.b-accent{color:var(--accent);background:var(--accent-bg);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+
+nav.weeks{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:8px;margin:0 0 32px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:.85rem}
+nav.weeks .lbl{color:var(--muted);padding:0 8px 0 6px;font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.06em}
+nav.weeks a{padding:4px 10px;border-radius:6px;color:var(--fg);border:1px solid transparent}
+nav.weeks a:hover{background:var(--stripe);border-color:var(--border);text-decoration:none}
+nav.weeks a[aria-current]{background:var(--accent-bg);color:var(--accent);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);font-weight:600}
+
+main h2{font-size:1.22rem;margin:34px 0 12px;padding-bottom:7px;
+  border-bottom:1px solid var(--border);letter-spacing:-.01em}
+main h2:first-child{margin-top:0}
+main h3{font-size:1.03rem;margin:22px 0 8px}
+main p{margin:0 0 12px}
+main ul,main ol{margin:0 0 12px;padding-left:1.4em}
+main li{margin:3px 0}
+main strong{font-weight:650}
+main code{background:var(--code-bg);border-radius:5px;padding:.15em .38em;
+  font-size:.87em;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);
+  margin:0 0 16px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+thead th{background:var(--stripe);font-weight:650;white-space:nowrap;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--stripe) 55%,transparent)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th.num{text-align:right}
+
+.evidence-block{border:1px solid var(--border);border-left:4px solid var(--accent);
+  background:var(--stripe);border-radius:var(--radius);padding:14px 18px;margin:0 0 16px}
+.evidence-block>p:first-child{margin-top:0}
+.evidence-block>p:last-child{margin-bottom:0}
+
+.callout{border:1px solid var(--border);border-left:4px solid var(--link);
+  background:var(--stripe);border-radius:var(--radius);padding:12px 18px;margin:0 0 18px}
+.callout .t{font-weight:650;display:block;margin-bottom:4px;color:var(--link)}
+
+.total{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:12px 18px;margin:20px 0 0;
+  font-size:1rem;font-weight:650;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.total span{color:var(--muted);font-weight:400;font-size:.85rem}
+.total em{font-style:normal;font-size:1.25rem;color:var(--accent)}
+
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--border);
+  color:var(--muted);font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+@media (max-width:600px){
+  .wrap{padding:24px 14px 48px}
+  h1{font-size:1.5rem}
+}
+@media print{
+  nav.weeks,.crumb,footer{display:none}
+  body{font-size:12px}
+  .wrap{max-width:none;padding:0}
+  .tw{overflow:visible}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><span>Lembar Kerja</span><span>LK 01</span></nav>
+<nav class="weeks"><span class="lbl">Lembar Kerja</span><a href="lk-01.html" aria-current="page">LK 01</a><a href="lk-02.html">LK 02</a><a href="lk-03.html">LK 03</a><a href="lk-04.html">LK 04</a><a href="lk-05.html">LK 05</a><a href="lk-06.html">LK 06</a><a href="lk-07.html">LK 07</a><a href="index.html">Indeks</a></nav>
+
+<h1>Panduan Aktivitas Kelas: Peta Karakter Komunikasi Pribadi</h1>
+<p class="desc">Bahan Kajian: Bab 1 — Komunikasi Dimulai dari Manusia, Bukan dari Pesan</p>
+<ul class="meta">
+  <li>Bab <b>01</b></li>
+  <li>Status <span class="badge b-ok">Selesai</span></li>
+  <li>Mahasiswa: <b>Agastya Tristan Dhaniswara (18225093)</b></li>
+  <li>Prodi: <b>Sistem dan Teknologi Informasi (STI) Semester 3 ITB</b></li>
+  <li>Tanggal: <b>25 September 2026</b></li>
+</ul>
+
+<main>
+<h2>1. Pengantar dan Landasan Teoritis</h2>
+<p>Kompetensi komunikasi yang sejati tetap berakar pada kapasitas kemanusiaan kita untuk merawat kepercayaan dan membangun relasi nyata. Kerangka kerja tiga lapis pemahaman diri dan orang lain:</p>
+<ul>
+  <li><strong>Pribadi (<em>Person</em>):</strong> Manusia utuh yang nyata, memiliki martabat, sejarah hidup, nilai-nilai, kebutuhan, emosi, dan kebebasan memilih.</li>
+  <li><strong>Kepribadian (<em>Personality</em>):</strong> Kecenderungan seseorang dalam berpikir, merasa, dan bertindak. Kepribadian adalah <em>hipotesis kerja</em>, bukan takdir atau penjara batin.</li>
+  <li><strong>Peran Naratif (<em>Narrative Character</em>):</strong> Identitas dan tanggung jawab komunikatif yang dijalankan dalam situasi tertentu. Keaslian berarti nilai-nilai inti tetap utuh, sementara cara hadir menyesuaikan tuntutan tanggung jawab peran.</li>
+</ul>
+
+<h2>2. Lembar Kerja Mahasiswa (Template Peta Karakter)</h2>
+
+<h3>Bagian A: Peta 5 Domain Kehidupan</h3>
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th>Domain Kehidupan</th>
+  <th>Peran yang Saya Ambil</th>
+  <th>Siapa yang Saya Jumpai</th>
+  <th>Tanggung Jawab Utama Komunikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1. Diri Sendiri</strong></td>
+  <td><em>Reflective Debugger / Learner</em></td>
+  <td>Diri sendiri saat menghadapi kesulitan praktikum</td>
+  <td>Mengelola emosi frustrasi, mengurai asumsi logika program, dan memelihara motivasi belajar mandiri.</td>
+</tr>
+<tr>
+  <td><strong>2. Keluarga / Sahabat</strong></td>
+  <td><em>Anak Berbakti &amp; Sahabat Pendengar</em></td>
+  <td>Orang tua di rumah dan Owen (sahabat seangkatan)</td>
+  <td>Memberikan kabar jadwal kegiatan kampus dengan jelas, mendengarkan keresahan sahabat dengan tulus tanpa menghakimi.</td>
+</tr>
+<tr>
+  <td><strong>3. Profesional / Akademik</strong></td>
+  <td><em>Rekan Tim Praktikum &amp; Peer Mentor</em></td>
+  <td>Ariya dan Naufal (rekan praktikum OOP &amp; Basdat)</td>
+  <td>Menyampaikan gagasan arsitektur kode secara terstruktur, bernegosiasi pembagian tugas, dan menetapkan batasan beban kerja secara asertif.</td>
+</tr>
+<tr>
+  <td><strong>4. Komunitas / Kelompok</strong></td>
+  <td><em>Staf Teknis Divisi Himpunan</em></td>
+  <td>Randy dan pengurus himpunan mahasiswa STI</td>
+  <td>Mengoordinasikan logistik perangkat dan perizinan praktikum dengan transparan serta akuntabel.</td>
+</tr>
+<tr>
+  <td><strong>5. Dunia / Publik</strong></td>
+  <td><em>Edukator Teknologi Pemula</em></td>
+  <td>Mahasiswa umum dan audiens media sosial prodi</td>
+  <td>Menerjemahkan konsep teknologi informasi yang rumit ke dalam bahasa publik yang inklusif, ramah, dan bermanfaat.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Bagian B: Analisis Kontras Dua Peran Utama</h3>
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th>Unsur Komunikasi</th>
+  <th>Peran A: Rekan Tim Praktikum (Akademik)</th>
+  <th>Peran B: Sahabat Pendengar (Relasional)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1. Tujuan Tugas &amp; Relasi</strong></td>
+  <td>Mencapai kesepakatan rancangan program OOP yang bebas error dan pembagian tugas yang adil tanpa konflik personal.</td>
+  <td>Menyediakan ruang aman bagi sahabat (Owen) untuk mencurahkan rasa lelah tanpa terburu-buru dituntut solusi.</td>
+</tr>
+<tr>
+  <td><strong>2. Repertoar Utama</strong></td>
+  <td>Merumuskan diagram class, mengajukan pertanyaan diagnostik, menetapkan batasan waktu, dan mengevaluasi bug kode bersama.</td>
+  <td><em>Empathetic listening</em>, keheningan yang hadir, kontak mata hangat, parafrasa perasaan, dan menahan diri dari interupsi.</td>
+</tr>
+<tr>
+  <td><strong>3. Pilihan Bahasa &amp; Nada</strong></td>
+  <td>Lugas, teknis-presisi, terstruktur, asertif, dan berbasis fakta logika (<code>interface</code>, <code>inheritance</code>, <code>deadline</code>).</td>
+  <td>Hangat, santai, empatik, menggunakan kalimat validasi perasaan ("Wajar kalau kamu capek...", "Aku di sini nemenin").</td>
+</tr>
+<tr>
+  <td><strong>4. Respons yang Harus Dibaca</strong></td>
+  <td>Keraguan teknis partner saat coding, tanda-tanda kelebihan beban tugas, atau ketidakjelasan pembagian modul.</td>
+  <td>Isyarat nada suara yang melemah, helaan napas, bahasa tubuh tertutup, atau ekspresi frustrasi yang terpendam.</td>
+</tr>
+<tr>
+  <td><strong>5. Tindakan yang Diharapkan</strong></td>
+  <td>Kompilasi program berhasil, modul praktikum selesai tepat waktu, dan kode terdokumentasi rapi.</td>
+  <td>Beban emosional sahabat mereda, ia merasa didengar seutuhnya, dan menemukan kembali ketenangan batin.</td>
+</tr>
+<tr>
+  <td><strong>6. Relasi yang Harus Dirawat</strong></td>
+  <td>Profesionalitas, keandalan kerja, saling percaya atas pembagian tugas, dan respek akademis.</td>
+  <td>Kepercayaan mendalam, keintiman persahabatan, rasa aman tanpa takut dihakimi, dan saling mendukung jangka panjang.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan</h3>
+<div class="evidence-block">
+  <p><strong>1. Nilai Utama:</strong> Kejujuran intelektual, empati yang menghargai martabat lawan bicara, keandalan dalam menepati janji, serta kerendahan hati untuk mendengarkan sebelum menyimpulkan.</p>
+  <p><strong>2. Kekuatan Komunikasi:</strong> Kemampuan berpikir runut analitis dalam membedah persoalan teknis yang rumit, serta ketenangan emosi saat menghadapi perdebatan sehingga tidak mudah terpancing amarah.</p>
+  <p><strong>3. Pola Hambatan Otomatis:</strong> Kecenderungan otomatis melompat menjadi "problem solver" yang buru-buru menyodorkan solusi logika ketika orang lain sedang berkeluh kesah, serta keengganan menyatakan penolakan secara tegas di awal karena takut merusak suasana (<em>people-pleasing</em> terselubung).</p>
+  <p><strong>4. Ketegangan Peran &amp; Kepribadian:</strong> <em>"Saya cenderung ingin segera memperbaiki masalah secara logis dan menghindari kecanggungan emosional, tetapi peran saya sebagai Sahabat Pendengar bagi Owen menuntut saya untuk duduk diam, menahan nasihat teknis, dan memvalidasi perasaannya terlebih dahulu."</em></p>
+  <p><strong>5. Sasaran Pertumbuhan Perilaku Terukur:</strong> <em>"Ketika rekan sekelas atau sahabat (seperti Owen atau Ariya) sedang menceritakan kesulitan atau frustrasinya terkait kuliah, saya berkomitmen menahan diri untuk tidak memberikan saran atau solusi teknis selama minimal 3 menit pertama. Saya akan menggunakan waktu tersebut untuk menyimak penuh, mengangguk, mengajukan maksimal 1 pertanyaan terbuka tentang perasaannya, dan merangkum maknanya terlebih dahulu."</em></p>
+  <p><strong>6. Umpan Balik Jujur:</strong> Ariya (rekan praktikum dan teman sekelas) serta Naufal (rekan asisten/praktikum).</p>
+</div>
+
+<h2>3. Evaluasi Mandiri Rubrik Kinerja</h2>
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th>Kriteria Evaluasi</th>
+  <th class="num">Skor Mandiri</th>
+  <th>Catatan Pembuktian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Pemetaan 5 Domain Kehidupan</td>
+  <td class="num">4 / 4</td>
+  <td>Kelima domain terisi realistis, mencakup person spesifik (Owen, Ariya, Naufal, Randy, orang tua).</td>
+</tr>
+<tr>
+  <td>Analisis Kontras Dua Peran Utama</td>
+  <td class="num">4 / 4</td>
+  <td>Kontras antara peran akademik (lugas &amp; presisi) dan sahabat pendengar (empatik &amp; validatif) sangat jernih.</td>
+</tr>
+<tr>
+  <td>Sasaran Pertumbuhan &amp; Umpan Balik</td>
+  <td class="num">4 / 4</td>
+  <td>Sasaran sangat spesifik dan terukur (jeda 3 menit sebelum memberi solusi) dengan observer jelas.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</main>
+
+<div class="total">Status Pengerjaan<em>Lengkap &amp; Siap Portofolio</em></div>
+
+<footer>
+  <span>Agastya Tristan Dhaniswara &middot; 18225093 &middot; KIPP-2</span>
+  <span>Sumber: <code>lk/lk-01.qmd</code></span>
+</footer>
+</div>
+</body>
+</html>

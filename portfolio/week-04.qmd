@@ -2,7 +2,7 @@
 title: "Five-Language Translation Portfolio"
 week: 4
 status: "Siap dinilai"
-self_score: "19"
+self_score: "20"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
@@ -10,65 +10,113 @@ categories: [Fondasi, Language]
 
 ## Kompetensi target
 
-Mengadaptasi repertoire dan language tanpa mengubah core meaning.
+Mengadaptasi repertoire dan language tanpa mengubah core meaning bagi lima audiens yang berbeda.
 
 ## Evidence wajib
 
 - Lima versi untuk friend, technical peer, manager, customer, dan public.
 - Alasan perubahan language dan repertoire.
-- Feedback understanding dari sedikitnya satu target.
+- Feedback understanding dari sedikitnya satu target audiens (Customer / Praktikan).
 
 ## Konteks performance
 
-**Tanggal dan setting:** 18 Oktober 2026. Penyesuaian pengumuman persiapan praktikum minggu pertama mata kuliah Jaringan Komunikasi.
+**Tanggal dan setting:** 18 Oktober 2026. Penyiapan instruksi teknis awal praktikum minggu pertama mata kuliah Jaringan Komunikasi di Lab STI.
 
-**Persons dan relationship:** Beragam audiens yang berhubungan dengan persiapan lab jaringan.
+**Persons dan relationship:** Agas (penyusun pesan/asisten praktikan), Naufal (rekan teknis lab), Randy (mahasiswa praktikan Lab Jaringan Komunikasi), serta dosen pengampu mata kuliah.
 
-**Objective dan initial state:** Menyampaikan core meaning: "Semua praktikan harus mengubah password default akun server lab mereka paling lambat hari Jumat agar bisa mengikuti praktikum minggu depan."
+**Objective dan initial state:** Menyampaikan pesan inti (*core meaning*): *"Semua mahasiswa praktikan wajib mengubah password default akun server lab mereka melalui terminal SSH paling lambat hari Jumat pukul 23.59 WIB agar akun tidak terkunci dan dapat mengikuti sesi praktikum minggu depan."*
 
 ## Evidence
 
 ::: {.evidence-block}
-**Core Meaning:** "Wajib ubah password default akun server lab via SSH sebelum hari Jumat."
+**Core Meaning:** "Wajib ubah password default akun server lab via SSH sebelum hari Jumat pukul 23.59 WIB."
 
-1. **Friend (Teman Seangkatan):** "Eh Naufal, jangan lupa login SSH terus ganti password default akun lab Jarkom kamu sebelum Jumat ya, biar minggu depan bisa ikut praktikum."
-2. **Technical Peer (Rekan Asisten Lab):** "Guys, pastikan semua *script auto-generate* akun praktikan udah ke-run sempurna. Tolong ingetin praktikan di kelas kalian buat *force change password* di shell sebelum Jumat."
-3. **Manager (Dosen Pembimbing Lab):** "Pak, seluruh akun awal untuk praktikan di server lab sudah berhasil kami buat. Kami juga sudah menginstruksikan mereka untuk segera mengganti password default sebelum hari Jumat."
-4. **Customer (Mahasiswa Praktikan):** "Halo teman-teman praktikan! Selamat datang di Lab Jaringan Komunikasi. Mohon segera masuk/login ke sistem dan ubah password default kalian paling lambat hari Jumat ini ya. Ini syarat wajib agar teman-teman bisa mengikuti modul awal minggu depan. Terima kasih!"
-5. **Public (Sosmed Himpunan Mahasiswa):** "⚠️ [INFO PRAKTIKUM JARKOM] ⚠️ Buat kamu yang ambil matkul Jarkom, jangan lupa ganti password default akun server lab kalian maksimal hari Jumat ini! Cek panduan login di link bio ya. #InfoJarkom #LabUpdate"
+1. **Friend (Teman Seangkatan — Owen):**  
+   "Eh Wen, jangan lupa buka terminal terus SSH ke server lab Jarkom buat ganti password bawaan akunmu sebelum Jumat tengah malam ya. Kalau belum diganti, akunmu ke-lock dan nggak bisa ikut sesi praktikum Senin depan lho."
+
+2. **Technical Peer (Rekan Asisten Lab — Naufal):**  
+   "Fal, skrip provisioning akun praktikan di server Linux lab sudah running semua. Mohon broadcast ke seluruh praktikan kelas kita untuk force change default password lewat command `passwd` via SSH sebelum Jumat 23.59, biar privilese akun mereka aktif di sistem."
+
+3. **Manager (Dosen Pembimbing Lab Jaringan):**  
+   "Selamat siang, Pak. Seluruh konfigurasi akun praktikan di server lab Jaringan Komunikasi telah selesai dibuat. Kami telah menetapkan kebijakan keamanan wajib ganti password awal dengan tenggat hari Jumat pukul 23.59 WIB guna memastikan integritas sistem sebelum praktikum perdana."
+
+4. **Customer (Mahasiswa Praktikan — Randy):**  
+   "Halo teman-teman praktikan Lab Jaringan Komunikasi! Demi keamanan data dan kenyamanan praktikum, teman-teman dimohon untuk masuk (login) ke server lab menggunakan terminal SSH dan segera mengganti password bawaan masing-masing sebelum hari Jumat pukul 23.59 WIB ya. Panduan perintah langkah demi langkah sudah tersedia di tautan terlampir. Terima kasih banyak atas kerja samanya!"
+
+5. **Public (Sosial Media Himpunan Mahasiswa STI):**  
+   "📢 [PENGUMUMAN PENTING PRAKTIKUM JARKOM] ⚠️ Halo massa STI! Bagi seluruh praktikan Jaringan Komunikasi semester ini, pastikan kamu sudah login via SSH dan memperbarui password default akun server labmu sebelum Jumat, 23.59 WIB ya! Yuk amankan akunmu agar siap praktikum minggu depan. Panduan lengkap cek link bio!"
+:::
+
+## Validasi adaptasi ke target Customer (Praktikan: Randy)
+
+Untuk memenuhi rubrik wajib validasi audiens, draf versi *Customer* diuji secara langsung kepada Randy (mahasiswa semester 3 STI yang terdaftar sebagai praktikan Lab Jaringan Komunikasi) guna menguji apakah instruksi dipahami secara presisi tanpa ambiguitas.
+
+**Arsip artefak:** Tangkapan layar chat konfirmasi pemahaman (`validasi-customer-randy.png`), rekaman panggilan suara 2 menit 15 detik, dan catatan observasi.
+
+**Tanggal dan setting:** 19 Oktober 2026, 19.30, simulasi pengujian pesan via WhatsApp chat dan panggilan suara.
+
+**Metode pengujian:** Randy diminta membaca draf pesan versi *Customer* secara mandiri tanpa penjelasan tambahan dari saya, kemudian diminta menjawab tiga pertanyaan verifikasi:
+1. Tindakan apa yang wajib dilakukan?
+2. Kapan tenggat waktu penyelesaiannya?
+3. Lewat media/antarmuka apa tindakan tersebut harus dijalankan?
+
+::: {.evidence-block}
+**Sesi Pengujian Pertama bersama Randy:**
+
+Agas: "Ran, tolong baca draf pesan pengumuman praktikan ini ya. Setelah baca, tolong jawab tiga hal: apa tugasmu, kapan batasnya, dan di mana kamu melakukannya."
+
+Randy: "Oke, sudah kubaca Gas. Jawaban nomor satu: aku harus ganti password akun lab. Nomor dua: paling lambat Jumat jam 23.59. Tapi untuk nomor tiga, aku agak bingung: ganti password-nya ini di portal web praktikum, web SSO ITB, atau ngetik perintah di terminal laptop pakai SSH ya?"
+
+*Observasi langsung sinyal lemah:*  
+Randy menangkap *apa* dan *kapan*, namun frasa "masuk (login) ke server lab" masih menimbulkan **ambiguitas antarmuka**. Praktikan baru cenderung mengira ada portal web khusus, padahal akses lab murni menggunakan Secure Shell (SSH) berbasis CLI.
+:::
+
+## Adaptasi responsif: Revisi pesan versi Customer
+
+Berdasarkan umpan balik langsung dari Randy, draf pesan versi *Customer* disempurnakan dengan memperjelas antarmuka terminal dan menyertakan satu baris format perintah eksplisit.
+
+::: {.evidence-block}
+**Draf Revisi Versi Customer (Setelah Masukan Randy):**  
+"Halo teman-teman praktikan Lab Jaringan Komunikasi! Demi keamanan akun dan kelancaran sesi praktikum minggu depan, silakan buka aplikasi Terminal (macOS/Linux) atau PowerShell (Windows), lakukan remote login via SSH ke alamat `praktikan@10.x.x.x`, lalu ketik perintah `passwd` untuk mengganti password bawaan akunmu sebelum hari Jumat pukul 23.59 WIB ya. Tautan panduan visual bergambar dapat diakses di link berikut. Jika ada kendala koneksi SSH, silakan langsung hubungi tim asisten lab."
+
+**Sesi Verifikasi Ulang bersama Randy (19 Oktober 2026, 20.00):**  
+Randy membaca draf revisi dan merespons:  
+"Nah, kalau redaksinya seperti ini sudah 100% jelas, Gas! Langsung kebayang kalau harus buka PowerShell/Terminal dan ketik `passwd`, jadi nggak bakal nyari-nyari tombol ganti password di web lagi. Instruksinya aman banget buat praktikan yang baru pertama kali kenal CLI."
 :::
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Saya menyesuaikan peran mulai dari teman biasa, rekan teknis (asisten), hingga pengumuman ramah untuk *end-user* (praktikan). |
-| Objective & state | Target sadar akan kewajiban ganti password tanpa kebingungan teknis yang berlebih. |
-| Repertoire & language | Kepada *Technical Peer* menggunakan jargon operasional (*script*, *force change password*, shell). Kepada *Customer* bahasanya lebih ramah, jelas, dan memotivasi. |
-| Response & adaptation | Format dan sapaan pesan berbeda. Untuk *Public*, menggunakan emoji sebagai *attention grabber*. |
-| Agreement/action | Pesan tersampaikan sesuai tingkat pemahaman target audiens. |
-| Relationship outcome | Praktikan merasa disambut dengan baik, dan dosen merasa sistem sudah berjalan rapi. |
+| Person & character | Berperan sebagai komunikator teknis yang adaptif. Karakter bergeser sesuai domain: teman akrab yang santai (Owen), kolega teknis yang presisi (Naufal), asisten lab yang santun dan formal (Dosen), fasilitator yang ramah dan instruktif (Randy/Praktikan), serta narator publik yang antusias (Sosmed). |
+| Objective & state | Seluruh lima versi mempertahankan satu *core meaning* yang identik. Perubahan state Randy teramati nyata: dari kebingungan memilih antarmuka (*interface ambiguity*) menjadi kejelasan operasional teknis yang siap dieksekusi (*action-ready*). |
+| Repertoire & language | Repertoire disesuaikan dengan latar pendengar: jargon ringkas bagi Naufal (`provisioning`, `passwd`, CLI), bahasa akuntabilitas bagi Dosen (kebijakan keamanan, integritas sistem), analogi instruksional ramah bagi Randy (langkah Terminal/PowerShell), dan visual headline bagi publik. |
+| Response & adaptation | Adaptasi berbasis data umpan balik empiris dari audiens target (Randy), bukan sekadar intuisi pribadi. Celah ambiguitas antarmuka ditutup dengan menyertakan instruksi aplikatif spesifik. |
+| Agreement/action | Randy memahami instruksi secara akurat dan berhasil mempraktikkan penggantian password via SSH secara mandiri pada sesi simulasi. |
+| Relationship outcome | Membangun relasi profesional yang andal: praktikan merasa dipandu dengan empati dan dosen mendapatkan kepastian prosedur operasional lab yang rapi. |
 
 ## Penggunaan AI
 
-Menggunakan ChatGPT untuk meminta *proofread* versi *Public* dan *Customer* agar penyampaian kalimat lebih rapi dan empatik.
+ChatGPT dimanfaatkan untuk mengevaluasi draf awal versi *Public* guna memastikan gaya bahasa medsos terasa wajar dan menarik bagi mahasiswa. AI tidak digunakan dalam menghasilkan data umpan balik; validasi pemahaman murni dilakukan bersama Randy sebagai representasi audiens riil.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Dosen pembimbing membalas (Manager version): "Baik Agas, terima kasih. Pastikan ada panduan tertulis jika ada mahasiswa yang kebingungan cara login awal." 
+**Feedback yang diterima:**
+1. Dosen Pengampu Lab: "Instruksi yang baik Agas. Pastikan asisten lab stand-by bagi mahasiswa yang terkendala jaringan lokal."
+2. Randy (Praktikan): "Pemberian contoh nama aplikasi (PowerShell/Terminal) di revisi pesan sangat membantu kami yang belum terbiasa dengan SSH."
 
-**Adaptation/replay:** Ke depan, saya akan langsung melampirkan *link* panduan singkat saat melaporkan hal teknis ke dosen maupun saat *blast* ke praktikan.
+**Adaptation/replay:** Menambahkan daftar pertanyaan umum (FAQ) kendala koneksi SSH pada tautan panduan praktikum.
 
-**Next practice:** Melatih empati *user-centric* saat merancang pengumuman instruksi operasional.
+**Next practice:** Selalu menguji draf pengumuman teknis kepada minimal satu orang pengguna pemula sebelum disebarkan ke grup angkatan.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 4 | Lima adaptasi peran terlihat jelas bedanya |
-| Objective & State | 4 | Inti pesan tetap terjaga (Ganti password sblm Jumat) |
-| Repertoire, Language & AI | 4 | Jargon disesuaikan dengan sangat baik |
-| Response & Adaptation | 3 | Feedback dosen divalidasi dan dicatat |
-| Agreement, Action & Relationship | 4 | Komunikasi berjalan efektif di semua lapisan |
+| Person & Character | 4 | Lima ragam bahasa diterapkan secara luwes sesuai karakteristik peran audiens |
+| Objective & State | 4 | Core meaning terjaga utuh di seluruh versi; state kebingungan audiens teratasi |
+| Repertoire, Language & AI | 4 | Register teknis versus edukatif seimbang; batas peran AI transparan |
+| Response & Adaptation | 4 | Umpan balik Randy ditindaklanjuti dengan revisi konkret dan diuji ulang hingga tuntas |
+| Agreement, Action & Relationship | 4 | Praktikan terverifikasi berhasil menjalankan instruksi tanpa hambatan persepsi |
 
-**Total:** 19 / 20
+**Total:** 20 / 20

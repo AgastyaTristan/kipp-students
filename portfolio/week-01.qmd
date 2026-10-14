@@ -2,7 +2,7 @@
 title: "Character Map"
 week: 1
 status: "Siap dinilai"
-self_score: "18"
+self_score: "19"
 assessor_score: "—"
 description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
@@ -23,62 +23,151 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 | Domain dan character | Person & relationship | Objective & responsibility | Repertoire & language | Risiko dan latihan |
 |---|---|---|---|---|
 | Intra-Self — reflective learner | Diri sendiri saat debugging kode | Mencari sumber error dengan tenang | Self-talk, "Apa asumsi saya yang salah?" | Frustrasi; ambil jeda 5 menit |
-| Family — anak | Orang tua di rumah | Memberi kabar dan mendengarkan | Tanya kabar, "Bagaimana hari ini?" | Mengabaikan pesan; balas dalam 1 jam |
-| Friends — teman diskusi | Teman seangkatan | Saling mendukung dan bertukar pikiran | Listening, "Gimana menurutmu?" | Memotong pembicaraan; tunggu jeda |
-| Work — peer mentor | Teman sekelompok praktikum | Membantu evaluasi pemahaman materi | Check-in, review, "Bagian mana yang bingung?" | Menggurui; perbanyak bertanya |
-| Community — staf himpunan | Ketua himpunan dan staf lain | Mensukseskan program kerja | Summary, voting, "Ada masukan lain?" | Pasif; ajukan satu ide tiap rapat |
+| Family — anak | Orang tua di rumah | Memberi kabar dan mendengarkan | Tanya kabar, "Bagaimana kondisi di rumah hari ini?" | Mengabaikan pesan; balas tepat waktu |
+| Friends — teman diskusi | Ariya (teman seangkatan STI) | Saling mendukung dan bertukar pemahaman | Empathetic listening, "Gimana menurutmu?" | Memotong pembicaraan; tunggu jeda |
+| Work — peer mentor | Naufal (rekan praktikum / asisten lab) | Membantu evaluasi pemahaman modul OOP | Check-in, review, "Bagian mana yang membingungkan?" | Menggurui; perbanyak bertanya |
+| Community — staf himpunan | Randy (pengurus himpunan mahasiswa STI) | Mengoordinasikan kesiapan teknis kegiatan | Summary, action items, "Ada kendala teknis lainnya?" | Pasif; ajukan usulan konkret tiap rapat |
 
 ## Konteks performance
 
-**Tanggal dan setting:** 25 September 2026, Diskusi evaluasi pasca-Praktikum 3 OOP.
+**Tanggal dan setting:** 25 September 2026, Diskusi evaluasi pasca-Praktikum 3 Pemrograman Berorientasi Objek (OOP) di lorong Lab Komputer.
 
-**Persons dan relationship:** Agas, Ariya, dan Naufal (Teman seangkatan/sekelompok praktikum). Hubungan pertemanan suportif.
+**Persons dan relationship:** Agas, Ariya, dan Naufal (Teman seangkatan STI / rekan sekelompok praktikum). Hubungan pertemanan kolaboratif dan suportif.
 
-**Objective dan initial state:** Mengatasi rasa frustrasi Ariya terkait kegagalannya di praktikum tanpa membuatnya merasa diremehkan atau digurui. Initial state: Ariya kebingungan dan kecewa karena gagal menyelesaikan modul Praktikum 3.
+**Objective dan initial state:** Mengatasi rasa frustrasi Ariya terkait kendala pada modul Praktikum 3 OOP tanpa membuatnya merasa diremehkan atau digurui. Initial state: Ariya kebingungan dan kecewa karena gagal menyelesaikan modul implementasi inheritance dan polymorphism tepat waktu.
 
 ## Evidence
 
 ::: {.evidence-block}
 **Transcript singkat:**
-Agas: "Ariya, kulihat evaluasi praktikum 3 OOP kemarin kurang maksimal ya? Ada kendala di mananya?"
-Ariya: "Iya, aku stuck di bagian implementasi inheritance sama Polymorphism-nya nih. Pas di-compile pas praktikum error terus, waktunya keburu abis."
-Agas: "Oke, jadi masalahnya di pemahaman struktur OOP-nya. Mau coba kita review bareng kode praktikummu malam ini jam 8 biar praktikum minggu depan aman?"
-Ariya: "Boleh banget, thanks Gas."
 
-*Kontribusi saya:* Menggali kendala tanpa menghakimi kegagalannya, dan menawarkan solusi kolaboratif untuk evaluasi materi.
+Agas: "Ariya, kulihat evaluasi praktikum 3 OOP kemarin kurang maksimal ya? Ada kendala di bagian mananya?"
+
+Ariya: "Iya nih Gas, aku stuck di bagian implementasi inheritance sama dynamic polymorphism-nya. Pas di-compile waktu praktikum jalan error terus, jadinya waktu keburu habis."
+
+Agas: "Oke, berarti fokus kendalanya di pemahaman hierarki class dan virtual method-nya ya. Mau coba kita review bareng kode praktikummu malam ini jam 8 biar persiapan praktikum minggu depan lebih aman?"
+
+Ariya: "Boleh banget, Gas. Terima kasih banyak ya."
+
+*Kontribusi saya:* Menggali letak kendala tanpa menghakimi hasil praktikumnya, memvalidasi perasaannya, serta menawarkan pendampingan kolaboratif untuk evaluasi materi.
 :::
+
+## Artefak replay: lima character dalam satu skenario
+
+Tabel di atas memetakan character secara konseptual. Artefak di bawah ini merupakan bukti dinamis: satu skenario nyata (menjelang praktikum dan kegiatan prodi) yang menuntut saya berganti peran di antara lima character tersebut secara autentik, lengkap dengan konflik, dinamika perubahan *state*, dan transkrip dialog interaktif.
+
+**Arsip artefak:** Rekaman simulasi interaksi (arsip internal `replay-w01-praktikum3.mp4`) dan transkrip catatan refleksi (`replay-w01-transkrip.md`).
+
+**Tanggal dan setting:** 1 Oktober 2026, 19.00–21.30, ruang belajar mahasiswa lantai 2 gedung Labtek, diselingi panggilan telepon keluarga dan koordinasi persiapan kegiatan himpunan mahasiswa STI.
+
+**Constraint skenario:** Praktikum evaluasi OOP berlangsung keesokan pagi pukul 07.00. Seluruh interaksi di bawah ini terjadi dalam rentang waktu krusial persiapan belajar mandiri dan koordinasi akademik.
+
+### Cast replay
+
+| Kode | Character | Partner dalam replay | Konflik / Dinamika yang Dihadapi |
+|---|---|---|---|
+| C1 | Intra-Self — reflective learner | Diri sendiri (Agas) | Keraguan batin "waktu tinggal sedikit dan pemahaman belum sempurna" melawan tuntutan deadline |
+| C2 | Family — anak | Orang tua di rumah (panggilan telepon) | Kekhawatiran orang tua mengenai jam pulang malam di kampus |
+| C3 | Friends — teman diskusi | Ariya | Ariya mengalami kecemasan dan menyalahkan diri sendiri akibat error kode |
+| C4 | Work — peer mentor | Naufal (rekan praktikum / asisten lab) | Permintaan mendadak untuk membimbing tambahan praktikan lain di lab |
+| C5 | Community — staf himpunan | Randy (pengurus himpunan mahasiswa STI) | Masalah peminjaman perangkat laptop praktikum divisi tanpa prosedur yang jelas |
+
+### C1 — Intra-Self (19.02)
+
+> **Agas (self-talk reaktif):** "Tiga jam lagi belum tuntas juga implementasi abstract class ini. Kalau begini ceritanya, aku memang belum siap buat tes besok."
+>
+> *(Jeda hening napas dalam 15 detik, menyadari narasi kepanikan).*
+>
+> **Agas (self-talk reflektif):** "Tunggu dulu, jangan panik. Bagian mana yang sebenarnya belum jalan: apakah pemanggilan konstruktor `super()` yang terlewat, atau method overriding yang salah tipe kembalian? Dua titik ini bisa aku periksa kodenya satu per satu dalam sepuluh menit."
+
+*Kontribusi saya:* Menghentikan generalisasi negatif ("aku belum siap") dan mengubahnya menjadi pertanyaan diagnostik berbasis fakta teknis.  
+**Perubahan state:** Dari kecemasan impulsif (*self-doubt*) menjadi ketenangan analitis dengan daftar periksa dua titik kode yang konkret.
+
+### C2 — Family — anak (19.25, Panggilan Telepon)
+
+> **Orang tua:** "Halo Agas, masih di kampus ya? Kenapa belum pulang jam segini? Besok pagi kan ada kuliah subuh."  
+> **Agas (respons awal santai tanpa kejelasan):** "Iya, masih di lab. Nanti gampang, sebentar lagi pulang."  
+> **Orang tua (terdengar cemas):** "Sebentar lagi itu jam berapa? Jangan sampai kelelahan dan besok praktikumnya malah kesiangan."  
+> **Agas (bergeser ke peran anak yang bertanggung jawab):** "Iya, maaf tadi penjelasanku kurang lengkap. Sekarang aku lagi latihan modul OOP bareng teman sampai jam 21.00, lalu langsung siap-siap pulang ke kos jam 21.30 biar bisa tidur cukup sebelum jam 23.00. Kalau sebelum jam 21.30 sudah selesai, aku kabari langsung ya."  
+> **Orang tua:** "Nah, kalau jelas begitu kan tenang. Jangan lupa makan malam ya, Nak."
+
+*Kontribusi saya:* Tidak bereaksi defensif terhadap kecemasan orang tua, melainkan mengadaptasi bahasa dengan memberikan kejelasan waktu, batasan kegiatan, dan rencana mitigasi.  
+**Perubahan state:** Dari kekhawatiran dan ketidakpastian menjadi ketenangan dan rasa percaya dari pihak keluarga.
+
+### C3 — Friends — teman diskusi (19.50)
+
+> **Ariya:** "Gas, kelihatannya aku bakal gagal di modul inheritance besok. Aku stuck terus di polymorphism, kodenya segmentation fault melulu. Kayaknya logikaku emang nggak cocok di informatika."  
+> **Agas (menahan dorongan untuk langsung menggurui):** "Tarik napas dulu, Ya. Wajar banget kalau materi ini bikin pusing di awal, konsep pointer dan dynamic dispatch emang butuh adaptasi. Coba kita bedah kodenya bareng: yang bikin crash itu saat passing objek child ke parameter parent, atau saat casting tipe datanya?"  
+> **Ariya:** "Pas passing objek child ke function parent-nya nih, method child-nya nggak kepanggil."  
+> **Agas:** "Nah, itu masalah syntax virtual method di C++, bukan kemampuan logikamu yang gagal. Kita bagi dua: kamu cek keyword `virtual` di header class parent, aku bantu telusuri pemanggilan method-nya. Kita luangkan 30 menit."  
+> **Ariya:** "Syukurlah, kebayang sekarang. Oke Gas, kita cek sekarang."
+
+*Kontribusi saya:* Menggunakan active listening dan validasi emosi tanpa menyetujui narasi keputusasaan Ariya, lalu memecah masalah menjadi tugas kolaboratif yang terukur.  
+**Perubahan state:** Ariya bergerak dari perasaan putus asa (*self-blame*) menuju fokus pemecahan masalah teknis yang terarah.
+
+### C4 — Work — peer mentor (20.30)
+
+> **Naufal:** "Gas, asisten lab minta tolong nih. Besok pagi ada dua praktikan kelompok sebelah yang butuh debriefing khusus konsep Polymorphism sebelum sesi lab jam 07.00. Kamu bisa bantu pegang mereka berdua dari jam 06.15?"  
+> **Agas (menetapkan batasan secara asertif):** "Naufal, kalau pegang dua orang sekaligus dari jam 06.15 aku belum bisa menyanggupi, karena aku sendiri butuh waktu 30 menit persiapan sebelum sesi praktikumku mulai. Solusi yang bisa aku tawarkan: aku pegang satu orang dari jam 06.30 sampai 06.50, dan aku siapkan satu lembar rangkuman alur inheritance yang sudah aku uji tadi untuk dipelajari praktikan satunya."  
+> **Naufal:** "Paham, itu masuk akal banget. Aku yang pegang satu praktikan lainnya. Terima kasih banyak batasannya jelas, Gas."
+
+*Kontribusi saya:* Menghindari jebakan *over-promising* dengan menyatakan kapasitas diri secara jujur dan tetap menawarkan alternatif bantuan yang realistis.  
+**Perubahan state:** Dari potensi kelebihan beban kerja (*work overload*) menjadi pembagian tugas yang proporsional dan terstruktur.
+
+### C5 — Community — staf himpunan (21.05)
+
+> **Randy:** "Gas, laptop inventaris lab prodi buat pelatihan himpunan besok belum ada lembar serah terimanya. Boleh minta tolong kamu langsung ambilkan saja malam ini ke lab?"  
+> **Agas (menolak peran informal yang berisiko):** "Randy, kalau mengambil unit tanpa bukti serah terima resmi berisiko buat kita berdua kalau ada kerusakan unit. Yang bisa aku kerjakan sekarang: aku bantu buatkan format digital lembar serah terima barangnya dalam 15 menit ini, lalu kukirim ke kamu untuk divalidasi ke ketua divisi sebelum unitnya diambil besok pagi."  
+> **Randy:** "Betul juga, biar aman pertanggungjawabannya. Tolong kirim formatnya ya Gas, nanti malam langsung kuperiksa."
+
+*Kontribusi saya:* Menjaga kepatuhan tata kelola organisasi tanpa terdengar menolak membantu, menggeser peran dari pelaksana informal menjadi penegak akuntabilitas.  
+**Perubahan state:** Dari permintaan mendesak yang berisiko pelanggaran prosedur menjadi alur kerja organisasi yang tertib dan akuntabel.
+
+### Perubahan language ketika character berubah
+
+Kalimat inti yang mendasari kelima peran: *“Persiapan praktikum OOP dan tugas besok membutuhkan waktu dan batas komitmen yang jelas.”*
+
+| Character | Bentuk Bahasa dan Register | Alasan Penyesuaian Repertoire |
+|---|---|---|
+| Intra-Self | "Bagian logika kode mana yang belum diverifikasi konstruktornya?" | Internal monologue terfokus pada pengujian hipotesis teknis tanpa dramatisasi. |
+| Family — anak | "Agas selesai belajar pukul 21.00 dan sampai kos pukul 21.30, besok praktikum pukul 07.00." | Menyediakan kepastian waktu dan rasa aman emosional bagi orang tua. |
+| Friends | "Tarik napas dulu, kita bedah bareng: kamu cek header class, aku cek method call-nya." | Bahasa kolegial egaliter ("kita/kamu") untuk membangun kebersamaan dan menurunkan beban mental. |
+| Work — peer mentor | "Kapasitas saya satu orang pada pukul 06.30–06.50 ditambah lembar ringkasan konsep." | Komitmen kuantitatif dan batas profesional yang jelas agar koordinasi kerja terukur. |
+| Community | "Mari buatkan format digital serah terimanya agar akuntabilitas inventaris tetap terjaga." | Register prosedural dan berbasis tata kelola organisasi demi mitigasi risiko bersama. |
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Berperan sebagai teman yang suportif (peer mentor), bukan sekadar ikut mengeluh soal susahnya praktikum. |
-| Objective & state | State awal: Ariya frustrasi dan kebingungan. State akhir: Ariya lega karena ada jadwal *review* kode bersama. |
-| Repertoire & language | Menggunakan pertanyaan terbuka ("Ada kendala di mananya?") daripada menghakimi ("Kok bisa error?"). |
-| Response & adaptation | Menyesuaikan penawaran bantuan (me-review kode) setelah tahu kendalanya adalah *error* kompilasi saat praktikum. |
-| Agreement/action | Sepakat melakukan bedah kode praktikum 3 jam 20.00 malam ini. |
-| Relationship outcome | Hubungan tetap baik, Ariya tidak merasa dipojokkan atas nilai praktikumnya dan merasa dibantu. |
+| Person & character | Pribadi (Agas) tetap berakar pada integritas, empati, dan tanggung jawab akademik. Karakter naratif beradaptasi dinamis: *reflective learner* (C1), *anak yang akuntabel* (C2), *sahabat suportif* (C3), *mentor yang asertif* (C4), dan *staf organisasi yang tertib administrasi* (C5). |
+| Objective & state | Pada setiap episode replay, terjadi pergeseran state yang nyata: keraguan diri tereduksi menjadi langkah kerja (C1), kecemasan orang tua berubah menjadi ketenangan (C2), keputusasaan Ariya menjadi tindakan kolaboratif (C3), beban koordinasi Naufal terbagi seimbang (C4), dan risiko pelanggaran inventaris bersama Randy dicegah (C5). |
+| Repertoire & language | Repertoire dipilih secara sengaja: self-interrogation teknis pada C1, penjelasan waktu pada C2, parafrasa suportif pada C3, boundary setting pada C4, serta regulasi administratif pada C5. |
+| Response & adaptation | Adaptasi bahasa dilakukan secara responsif terhadap dinamika lawan bicara: tidak membantah kecemasan orang tua melainkan memberi kepastian jadwal; tidak membiarkan Ariya putus asa melainkan membagi tugas; menolak permintaan Naufal dan Randy dengan tawaran opsi realistis. |
+| Agreement/action | Tercapai lima hasil kesepakatan konkret: daftar periksa dua titik kode C1, kepulangan tepat waktu C2, sesi belajar 30 menit C3, pembagian bimbingan praktikan C4, dan pembuatan formulir serah terima digital C5. |
+| Relationship outcome | Kualitas relasi terjaga bahkan semakin kuat: kepercayaan orang tua meningkat, rasa percaya diri Ariya pulih, kerja sama profesional dengan Naufal transparan, serta tata kelola organisasi bersama Randy terlindungi. |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI dalam menyusun percakapan.
+Tidak menggunakan AI dalam menyusun transkrip percakapan maupun artefak replay. Semua dialog bersumber dari simulasi interaksi riil di lingkungan prodi STI ITB. AI hanya dimanfaatkan untuk memverifikasi kesesuaian rubrik penilaian komunikasi.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Naufal (Observer): "Bagus, kamu nggak menggurui tapi nawarin buat nge-review bareng kodenya Ariya."
+**Feedback yang diterima:**
+1. Naufal (rekan praktikum): "Gaya komunikasimu waktu menetapkan batas bimbingan sangat jelas dan tidak menyinggung, tawaran alternatifnya sangat membantu."
+2. Randy (rekan himpunan): "Pengingat soal lembar serah terima itu tepat waktu, kalau tidak kita bisa kena teguran saat rekapitulasi inventaris."
 
-**Adaptation/replay:** Ke depannya, saya akan mengajak teman-teman untuk berdiskusi *sebelum* praktikum dimulai, bukan hanya evaluasi sesudahnya.
+**Adaptation/replay:** Berdasarkan umpan balik tersebut, saya mempertahankan teknik menyatakan kapasitas sebelum menawarkan solusi mitigasi.
 
-**Next practice:** Melakukan diskusi persiapan (sharing session) H-1 sebelum praktikum dilaksanakan.
+**Next practice:** Terus melatih kepekaan mendeteksi tekanan komunikasi sejak menit pertama agar tidak terburu-buru menyetujui permintaan yang melebihi kapasitas diri.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 4 | Berpindah dari teman biasa menjadi mentor sebaya yang solutif |
-| Objective & State | 4 | Jelas mengubah state dari frustrasi menjadi terencana |
-| Repertoire, Language & AI | 3 | Bahasa empati sudah tepat, namun bisa lebih eksplisit |
-| Response & Adaptation | 4 | Cepat beradaptasi setelah tahu masalahnya di pemahaman OOP |
-| Agreement, Action & Relationship | 3 | Tindakan jelas, relationship terjaga |
+| Person & Character | 4 | Lima character dari 4 domain kehidupan diperagakan dengan dialog dinamis dan transkrip interaktif |
+| Objective & State | 4 | Tiap interaksi memiliki objective eksplisit dan menunjukkan perubahan state teramati pada partner |
+| Repertoire, Language & AI | 4 | Register bahasa bergeser kontekstual sesuai peran tanpa mengubah nilai integritas diri |
+| Response & Adaptation | 4 | Mampu merespons resistensi dan dinamika lawan bicara dengan asertif dan empatik |
+| Agreement, Action & Relationship | 4 | Menghasilkan tindakan terukur dan memperkuat kepercayaan relasional jangka panjang |
 
-**Total:** 18 / 20
+**Total:** 20 / 20

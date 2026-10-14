@@ -18,26 +18,32 @@ Sebelum mengisi lembar kerja, ingatlah alur pembentukan makna batin berikut \[13
 
 ## **Bagian 1: Identifikasi Kasus (Bahan Mentah)**
 
-Pilihlah satu peristiwa sulit, menantang, atau kurang menyenangkan yang baru-baru ini Anda alami (misalnya: pesan tidak dibalas, kritik dari dosen, tugas kelompok terhambat, atau rencana yang batal) \[11, 13\]. *Catatan Etis: Pilih kasus yang cukup aman untuk dipelajari secara akademis. Jangan memilih situasi kekerasan atau trauma berat yang membutuhkan bantuan profesional \[13\].*
+Pilihlah satu peristiwa sulit, menantang, atau kurang menyenangkan yang baru-baru ini Anda alami (misalnya: pesan tidak dibalas, kritik dari dosen, tugas kelompok terhambat, atau rencana yang batal) [11, 13].
+
+**Identitas Mahasiswa:** Agastya Tristan Dhaniswara (Agas) / NIM: 18225093 / STI Semester 3  
+**Tanggal Pengisian:** 4 Oktober 2026
 
 ### **1. Peristiwa yang Dapat Diamati (Fakta Objektif)**
 
-*Tuliskan apa yang benar-benar terjadi tanpa penilaian karakter, generalisasi (hindari kata "selalu" atau "pasti"), atau dugaan niat. Bayangkan apa yang terekam oleh kamera video \[13, 145\].* \> **Contoh Kurang Tepat:** *"Rekan kelompok saya malas dan sengaja mengabaikan tugas kelompok."*\
-\> **Contoh Tepat:** *"Dua tugas yang disepakati di WhatsApp grup belum dikirimkan oleh Rekan X hingga batas waktu tanggal 30 Agustus pukul 23.59."* \* **Tuliskan Fakta Anda di sini:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Tuliskan apa yang benar-benar terjadi tanpa penilaian karakter, generalisasi (hindari kata "selalu" atau "pasti"), atau dugaan niat. Bayangkan apa yang terekam oleh kamera video [13, 145].*  
+* **Tuliskan Fakta Anda di sini:** Pada hari Minggu, 4 Oktober 2026 pukul 21.00 WIB, saya telah menghabiskan waktu 2,5 jam di depan layar laptop mencoba melakukan tracing manual program Assembly MIPS untuk tugas Arsitektur Komputer. Nilai akhir pada register `$v0` yang dihasilkan program di simulator MARS berbeda dengan nilai output yang diharapkan pada lembar spesifikasi tugas, dan tenggat waktu pengumpulan tugas di sistem adalah Senin pukul 07.00 WIB (tersisa 10 jam).
 
 ### **2. Interpretasi Pertama (Asumsi Otomatis)**
 
-*Tuliskan pemikiran atau kesimpulan pertama yang langsung melompat di kepala Anda ketika peristiwa itu terjadi \[13, 145\].* \* **Tuliskan Interpretasi Pertama Anda di sini:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Tuliskan pemikiran atau kesimpulan pertama yang langsung melompat di kepala Anda ketika peristiwa itu terjadi [13, 145].*  
+* **Tuliskan Interpretasi Pertama Anda di sini:** "Aku payah banget di logika hardware level rendah. Otakku memang cuma cocok buat software tingkat tinggi, bukan arsitektur komputer. Tugas ini mustahil kuselesaikan sendiri malam ini, aku pasti bakal dapat nilai nol atau terpaksa minta kode jadi ke teman."
 
 ### **3. Emosi & Sensasi Tubuh**
 
-*Identifikasi emosi konkret yang Anda rasakan (marah, cemas, malu, kecewa, sedih) dan tandai intensitasnya dari skala 0–10. Catat juga reaksi fisik yang Anda rasakan (napas pendek, rahang menegang, dada sesak) \[13, 147\].* \* **Emosi yang Dirasakan (dan skala 0-10):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \* **Sensasi Tubuh yang Muncul:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Identifikasi emosi konkret yang Anda rasakan (marah, cemas, malu, kecewa, sedih) dan tandai intensitasnya dari skala 0–10. Catat juga reaksi fisik yang Anda rasakan (napas pendek, rahang menegang, dada sesak) [13, 147].*  
+* **Emosi yang Dirasakan (dan skala 0-10):** Cemas (skala 8/10), Frustrasi (skala 8/10), dan Rasa Tidak Mampu / Insecure (skala 7/10).  
+* **Sensasi Tubuh yang Muncul:** Otot pundak dan leher kaku menegang, napas terasa pendek dan dangkal, serta telapak tangan terasa dingin berkeringat.
 
 ------------------------------------------------------------------------
 
 ## **Bagian 2: Membedah Tiga Narasi**
 
-Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita batin yang berbeda untuk melihat bagaimana narasi tersebut mengarahkan pilihan hidup Anda \[13, 157\].
+Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita batin yang berbeda untuk melihat bagaimana narasi tersebut mengarahkan pilihan hidup Anda [13, 157].
 
 ```         
 +---------------------------------------------------------------------------------+
@@ -52,15 +58,22 @@ Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita batin yang 
 
 ### **Versi A: Narasi Korban (Victim Narrative)**
 
-*Tempatkan diri Anda sepenuhnya sebagai korban keadaan. Tuliskan narasi di mana semua kendali berada di luar diri Anda, orang lain sepenuhnya bersalah, dan Anda tidak memiliki pilihan selain pasrah, menyalahkan diri sendiri, atau membalas secara pasif \[13, 157\].* \* **Isi Narasi Korban Anda:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \* **Pilihan Tindakan Otomatis (Reaktif) dari Narasi ini:** *(Contoh: mendiamkan balik, keluar grup proyek tanpa kabar, atau mengeluh di media sosial)* \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Tempatkan diri Anda sepenuhnya sebagai korban keadaan. Tuliskan narasi di mana semua kendali berada di luar diri Anda, orang lain sepenuhnya bersalah, dan Anda tidak memiliki pilihan selain pasrah, menyalahkan diri sendiri, atau membalas secara pasif [13, 157].*  
+* **Isi Narasi Korban Anda:** "Dosen dan asisten lab Arkom sengaja bikin soal tugas yang nggak masuk akal susahnya dan penjelasannya minim banget di kelas. Mereka nggak peduli kalau mahasiswa STI juga punya tugas praktikum OOP dan Basdat yang menumpuk di minggu yang sama. Aku dijebak di situasi yang bikin gagal, jadi wajar kalau aku menyerah saja atau copy-paste punya teman."  
+* **Pilihan Tindakan Otomatis (Reaktif) dari Narasi ini:** Menutup paksa laptop dengan kesal, merebahkan diri di kasur sambil scrolling media sosial berjam-jam untuk lari dari kenyataan, dan berniat mengirim chat ke Randy atau Owen subuh nanti untuk meminta contekan jawaban tugas.
 
 ### **Versi B: Narasi Analitis (Analytical Narrative)**
 
-*Gunakan kacamata yang objektif dan rasional. Pisahkan dengan tegas antara fakta yang diketahui, hal-hal yang masih berupa dugaan (belum diketahui), serta faktor-faktor yang berada di bawah kendali Anda langsung \[13, 157, 158\].* \* **Apa fakta yang benar-benar telah terbukti?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \* **Apa penjelasan lain (alternatif asumsi) yang masuk akal namun belum saya periksa?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \* **Faktor apa dalam situasi ini yang berada di bawah kendali saya langsung?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Gunakan kacamata yang objektif dan rasional. Pisahkan dengan tegas antara fakta yang diketahui, hal-hal yang masih berupa dugaan (belum diketahui), serta faktor-faktor yang berada di bawah kendali Anda langsung [13, 157, 158].*  
+* **Apa fakta yang benar-benar telah terbukti?** Fakta yang terbukti adalah instruksi looping `bne` berjalan satu siklus lebih banyak dari yang seharusnya, dan saya belum memetakan perubahan nilai register `$t0` hingga `$t4` langkah demi langkah di atas kertas.  
+* **Apa penjelasan lain (alternatif asumsi) yang masuk akal namun belum saya periksa?** (1) Program saya bukan rusak total, melainkan hanya mengalami *off-by-one error* pada kondisi batas percabangan; (2) Kegagalan tracing ini terjadi bukan karena kebodohan saya, melainkan karena saya memaksakan men-debug kode 50 baris sekaligus di simulator tanpa tabel status register manual; (3) Masih ada waktu 10 jam yang cukup untuk tidur 6 jam dan mengerjakan 2 jam di pagi hari dengan kepala segar.  
+* **Faktor apa dalam situasi ini yang berada di bawah kendali saya langsung?** Cara saya mengalokasikan waktu istirahat malam ini, metode pencatatan tracing di selembar kertas HVS, serta keberanian saya mengisolasi 10 baris kode fungsi aritmetika terlebih dahulu.
 
 ### **Versi C: Narasi Pertumbuhan (Growth Narrative)**
 
-*Gunakan kacamata belas kasih (*compassion*) dan pola pikir bertumbuh (*growth mindset*). Akui bahwa situasinya sulit dan emosi Anda valid, namun arahkan batin Anda untuk menemukan hikmah/pelajaran serta memilih tindakan yang selaras dengan nilai jangka panjang Anda \[13, 151, 157\].* \* **Isi Narasi Pertumbuhan Anda:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \* **Pelajaran apa yang dapat saya ambil dari situasi ini?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Gunakan kacamata belas kasih (compassion) dan pola pikir bertumbuh (growth mindset). Akui bahwa situasinya sulit dan emosi Anda valid, namun arahkan batin Anda untuk menemukan hikmah/pelajaran serta memilih tindakan yang selaras dengan nilai jangka panjang Anda [13, 151, 157].*  
+* **Isi Narasi Pertumbuhan Anda:** "Wajar banget kalau aku merasa frustrasi dan lelah sekarang, karena konsep manipulasi register dan stack pointer di Assembly memang membutuhkan ketelitian mikroskopis yang belum biasa kulakukan. Kesulitan ini bukan vonis atas kecerdasanku, melainkan tanda bahwa otot pemahaman arsitektur komputasiku sedang dilatih. Nilai tugasku penting, tapi kejujuran proses dan keterampilanku menemukan letak bug kodenya jauh lebih berharga bagi integritas akademisku."  
+* **Pelajaran apa yang dapat saya ambil dari situasi ini?** Belajar bahwa sistem level rendah tidak bisa diselesaikan dengan tebak-tebakan intuitif di layar. Saya perlu disiplin menggunakan artefak bantu (tabel state tracing manual) dan berani mengambil jeda ketika batin mulai dikuasai rasa panik.
 
 ------------------------------------------------------------------------
 
@@ -68,11 +81,17 @@ Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita batin yang 
 
 ### **1. Pilihan Respons Terbaik**
 
-*Berdasarkan Narasi Pertumbuhan Anda, tuliskan tindakan kecil, konkret, dan asertif yang akan Anda lakukan sekarang untuk merespons situasi tersebut \[13, 157, 158\].* \* **Langkah nyata yang saya pilih:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Berdasarkan Narasi Pertumbuhan Anda, tuliskan tindakan kecil, konkret, dan asertif yang akan Anda lakukan sekarang untuk merespons situasi tersebut [13, 157, 158].*  
+* **Langkah nyata yang saya pilih:**  
+  1. Menjauh dari meja belajar dan layar laptop selama 15 menit untuk mencuci muka, minum air hangat, dan melakukan latihan pernapasan dalam 4-7-8 guna meredakan ketegangan fisik.  
+  2. Mengambil satu lembar kertas kosong dan penggaris, lalu menggambar tabel 5 kolom untuk mencatat nilai register PC, `$t0`, `$t1`, `$t2`, dan `$v0`.  
+  3. Menjalankan program di simulator baris demi baris (*step-by-step execution*) selama 20 menit fokus terarah hanya pada blok loop utama.  
+  4. Beristirahat tidur pukul 23.30 dan melanjutkan review akhir pukul 05.30 pagi sebelum dikumpulkan.
 
 ### **2. Dukungan yang Diperlukan**
 
-*Siapa orang tepercaya (teman, keluarga, dosen) yang dapat Anda mintai umpan balik jujur atau bantuan untuk mendampingi Anda menjalankan pilihan ini? \[13, 158\]* \* **Nama rekan/pendamping:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*Siapa orang tepercaya (teman, keluarga, dosen) yang dapat Anda mintai umpan balik jujur atau bantuan untuk mendampingi Anda menjalankan pilihan ini? [13, 158]*  
+* **Nama rekan/pendamping:** Naufal (rekan praktikum) untuk memvalidasi pemahaman logika pergeseran bit MIPS esok pagi, serta Ariya sebagai mitra akuntabilitas belajar mandiri di kampus.
 
 ------------------------------------------------------------------------
 

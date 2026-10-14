@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lembar Kerja Bab 04 — Portofolio Terjemahan Lima Bahasa</title>
+<meta name="description" content="Lembar Kerja Bab 4: Bahasa yang Menjembatani Makna — Portofolio Terjemahan Lima Bahasa (Detoks Jargon & Code-Switching)">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff; --panel:#ffffff; --fg:#1f2328; --muted:#59636e;
+  --border:#d1d9e0; --stripe:#f6f8fa; --code-bg:#eff1f3;
+  --link:#0969da; --accent:#8250df; --accent-bg:#fbefff;
+  --ok:#1a7f37; --ok-bg:#dafbe1; --warn:#9a6700; --warn-bg:#fff8c5;
+  --todo:#59636e; --todo-bg:#eaeef2;
+  --radius:8px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1117; --panel:#161b22; --fg:#e6edf3; --muted:#9198a1;
+    --border:#3d444d; --stripe:#161b22; --code-bg:#21262d;
+    --link:#4493f8; --accent:#d2a8ff; --accent-bg:#2d1b3d;
+    --ok:#3fb950; --ok-bg:#12261a; --warn:#d29922; --warn-bg:#2b2412;
+    --todo:#9198a1; --todo-bg:#21262d;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 64px}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:10px}
+.crumb span+span::before{content:"/";margin:0 8px;opacity:.6}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+.desc{color:var(--muted);margin:0 0 18px}
+
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.meta li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);
+  background:var(--stripe);border:1px solid var(--border);border-radius:99px;padding:3px 11px}
+.meta b{color:var(--fg);font-weight:600}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;
+  border-radius:99px;border:1px solid transparent;white-space:nowrap}
+.b-ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.b-warn{color:var(--warn);background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-todo{color:var(--todo);background:var(--todo-bg);border-color:var(--border)}
+.b-accent{color:var(--accent);background:var(--accent-bg);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+
+nav.weeks{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:8px;margin:0 0 32px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:.85rem}
+nav.weeks .lbl{color:var(--muted);padding:0 8px 0 6px;font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.06em}
+nav.weeks a{padding:4px 10px;border-radius:6px;color:var(--fg);border:1px solid transparent}
+nav.weeks a:hover{background:var(--stripe);border-color:var(--border);text-decoration:none}
+nav.weeks a[aria-current]{background:var(--accent-bg);color:var(--accent);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);font-weight:600}
+
+main h2{font-size:1.22rem;margin:34px 0 12px;padding-bottom:7px;
+  border-bottom:1px solid var(--border);letter-spacing:-.01em}
+main h2:first-child{margin-top:0}
+main h3{font-size:1.03rem;margin:22px 0 8px}
+main p{margin:0 0 12px}
+main ul,main ol{margin:0 0 12px;padding-left:1.4em}
+main li{margin:3px 0}
+main strong{font-weight:650}
+main code{background:var(--code-bg);border-radius:5px;padding:.15em .38em;
+  font-size:.87em;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);
+  margin:0 0 16px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+thead th{background:var(--stripe);font-weight:650;white-space:nowrap;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--stripe) 55%,transparent)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th.num{text-align:right}
+
+.evidence-block{border:1px solid var(--border);border-left:4px solid var(--accent);
+  background:var(--stripe);border-radius:var(--radius);padding:14px 18px;margin:0 0 16px}
+.evidence-block>p:first-child{margin-top:0}
+.evidence-block>p:last-child{margin-bottom:0}
+
+.callout{border:1px solid var(--border);border-left:4px solid var(--link);
+  background:var(--stripe);border-radius:var(--radius);padding:12px 18px;margin:0 0 18px}
+.callout .t{font-weight:650;display:block;margin-bottom:4px;color:var(--link)}
+
+.total{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:12px 18px;margin:20px 0 0;
+  font-size:1rem;font-weight:650;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.total span{color:var(--muted);font-weight:400;font-size:.85rem}
+.total em{font-style:normal;font-size:1.25rem;color:var(--accent)}
+
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--border);
+  color:var(--muted);font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+@media (max-width:600px){
+  .wrap{padding:24px 14px 48px}
+  h1{font-size:1.5rem}
+}
+@media print{
+  nav.weeks,.crumb,footer{display:none}
+  body{font-size:12px}
+  .wrap{max-width:none;padding:0}
+  .tw{overflow:visible}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><span>Lembar Kerja</span><span>LK 04</span></nav>
+<nav class="weeks"><span class="lbl">Lembar Kerja</span><a href="lk-01.html">LK 01</a><a href="lk-02.html">LK 02</a><a href="lk-03.html">LK 03</a><a href="lk-04.html" aria-current="page">LK 04</a><a href="lk-05.html">LK 05</a><a href="lk-06.html">LK 06</a><a href="lk-07.html">LK 07</a><a href="index.html">Indeks</a></nav>
+
+<h1>Portofolio Terjemahan Lima Bahasa</h1>
+<p class="desc">Bahan Kajian: Bab 4 — Bahasa yang Menjembatani Makna: Seni Menerjemahkan Konsep (Code-Switching)</p>
+<ul class="meta">
+  <li>Bab <b>04</b></li>
+  <li>Status <span class="badge b-ok">Selesai</span></li>
+  <li>Mahasiswa: <b>Agastya Tristan Dhaniswara (18225093)</b></li>
+  <li>Prodi: <b>Sistem dan Teknologi Informasi (STI) Semester 3 ITB</b></li>
+  <li>Tanggal: <b>18 Oktober 2026</b></li>
+</ul>
+
+<main>
+<div class="callout">
+  <span class="t">Prinsip Utama:</span>
+  <p><em>"Jangan pernah mengubah kebenaran agar mudah diterima, melainkan ubahlah cara membawa kebenaran agar dapat dipahami."</em></p>
+</div>
+
+<h2>1. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)</h2>
+<div class="evidence-block">
+  <p><strong>Konsep Teknis yang Dipilih:</strong><br>
+  <strong>Database Indexing (Indeks pada Basis Data Relasional / Struktur B-Tree)</strong></p>
+  <p><strong>Definisi Teknis Awal (Buku Teks/Jurnal):</strong><br>
+  <em>"Database index adalah struktur data terpisah (lazimnya berbasis Balanced Tree atau B+ Tree) yang mempertahankan penunjuk terurut (pointer) ke baris data fisik pada tabel disk storage, guna mengoptimalkan efisiensi pencarian kueri dari kompleksitas linear scan O(N) menjadi logarithmic search O(log N) dengan menukar penambahan overhead storage dan I/O write latency saat operasi mutasi (INSERT/UPDATE/DELETE)."</em></p>
+  <p><strong>Daftar Jargon &amp; Artian Sederhana:</strong></p>
+  <ul>
+    <li><code>Linear scan (Full table scan)</code> &rarr; Membaca seluruh data dari baris pertama sampai terakhir satu per satu tanpa melompati apa pun.</li>
+    <li><code>B-Tree (Balanced Tree)</code> &rarr; Struktur pohon percabangan rapi yang membagi data menjadi kelompok-kelompok kecil terurut agar pencarian bisa memotong setengah pilihan di setiap langkah.</li>
+    <li><code>Overhead write latency</code> &rarr; Waktu tambahan yang dibutuhkan komputer untuk memperbarui daftar petunjuk setiap kali ada data baru yang masuk atau diubah.</li>
+  </ul>
+  <p><strong>Kebenaran Inti (Marrow of the Message):</strong><br>
+  <strong>Membuat daftar petunjuk khusus yang terurut (seperti daftar isi buku) agar kita bisa menemukan informasi secara instan tanpa perlu membaca seluruh isi buku dari halaman pertama.</strong></p>
+</div>
+
+<h2>2. Tahap 2: Matriks Terjemahan Lima Bahasa</h2>
+
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th style="width: 22%;">Target Audiens</th>
+  <th style="width: 28%;">Karakteristik &amp; Strategi</th>
+  <th>Teks Adaptasi Komunikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1. Anak-Anak (~10 Tahun)</strong></td>
+  <td>Pemikiran konkret, menyukai imajinasi.<br><em>Strategi: Analogi fisik rak lemari buku komik.</em></td>
+  <td>"Bayangkan kamu punya lemari raksasa yang isinya seribu buku komik petualangan. Kalau komiknya berantakan, setiap kali kamu mau mencari komik Doraemon nomor 10, kamu harus membongkar lemari dan membaca judul bukunya satu per satu dari tumpukan paling bawah sampai capek. Nah, indeks itu seperti kamu membuat satu buku catatan kecil yang mencatat: <em>'Komik Doraemon ada di rak nomor dua baris ketiga'</em>. Jadi, kamu tinggal intip catatan kecil itu, langsung lari ke rak nomor dua, dan taraaa! Komiknya langsung ketemu dalam satu detik tanpa bikin kamarmu berantakan."</td>
+</tr>
+<tr>
+  <td><strong>2. Sahabat Sebaya (Owen)</strong></td>
+  <td>Santai, setara, to-the-point.<br><em>Strategi: Analogi bilah alfabet kontak smartphone.</em></td>
+  <td>"Wen, bayangin kalau kamu mau nyari nomor telepon Randy di kontak HP-mu yang isinya 2.000 kontak. Kalau nggak ada abjad alfabet di pinggir layar, kamu bakal kesel banget kan harus scroll layar dari huruf A sampai R satu per satu? Nah, indeks di basis data itu persis kayak bilah alfabet A-Z di kontak HP-mu. Sistemnya bikin daftar jalan pintas yang rapi, jadi waktu kamu cari nama Randy, sistemnya langsung lompat ke kelompok huruf R. Cepat banget, cuma konsekuensinya tiap kamu simpan nomor baru, HP-mu butuh sepersekian detik lebih lama buat nyusun ulang abjadnya."</td>
+</tr>
+<tr>
+  <td><strong>3. Rekan Teknis (Naufal - Asisten Lab)</strong></td>
+  <td>Akurasi tinggi, presisi, metrik.<br><em>Strategi: Notasi Big-O, disk I/O, write penalty.</em></td>
+  <td>"Fal, untuk mengatasi problem latency kueri <code>SELECT</code> pada tabel log praktikum yang tembus 500.000 baris, kita perlu create B-Tree index pada kolom <code>nim_praktikan</code> dan <code>timestamp</code>. Ini bakal mereduksi waktu eksekusi dari sequential scan berbiaya O(N) disk blocks menjadi logarithmic index scan O(log N) dengan kedalaman tree cuma 3-4 level I/O reads. Karena tabel ini sifatnya read-heavy saat evaluasi praktikum, <em>write penalty</em> sebesar 5-8% saat praktikan insert data masih jauh di bawah batas toleransi throughput PostgreSQL kita."</td>
+</tr>
+<tr>
+  <td><strong>4. Manajer / Dosen Pengampu</strong></td>
+  <td>ROI, stabilitas sistem, biaya.<br><em>Strategi: Nilai tambah bisnis, utilisasi CPU, SLA.</em></td>
+  <td>"Pak, untuk memastikan server praktikum tidak mengalami down atau perlambatan parah saat 150 mahasiswa mengakses sistem penilaian secara serentak, kami menerapkan teknik pengindeksan data strategis. Solusi ini memangkas waktu tunggu akses mahasiswa hingga 80% dan menekan utilisasi CPU server di bawah ambang batas aman tanpa memerlukan biaya tambahan untuk upgrade kapasitas server fisik. Risiko beban memori tambahan hanya sekitar 12% dari total kapasitas disk, yang mana sangat aman dan efisien bagi kelangsungan operasional praktikum semester ini."</td>
+</tr>
+<tr>
+  <td><strong>5. Publik Umum / Pengguna Awam</strong></td>
+  <td>Kenyamanan hidup, kepraktisan waktu.<br><em>Strategi: Pengalaman tiket kereta &amp; riwayat bank.</em></td>
+  <td>"Pernahkah Anda heran mengapa saat memesan tiket kereta api saat mudik atau mencari riwayat transaksi perbankan Anda dari setahun yang lalu, hasilnya bisa muncul dalam waktu kurang dari satu detik di antara jutaan data pengguna lain di seluruh Indonesia? Rahasianya ada pada teknologi <em>indeks data</em>. Seperti halnya indeks pada buku tebal di perpustakaan nasional, teknologi ini bekerja di balik layar merapikan miliaran berkas digital ke dalam katalog pintar. Hasilnya, Anda mendapatkan layanan publik dan transaksi perbankan yang cepat, andal, dan tidak membuang-buang waktu antre Anda yang berharga."</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>3. Tahap 3: Refleksi Pembelajaran</h2>
+<div class="evidence-block">
+  <p><strong>1. Ragam Bahasa Paling Menantang:</strong><br>
+  Ragam bahasa untuk anak-anak (usia ~10 tahun). Menjelaskan konsep yang abstrak dan tidak berwujud seperti pointer memori tanpa menggunakan istilah komputer sama sekali menuntut pembongkaran total kerangka berpikir akademis saya demi menemukan metafora fisik yang konkret.</p>
+  <p><strong>2. Menghadapi "Kutukan Pengetahuan":</strong><br>
+  Proses ini menyadarkan saya bahwa kehebatan seorang sarjana informatika/STI bukan diukur dari seberapa banyak istilah asing yang ia gunakan untuk membuat orang lain merasa kagum. Justru keahlian sejati terbukti ketika kita mampu menerjemahkan kebenaran logika yang rumit menjadi manfaat yang dirasakan orang awam.</p>
+  <p><strong>3. Penggunaan AI Kopilot:</strong><br>
+  Memanfaatkan simulasi peran AI sebagai murid SD kelas 4 untuk menguji apakah analogi lemari komik masih mengandung kata yang terlalu rumit, sehingga kata formal "katalog" berhasil diganti menjadi "buku catatan kecil di saku".</p>
+</div>
+
+<h2>4. Rubrik Evaluasi Mandiri</h2>
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th>Kriteria Penilaian</th>
+  <th class="num">Skor Mandiri</th>
+  <th>Bukti Singkat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Keutuhan Makna (Fidelity)</td>
+  <td class="num">4 / 4</td>
+  <td>Esensi "daftar petunjuk terurut pemotong waktu cari" terjaga 100% konsisten di kelima versi.</td>
+</tr>
+<tr>
+  <td>Kelenturan Register (Code-switching)</td>
+  <td class="num">4 / 4</td>
+  <td>Diksi bergeser kontras: dongeng komik, chat santai HP, metrik Big-O, rasio efisiensi server, hingga kenyamanan publik.</td>
+</tr>
+<tr>
+  <td>Kualitas Analogi &amp; Penjelasan</td>
+  <td class="num">4 / 4</td>
+  <td>Analogi lemari komik dan abjad kontak smartphone sangat membumi dan akurat.</td>
+</tr>
+<tr>
+  <td>Kedalaman Refleksi</td>
+  <td class="num">4 / 4</td>
+  <td>Refleksi jujur membedah bias arogansi intelektual teknis dan mencatat pembelajaran konkret.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</main>
+
+<div class="total">Total Skor Mandiri<em>16<span style="opacity:.5">/16 (100% - Unggul)</span></em></div>
+
+<footer>
+  <span>Agastya Tristan Dhaniswara &middot; 18225093 &middot; KIPP-2</span>
+  <span>Sumber: <code>lk/lk-04.qmd</code></span>
+</footer>
+</div>
+</body>
+</html>

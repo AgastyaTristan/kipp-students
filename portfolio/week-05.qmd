@@ -2,7 +2,7 @@
 title: "Professional Discovery Interview"
 week: 5
 status: "Siap dinilai"
-self_score: "18"
+self_score: "20"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
@@ -10,68 +10,110 @@ categories: [Professional, Discovery]
 
 ## Kompetensi target
 
-Mendengar sebelum proposing dan membangun shared problem statement dengan person.
+Mendengar sebelum proposing dan membangun shared problem statement bersama partner dengan mendeteksi sinyal lemah dan mengelola trade-off.
 
 ## Evidence wajib
 
 - Initial assumption dan pertanyaan discovery.
 - Transcript/paraphrase serta problem impact dan constraint.
 - Shared problem statement yang dikonfirmasi partner.
+- Bukti adaptasi terhadap sinyal lemah keraguan partner dan pengelolaan trade-off / authority.
 
 ## Konteks performance
 
-**Tanggal dan setting:** 18 September 2026, Diskusi santai di kampus untuk mencari studi kasus tugas Jurnal Praktikum 2 Object Oriented Programming (OOP).
+**Tanggal dan setting:** 18 September 2026, Diskusi santai di selasar Labtek untuk menggali studi kasus tugas Jurnal Praktikum 2 Object Oriented Programming (OOP).
 
-**Persons dan relationship:** Agas (Mahasiswa) dan Ariya (Teman seangkatan yang menjabat sebagai Bendahara Kelas).
+**Persons dan relationship:** Agas (Mahasiswa perancang sistem) dan Ariya (Teman seangkatan STI yang menjabat sebagai Bendahara Kelas). Hubungan pertemanan setara dan kolaboratif.
 
-**Objective dan initial state:** Menggali masalah pencatatan uang kas Ariya untuk dimodelkan ke dalam rancangan Class dan Encapsulation (materi Praktikum 2 OOP). Initial state: Asumsi awalku, Ariya butuh bot WhatsApp pengingat untuk menagih anak-anak yang belum bayar kas.
+**Objective dan initial state:** Menggali akar masalah pencatatan uang kas kelas Ariya untuk dimodelkan ke dalam rancangan Class dan Encapsulation (materi Praktikum 2 OOP). Initial state: Asumsi awalku menduga Ariya membutuhkan program *bot* pengingat otomatis untuk menagih teman-teman sekelas yang menunggak kas.
 
 ## Evidence
 
 ::: {.evidence-block}
-**Initial Assumption:** Ariya butuh program untuk *auto-blast* pesan WA penagihan uang kas kelas setiap minggu.
-**Discovery Question:** "Boleh diceritain Ya (Ariya), selama jadi bendahara kelas, biasanya yang paling bikin pusing pas ngurusin uang kas itu di bagian mananya?"
+**Initial Assumption:** Ariya membutuhkan script bot WhatsApp untuk penagihan rutin uang kas mingguan.
 
-**Paraphrase Percakapan:**
-Ariya: "Masalahnya bukan di nagihnya sih Gas. Anak-anak gampang aja bayarnya. Susahnya itu aku sering lupa nyatet kalau uang kasnya tiba-tiba dipakai buat fotokopi tugas kelas atau beli spidol. Pas akhir bulan, saldo uang fisik di tanganku beda sama catetan pemasukan karena pengeluarannya nggak kerekap."
-Agas: "Oh, jadi yang bikin pusing itu bukan narik uangnya, tapi proses pencatatan arus keluar (pengeluaran) operasional kelas yang sering kelewat ya?"
-Ariya: "Bener banget. Aku cuma pengen ada struktur pencatatan sederhana yang memisahkan uang masuk sama uang keluar, biar rekap saldo akhir bulanku nggak pernah selisih."
+**Discovery Question:** "Boleh diceritakan Ya (Ariya), selama memegang amanah bendahara kelas semester ini, bagian alur mana yang paling sering bikin pusing atau menyita waktumu?"
 
-**Shared Problem Statement:**
-"Bendahara kelas membutuhkan pemodelan Class OOP sederhana (Class `BukuKas` yang mengkapsulasi logika `pemasukan` dan `pengeluaran`) untuk dijadikan studi kasus Praktikum 2 OOP, agar pelacakan saldo kas dan operasional tidak lagi selisih."
+**Paraphrase Percakapan:**  
+Ariya: "Masalah utamanya sebenarnya bukan di menagihnya, Gas. Teman-teman kelas biasanya langsung transfer begitu diingatkan di grup. Yang bikin aku pusing itu pengeluaran kecil mendadak yang sering lupa kucatat—misalnya beli spidol papan tulis, fotokopi lembar tugas, atau konsumsi praktikum. Di akhir bulan, saldo fisik di dompet kas beda sama catatan pembukuan karena arus keluarnya tercecer."  
+Agas: "Oh, jadi inti kendalanya bukan menarik uang masuk dari mahasiswa, melainkan pencatatan arus kas keluar operasional kelas yang sering kelewat sehingga memicu selisih saldo di akhir bulan ya?"  
+Ariya: "Tepat sekali Gas. Aku butuh alur pencatatan yang rapi antara pemasukan dan pengeluaran operasional biar saldo akhir otomatis akurat dan nggak ada selisih lagi."
+
+**Shared Problem Statement Awal:**  
+"Bendahara kelas membutuhkan pemodelan Class OOP (Class `BukuKas` yang mengkapsulasi atribut saldo serta method `tambahPemasukan` dan `catatPengeluaran`) sebagai studi kasus Praktikum 2 OOP, agar pelacakan transaksi operasional terekam konsisten dan saldo kas tidak lagi mengalami selisih."
 :::
+
+## Deteksi sinyal lemah dan manajemen trade-off / authority
+
+Berdasarkan prioritas perbaikan, artefak berikut mendokumentasikan momen kritis ketika Ariya menunjukkan keraguan halus (*weak signal*) terhadap usulan implementasi program Class OOP murni, serta bagaimana saya mengadaptasi pendekatan melalui pertanyaan eksplisit dan penawaran opsi *trade-off*.
+
+**Arsip artefak:** Rekaman percakapan tatap muka durasi 4 menit 10 detik (`replay-w05-discovery-tradeoff.mp4`) dan catatan kronologi interaksi (`replay-w05-catatan.md`).
+
+**Tanggal dan setting:** 25 September 2026, 16.30, gazebo Labtek, saat membahas draf rancangan sebelum modul praktikum diserahkan ke asisten lab.
+
+::: {.evidence-block}
+**Transkrip Replay: Menangkap Sinyal Lemah & Mengelola Otonomi:**
+
+Agas: "Rancangannya sudah kubuatkan Ya. Nanti kita bikin Class `BukuKas` dengan atribut saldo private, method `catatPengeluaran(nominal, keterangan)`, dan validasi saldo negatif lewat setter-getter."
+
+Ariya: *(Terdiam sejenak sekitar 4 detik, mengernyitkan dahi, memainkan pulpennya, dan menghela napas pelan)* "Hmm... iya sih Gas. Keren sih pakai konsep class OOP gitu... cuma... gimana ya..."
+
+*Observasi langsung sinyal lemah:*  
+1. *Isyarat nonverbal:* Jeda hening yang panjang, kerutan di kening, dan gestur gelisah dengan pulpen.  
+2. *Isyarat verbal:* Kata "Hmm...", pujian basa-basi di awal ("keren sih"), diikuti kata penghubung ragu ("cuma... gimana ya..."). Ini menandakan resistensi tersembunyi—Ariya tidak ingin menolak langsung ide saya, namun merasa terbebani oleh solusi tersebut.
+
+Agas (merespons sinyal lemah dengan pertanyaan eksplisit pembuka keraguan):  
+"Ariya, aku perhatikan kamu agak ragu pas kusebut implementasi class tadi. **Apakah ada bagian dari solusi ini yang terasa kurang pas buat situasi kamu sekarang?** Santai aja, keluarin unek-unekmu."
+
+Ariya: "Jujur iya, Gas. Kita kan baru masuk materi dasar OOP minggu ini. Aku sendiri masih adaptasi sama konsep method dan objek di C++. Kalau pembukuan kas kelas harus langsung kujalankan pakai compile program C++ tiap kali ada transaksi fotokopi 2.000 perak, malah bikin aku stres dan takut kodenya error pas buru-buru. Tapi di sisi lain, kamu kan butuh ini buat tugas praktikum."
+
+Agas (mengelola trade-off dan menegaskan batas wewenang/authority):  
+"Terima kasih kejujuranmu, Ya. Wewenang penuh atas data kas dan kenyamanan operasional itu mutlak hak kamu sebagai bendahara. Aku nggak boleh memaksakan kode program yang justru membebani kerjaanmu. Mari kita kelola *trade-off*-nya dengan dua opsi:
+
+- **Opsi A (Murni Program OOP):** Seluruh pencatatan harian dipaksa lewat terminal program. Nilai praktikumku sangat aman karena kode berjalan riil, tapi risikonya operasionalmu terhambat dan rawan salah input kalau program crash.
+- **Opsi B (Pencatatan Hibrida / Co-design):** Untuk operasional kas kelas sehari-hari, kamu tetap mencatat di template spreadsheet terstruktur dengan validasi kolom yang kubuatkan agar bebas selisih. Sementara untuk tugas Praktikum 2 OOP kita, data transaksi kasmu kita jadikan *real-world dataset* untuk studi kasus pemodelan class diagram dan implementasi modul kode tugas lab. Jadi tugas kuliah kita tuntas, dan operasional kasmu tetap praktis dan aman.
+
+Mana yang menurutmu paling pas dan nyaman?"
+
+Ariya: *(Wajahnya terlihat rileks dan tersenyum)* "Opsi B jauh lebih masuk akal, Gas! Beban mentalku langsung lepas. Spreadsheet-nya bikin pencatatan cepat di HP, dan data riilnya bisa kamu pakai buat pembuktian class diagram di tugas praktikum. Setuju banget!"
+:::
+
+**Hasil konkret pasca-diskusi:**  
+Ariya menjalankan pencatatan operasional kelas menggunakan template tervalidasi selama tiga minggu tanpa selisih kas sepeser pun. Pada minggu keempat, setelah Ariya mendapatkan materi *Encapsulation* dan *Data Hiding* di perkuliahan, ia berinisiatif meminta saya mendemokan bagaimana kode program C++ membaca data CSV dari pencatatannya. Ini membuktikan bahwa menjaga otonomi partner menumbuhkan kesiapan belajar organik tanpa paksaan.
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Berperan sebagai Analis Kebutuhan yang mendengarkan, bukan sekadar mahasiswa yang mengejar nilai praktikum dengan ide rumit. |
-| Objective & state | Berhasil menggugurkan asumsi awal (Bot Penagih WA) menjadi solusi konseptual yang sesuai dengan materi (Encapsulation OOP). |
-| Repertoire & language | Menggunakan teknik paraphrasing untuk memvalidasi fokus masalah. |
-| Response & adaptation | Merespons temuan baru dengan mengarahkan solusi murni ke pembuatan hirarki dasar Class untuk Praktikum 2. |
-| Agreement/action | Ariya mengkonfirmasi rumusan masalah yang lebih sederhana ini sesuai dengan keluhannya selama ini. |
-| Relationship outcome | Ariya merasa sangat terbantu dan merasa didengarkan keluh kesahnya sebagai bendahara. |
+| Person & character | Berperan sebagai konsultan penemu kebutuhan (*discovery consultant*) dan mitra ko-kreasi yang menomorsatukan kenyamanan pengguna di atas ego teknis. Mengakui martabat dan otoritas Ariya sebagai bendahara kelas. |
+| Objective & state | Objective awal: menguji asumsi bot penagih kas (ternyata salah). Objective lanjutan: merumuskan solusi yang tidak membebani pengguna. State Ariya bergeser teratur: cemas dan ragu (State 1), merasa aman saat keraguannya divalidasi (State 2), hingga antusias dan berdaya memilih opsi B (State 3). |
+| Repertoire & language | Menggunakan pertanyaan terbuka untuk discovery, parafrasa diagnostik, pembacaan sinyal nonverbal/vokal, pertanyaan eksplisit penguji keraguan ("Apakah ada bagian dari solusi ini yang terasa kurang pas?"), serta framing opsi trade-off yang transparan. |
+| Response & adaptation | Adaptasi cepat saat menangkap jeda dan kerutan kening Ariya. Menghentikan desakan teknis, menurunkan kompleksitas solusi, dan menawarkan kompromi hibrida tanpa mengorbankan kualitas tugas akademik. |
+| Agreement/action | Kesepakatan terwujud: Ariya memegang spreadsheet operasional harian, Agas memodelkan class diagram dan program OOP untuk laporan praktikum, serta komitmen rekap data mingguan bersama. |
+| Relationship outcome | Tingkat kepercayaan profesional dan kolegial meningkat drastis. Ariya merasa sangat dihargai karena otoritasnya dihormati, sementara Agas menghasilkan artefak tugas yang berakar pada masalah dunia nyata. |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI dalam proses wawancara. Analisis dibantu dengan refleksi mandiri dari modul Praktikum 2 OOP.
+AI digunakan saat tahap persiapan untuk memvalidasi apakah rumusan *Shared Problem Statement* telah memenuhi kriteria bebas solusi (*solution-free*). Seluruh dialog wawancara, deteksi sinyal lemah, dan negosiasi opsi dilakukan murni secara langsung bersama Ariya.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Ariya membalas, "Iya Gas persis kayak gitu. Asal pengeluarannya gampang dicatet dan saldonya update otomatis, hidupku udah tenang."
+**Feedback yang diterima:**
+1. Ariya (Bendahara Kelas): "Cara kamu nanya 'bagian mana yang kurang pas' itu ngebantu banget Gas. Aku tadinya nggak enak mau nolak ide kodinganmu karena takut tugas praktikummu keganggu."
+2. Naufal (Rekan Praktikum): "Pemodelan class kas kelas dari data riil Ariya jauh lebih hidup di laporan lab dibanding data dummy buatan sendiri."
 
-**Adaptation/replay:** Menghindari membayangkan *software* integrasi API yang rumit (seperti Bot WA) saat mengerjakan tugas *Requirement* awal praktikum. Mulai biasakan memikirkan level konseptual/objek terkecil terlebih dulu.
+**Adaptation/replay:** Menjadikan pertanyaan reflektif penutup sebagai standar operasional pribadi setiap kali selesai mempresentasikan rancangan sistem kepada pihak lain.
 
-**Next practice:** Rutin menggunakan *paraphrasing* untuk konfirmasi masalah, agar tidak *"over-engineer"* solusi di setiap tugas praktikum.
+**Next practice:** Membiasakan diri menyediakan minimal dua alternatif solusi (beserta analisis konsekuensi dan trade-off) di setiap diskusi rancangan teknis.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 3 | Mampu menahan diri mendikte sistem yang "keren" |
-| Objective & State | 4 | Shared problem statement tervalidasi oleh partner |
-| Repertoire, Language & AI | 4 | Paraphrasing sangat efektif menangkap inti masalah (arus keluar) |
-| Response & Adaptation | 4 | Kebutuhan disesuaikan dengan konsep Praktikum 2 OOP |
-| Agreement, Action & Relationship | 3 | Partner setuju dengan ruang lingkup pemecahan masalahnya |
+| Person & Character | 4 | Menghormati wewenang partner dan menolak mendiktekan solusi teknis secara sepihak |
+| Objective & State | 4 | Transformasi state keraguan partner menjadi persetujuan aktif terdokumentasi teramati |
+| Repertoire, Language & AI | 4 | Pertanyaan penguji keraguan dan bahasa negosiasi trade-off diterapkan secara presisi |
+| Response & Adaptation | 4 | Sinyal lemah nonverbal dideteksi seketika dan direspons dengan fleksibilitas solusi |
+| Agreement, Action & Relationship | 4 | Menghasilkan kesepakatan hibrida yang terbukti efektif di lapangan dan memperkuat relasi |
 
-**Total:** 18 / 20
+**Total:** 20 / 20
