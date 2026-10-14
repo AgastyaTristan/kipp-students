@@ -1,164 +1,198 @@
 ---
-title: "Laporan UTS KIPP - Sesi 2a"
-subtitle: "Persahabatan dan profesionalitas - target pertama"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Sesi 2a"
+subtitle: "Kasus 2: Persahabatan dan Profesionalitas"
+author: "Agastya Tristan Dhaniswara — 18225093"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
 execute:
   eval: false
 ---
-
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 2a](../../examples/UTS/hasil_2a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 2a: Persahabatan dan profesionalitas - target pertama |
-| Target | [Nama dan ID target pertama sesuai ZIP 2a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Nama mahasiswa | Agastya Tristan Dhaniswara |
+| NIM | 18225093 |
+| Kelas dan tanggal | K-01; 15 Oktober 2026 |
+| Nomor/judul kasus | Sesi 2a; Kasus 2 — Persahabatan dan profesionalitas |
+| Nama dan ID target | Fajar (K2-06) |
+| Versi bank/aturan penugasan | Bank 2.0; paket individual 2.0 |
+| Modalitas | Chat/teks |
+| Konteks | Simulasi tugas kelompok PBD; tenggat 48 jam. |
+| Kelengkapan transkrip | Ringkas/parsial; beberapa arahan fasilitator diringkas, sehingga bukan salinan verbatim lengkap. Perilaku di luar sesi tidak diamati. |
 
 # B) Kasus dan Tujuan
 
-## Kasus dan tujuan tindakan
+Mahasiswa ingin mengerjakan tugas kelompok praktikum PBD dan menjaga hubungan dengan Fajar. Dugaan awalnya Fajar belum mengerjakan tugas. Dalam percakapan, Fajar menyatakan pembagian dirasakan tidak adil dan waktu terbatas. Tujuan operasional kemudian menjadi pembagian yang jelas tanpa mengambil alih tugas Fajar: Fajar membuat query dan mengirim detail/error di Google Docs, sedangkan mahasiswa merapikan laporan dan memeriksa error.
+| Unsur | Status awal | Bukti |
+|---|---|---|
+| Attitude (A) | Fajar keberatan atas pembagian yang dirasa tidak adil dan tidak ingin rapat panjang. | AI001 |
+| Knowledge (K) | Cakupan bagian query dan kriteria selesai belum jelas. | AI002–AI004 |
+| Skill/dukungan (S) | Fajar membutuhkan langkah singkat, konfirmasi hasil, dan bantuan tanpa pengambilalihan. | AI004, AI006 |
+| Tujuan mahasiswa | Membuat pembagian tugas PBD lebih jelas dan menjaga hubungan kerja. | U001, U008 |
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
-
-| Unsur | Isi |
+| TAIDA | Rencana dan bukti yang diharapkan |
 |---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
-
-## Profil awal komunikator
-
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
-|---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
-
-## Dugaan awal profil target dan rencana
-
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
-| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
-|---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Menyepakati tanggung jawab, tenggat, dan cara memberi kabar. |
+| Attention | Mengakui keberatan Fajar sebelum menyimpulkan pembagian adil. |
+| Interest | Menjelaskan manfaat pembagian konkret bagi penyelesaian tugas. |
+| Desire | Membatasi bantuan pada pemeriksaan error, bukan mengambil alih query. |
+| Action | Fajar mengirim query/detail error; mahasiswa merapikan laporan dan melakukan check-in melalui Google Docs. |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+### U001 — Mahasiswa — Kasus dan tujuan
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+“Tujuan saya adalah mengerjakan tugas kelompok praktikum pbd; saya menduga fajar belum mengerjakan; pembuka saya bertanya.”
+### AI001 — Fajar — Simulasi awal
 
-### U001 - Mahasiswa - [Tahap]
+Fajar: “Saya tahu tenggatnya tinggal 48 jam, tetapi pembagiannya terasa tidak adil. Saya belum melihat manfaatnya kalau saya langsung mengerjakan bagian saya sekarang; saya juga tidak punya banyak waktu untuk rapat panjang.”
+### U002 — Mahasiswa — Simulasi awal
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+“Pembagian tugas sudah sesuai beban dan waktu yang pas.”
+### AI002 — Fajar — Simulasi awal
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+Fajar: “Kalau menurutmu sudah pas, berarti kamu belum melihat bagian yang saya terima. Saya dapat bagian implementasi yang paling banyak, sementara bagian lain lebih singkat.”
+### U003 — Mahasiswa — Simulasi awal
 
-[Tempel pesan AI persis seperti sumber.]
+“Baik, karena kamu memiliki waktu lebih sedikit aku akan mengerjakan beberapa bagianmu, jangan sampai telat ya.”
+### AI003 — Fajar — Simulasi awal
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+Fajar: “Saya menghargai kamu mau membantu, tetapi jangan langsung mengambil bagian saya. Saya perlu pembagiannya diperjelas supaya saya tahu yang masih menjadi tanggung jawab saya dan kapan harus selesai.”
+### U004 — Mahasiswa — Simulasi awal
 
+“Aku akan merapihkan laporan dan kamu membuat query sesuai soal.”
+### AI004 — Fajar — Simulasi awal
+
+Fajar: “Pembagian itu lebih jelas: kamu merapikan laporan dan saya membuat query sesuai soal. Saya perlu batas waktu yang pasti dan cara mengonfirmasi hasil.”
+### U005 — Mahasiswa — Simulasi awal
+
+“Mengirim 1 hari lagi lalu langsung diselesaikan di hari yang sama menggunakan google docs.”
+### AI005 — Fajar — Evaluasi sementara
+
+Fajar: “Saya mengirim query melalui Google Docs satu hari lagi, lalu kamu merapikan laporan pada hari yang sama. Saya menyertakan hasil query dan error bila ada; query siap dipakai bila sesuai soal dan dapat dijalankan tanpa error pada data praktikum.”
+### U006 — Mahasiswa — Evaluasi sementara
+
+“Ia terlihat lebih bersemangat dan mau; buktinya log chat; saya akan lebih memahami orang lain.”
+### AI006 — Fajar — Uji ulang
+
+Fajar mengirim query melalui Google Docs, tetapi query error dan ia hanya memiliki 20 menit sebelum agenda lain.
+### U007 — Mahasiswa — Uji ulang
+
+“Aku akan mengecek hasil hasil, nanti saat ada eror akan ku telusuri dulu baru dikerjakan saat kamu sudah ada waktu.”
+### AI007 — Fajar — Uji ulang
+
+Fajar: “Saya perlu tahu apa yang harus saya kirim agar kamu bisa menelusuri masalahnya tanpa mengambil alih query. Saya baru bisa kembali setelah agenda saya selesai.”
+### U008 — Mahasiswa — Uji ulang
+
+“Sekarang kirim detail penjelasan query; setelah kembali merapihkan dokumen; sambil menunggu saya memeriksa eror.”
+### AI008 — Fajar — Refleksi
+
+Fajar: “Saya kirim detail query dan error sekarang. Setelah agenda saya selesai, saya tetap merapikan dokumen; kamu memeriksa error tanpa mengubah query saya.”
+### U009 — Mahasiswa — Refleksi dan konfirmasi
+
+“Tujuan saya membangun hubungan dan chemistry dengan fajar; fajar dari awal sudah melakukan tugas dengan baik di tengah kesibukan; yang menghambat saya adalah waktu yang singkat; saya akan lebih merincikan pembagian tugas.” Mahasiswa mengonfirmasi ringkasan sesi.
 # D) Hasil, Evaluasi, dan Refleksi
 
-## Hasil tujuan dan perubahan SWOT/ASK
+| Unsur | Awal | Akhir | Bukti dan batas |
+|---|---|---|---|
+| A | Fajar keberatan dan tidak sabar pada rapat panjang. | Lebih bersedia melanjutkan setelah pembagian jelas. | AI001, AI004–AI005; status simulator, bukan pengukuran psikologis. |
+| K | Pembagian dan kriteria selesai kabur. | Query, laporan, Google Docs, tenggat, dan kriteria query dijelaskan. | U004–U005, AI005. |
+| S | Dukungan awal berisiko mengambil alih tugas. | Bantuan dibatasi pada pemeriksaan error; Fajar tetap bertanggung jawab atas query/dokumen. | AI003, U008, AI008. |
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
+| Episode | Stimulus dan respons | Adaptasi |
+|---|---|---|
+| U002–AI002 | Mahasiswa langsung menyatakan pembagian sesuai; Fajar merasa belum didengar. | Hindari kesimpulan sebelum klarifikasi. |
+| U003–AI003 | Bantuan ditawarkan dengan mengambil sebagian tugas; Fajar meminta tanggung jawab diperjelas. | Bagi pekerjaan menjadi laporan vs query. |
+| U007–AI008 | Mahasiswa memeriksa error; Fajar meminta batas agar query tidak diambil alih. | Fajar mengirim detail/error, mahasiswa memeriksa, dan Fajar tetap merapikan dokumen. |
 
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
-|---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+Pesan bantuan pada U003 memiliki niat mendukung, tetapi belum menghormati pilihan Fajar karena langsung mengambil bagian kerja. Kesepakatan setelahnya lebih menjaga kepercayaan lewat batas peran dan bantuan konkret. Mahasiswa melaporkan pelajaran untuk lebih memahami kesibukan rekan dan memperinci pembagian tugas.
 
 ## Evaluasi stimulus-respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
+### Ringkasan lima langkah diagnosis
 
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| Langkah | Isi untuk Sesi 2a |
+|---|---|
+| Observasi | Pada U002 mahasiswa menyatakan pembagian "sudah sesuai beban dan waktu yang pas" sebagai jawaban atas keberatan Fajar. Pada U003 mahasiswa menawarkan "aku akan mengerjakan beberapa bagianmu". Pada U007 sampai AI008 mahasiswa memeriksa error, tetapi Fajar meminta batas agar query tidak diambil alih. |
+| Hipotesis alternatif | (a) Mahasiswa memang menganggap pembagian adil dan Fajar keliru; (b) mahasiswa belum memeriksa pembagian sehingga menilai dari perkiraan; (c) mahasiswa menghindari pemeriksaan agar tidak berdebat. Hipotesis (b) paling didukung, karena mahasiswa menerima posisi Fajar pada U003 tanpa argumen pembanding. |
+| Pertanyaan pembeda | "Bagian mana yang menurut Fajar terlalu berat, dan berapa lama bagian itu nyata dibanding bagianmu?" Pertanyaan ini akan membedakan (a) dari (b). |
+| Kategori status | Rasa aman: rendah ke sedang; merasa dipahami: rendah; kepercayaan: rendah; kesediaan membuka informasi: sedang ke tinggi pada akhir. Dasar kutipannya ada pada tabel pengaruh pesan personal di bawah. |
+| Batas inferensi | Kesepakatan di akhir sesi menunjukkan bahwa kesepakatan kerja sudah terbentuk; ini tidak menunjukkan bahwa query Fajar dapat dijalankan. Tidak ada query atau dokumen yang dikirim dalam sesi. |
+
+### Pemeriksaan silang: dugaan awal terhadap profil simulator
+
+| Aspek | Dugaan mahasiswa sebelum pengungkahan | Profil simulator Fajar (K2-06) | Kecocokan dan koreksi |
+|---|---|---|---|
+| Penyebab keterlambatan | "Saya menduga fajar belum mengerjakan" (U001). | Tidak menolak bekerja; menolak pembagian yang tidak jelas dan belum melihat manfaat. | Dugaan salah arah. Fajar bukan pihak yang malas, tetapi pihak yang membutuhkan kejelasan. |
+| Kebutuhan Fajar | Tidak dinyatakan pada awal. | Butuh langkah singkat, konfirmasi hasil, dan manfaat yang nyata. | Tidak dinyatakan. Mahasiswa justru menawarkan mengambil pekerjaan, bukan kejelasan. |
+| Batas waktu | "Kirim 1 hari lagi lalu langsung diselesaikan di hari yang sama" (U005). | Tidak sabar pada rapat panjang; menghargai hasil cepat. | Sebagian benar. Tenggat ini dapat diterima, tetapi cara mengonfirmasi hasil baru diminta Fajar pada AI004. |
+| Aturan main | Tidak dinyatakan. | Menolak bantuan yang mengambil alih tanggung jawabnya. | Tidak dinyatakan. Menyebabkan dua kali teguran pada AI003 dan AI007. |
+
+Tiga dari empat aspek tidak dinyatakan mahasiswa sejak awal. Inilah akar penurunan skor pada dimensi persepsi dan validasi, bukan sekadar kelemahan eksekusi.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal atau bantuan konkret | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
+| U002 | "Pembagian tugas sudah sesuai beban dan waktu yang pas." | Fajar menolak: "berarti kamu belum melihat bagian yang saya terima." | Rasa aman: rendah. Mahasiwa menutup ruang klarifikasi. | A Fajar turun; kesempatan untuk menyepakati pembagian hilang satu giliran. |
+| U003 | "Karena kamu memiliki waktu lebih sedikit aku akan mengerjakan beberapa bagianmu." | Fajar menolak mengambil alih: "jangan langsung mengambil bagian saya." | Kepercayaan: tetap rendah. | S berisiko berubah menjadi ketergantungan, bukan dukungan. |
+| U004 | "Aku akan merapikan laporan dan kamu membuat query sesuai soal." | Fajar menerima, tetapi meminta batas waktu dan cara konfirmasi hasil. | Kesediaan membuka informasi: meningkat. | K membaik karena pembagian dinyatakan eksplisit. |
+| U008 | "Sekarang kirim detail penjelasan query; setelah kembali merapikan dokumen; sambil menunggu saya memeriksa error." | Fajar dapat menjalankan unilaterally; mahasiswa menghormati batas. | Kepercayaan: sedang ke tinggi. | S stabil: pemeriksaan error tanpa mengambil alih query. |
 
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+Perubahan paling penting bukan pada kesepakatan, melainkan pada bentuk bantuan. Pada U003 bentuk bantuan adalah mengambil pekerjaan; pada U008 bentuk bantuan adalah menunggu sambil memeriksa. Bentuk kedua inilah yang membuat hubungan kerja tetap berjalan.
 
 ## Uji ulang dan pembelajaran
 
 | Unsur | Bukti/uraian |
 |---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
+| Kendala baru yang diperkenalkan | Fajar mengirim query melalui Google Docs, tetapi query tersebut error dan Fajar hanya punya 20 menit sebelum agenda lain (AI006). Sesuai ketentuan paket, kendala baru tetap terkait S. |
+| Respons awal pada uji ulang | U007 mahasiswa sudah benar arah: "nanti saat ada eror akan ku telusuri dulu" — menelusuri sebelum mengerjakan. |
+| Revisi | U008 menambahkan urutan: kirim detail penjelasan query, periksa sambil menunggu, rapikan dokumen setelah Fajar kembali. |
+| Kecepatan adaptasi | Satu giliran. Lebih cepat dibanding Sesi 1 yang memerlukan dua giliran koreksi. |
+| Indikator perbaikan | Query dan pesan error dikirim melalui Google Docs; kriteria selesai: query sesuai soal dan dapat dijalankan tanpa error pada data praktikum. |
+| Bukti aktual yang tersedia | Hanya kutipan dan kesepakatan dalam transkrip. Tidak ada query, dokumen, atau tangkapan layar. |
+| Apa yang tidak dibuktikan | Kesepakatan bahwa Fajar mengirim query tidak membuktikan bahwa query itu benar, timely, atau selesai dalam tenggat. |
+| Transfer | Pola bantuan tanpa mengambil alih yang berhasil pada U008 menjadi prinsip yang dinyatakan mahasiswa pada refleksi sesi. |
 
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+## Kesalahan yang saya akui dan koreksinya
+
+| Kesalahan | Giliran | Akibatnya | Koreksi yang dijalankan |
+|---|---|---|---|
+| Menyimpulkan sebelum memeriksa | U002 | Fajar merasa tidak didengar sehingga defensivitasnya naik; perlu dua giliran untuk sampai ke pembagian yang jelas. | Pada U004 klaim diganti pembagian eksplisit: laporan untuk mahasiswa, query untuk Fajar. |
+| Membantu dengan mengambil pekerjaan | U003 | Menghapus agensi dan tanggung jawab Fajar. | Pada U008 bantuan dibatasi menjadi memeriksa dan menunggu, bukan mengerjakan query Fajar. |
+| Tidak menyatakan batas kerja | U001-U005 | Fajar harus memunculkan batasnya sendiri pada AI003 dan AI007. | Batas kerja muncul pada U008 setelah Fajar menanyakannya; seharusnya dinyatakan lebih awal. |
+| Tujuan awal terlalu umum | U001 | Tujuan disebut sebagai "mengerjakan tugas kelompok" tanpa kriteria selesai. | Pada U009 tujuan dirumuskan ulang sebagai membangun hubungan kerja sambil menyelesaikan tugas. |
+
+## Evaluasi repertoar TAIDA
+
+| Tahap | Rencana pada bagian B | Yang benar-benar terjadi | Deviasi |
+|---|---|---|---|
+| Target | Menyepakati tanggung jawab, tenggat, dan cara memberi kabar. | Tercapai pada U004-U005 setelah dua koreksi. | Terlambat satu giliran. |
+| Attention | Mengakui keberatan Fajar sebelum menyimpulkan pembagian adil. | Tidak terjadi pada U002; mahasiswa justru menyimpulkan. | Gagal pada tahap awal, diperbaiki pada U004. |
+| Interest | Menjelaskan manfaat pembagian konkret bagi penyelesaian tugas. | Dijelaskan melalui pembagian kerja, bukan melalui dampak waktu atau mutu laporan. | Sebagian. |
+| Desire | Membatasi bantuan pada pemeriksaan error, bukan mengambil alih query. | Tidak terlihat pada U003; baru terlihat pada U008. | Terlambat. |
+| Action | Fajar mengirim query dan detail error; mahasiswa merapikan laporan dan check-in melalui Google Docs. | Tercapai; kesepakatan memuat kriteria query yang dapat diperiksa. | Tidak ada. |
+
+Pola yang berulang: mahasiswa bergerak terlalu cepat ke tahap Action sebelum tahap Attention selesai.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Dimensi | Skor 1-4 | ID dan kutipan bukti | Alasan |
+|---|---:|---|---|
+| Tujuan dan konteks | 3 | U001, U009 | Tujuan kelompok dan relasi disebut, dan pada U009 dirumuskan ulang dengan lebih jelas. Bukan 4 karena tujuan pada U001 masih "mengerjakan tugas kelompok praktikum pbd" tanpa kriteria selesai yang dapat diperiksa. |
+| Persepsi dan validasi profil/status | 2 | U002, U006, tabel Pemeriksaan silang | Dugaan awal "fajar belum mengerjakan" salah arah dan tiga aspek kebutuhan Fajar tidak dinyatakan. Validasi baru terjadi setelah Fajar menegur dua kali. U006 juga belum menunjukkan evaluasi berbasis bukti: "Ia terlihat lebih bersemangat dan mau." |
+| Pemilihan dan urutan repertoar | 3 | U004-U005, U008 | Pembagian dan dukungan akhirnya sesuai, dan urutannya pada uji ulang benar. Bukan 4 karena urutan pada tahap awal terbalik: mahasiswa menawarkan mengambil pekerjaan pada U003 sebelum batas peran disepakati. |
+| Eksekusi jelas, peduli dan konsisten | 2 | U003-U005, U008 | Kepedulian ditunjukkan pada U003, tetapi dengan cara yang menghapus tanggung jawab Fajar. Batas yang disepakati baru dipatuhi pada U008. Ketidakkonsistenan ini menurunkan skor meski niat baik. |
+| Evaluasi dan adaptasi | 3 | U006-U008 | Mahasiswa merespons error dan batas waktu dengan revisi peran dalam satu giliran. Bukan 4 karena U006 belum menunjukkan evaluasi dengan bukti, hanya penilaian umum. |
+| Refleksi dan lesson learned | 3 | U009 | Menyebutkan tujuan hubungan, faktor penghambat berupa waktu, dan pelajaran untuk memperinci pembagian tugas. Bukan 4 karena refleksi belum menyebut stimulus yang tidak efektif secara spesifik, yaitu menegaskan pembagian sudah adil. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+**Usulan nilai AI:** 16/24 x 100 = **66,67/100**. Angka ini dihitung dari bukti transkrip di atas.
 
-## Refleksi dan lesson learned mahasiswa
+**Nilai sesi:** 16/24 x 100 = **66,67/100**, dihitung dari transkrip di atas.
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
-
-## Tindak lanjut dan batas bukti
-
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+{{< include "../../includes/uts-analisis.md" >}}
 
 {{< include "../../includes/uts-penilaian.md" >}}

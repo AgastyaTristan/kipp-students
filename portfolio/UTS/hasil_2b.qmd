@@ -1,164 +1,178 @@
 ---
-title: "Laporan UTS KIPP - Sesi 2b"
-subtitle: "Persahabatan dan profesionalitas - target kedua"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Sesi 2b"
+subtitle: "Kasus 2: Persahabatan dan Profesionalitas"
+author: "Agastya Tristan Dhaniswara — 18225093"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
 execute:
   eval: false
 ---
-
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 2b](../../examples/UTS/hasil_2b.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 2b: Persahabatan dan profesionalitas - target kedua |
-| Target | [Nama dan ID target kedua sesuai ZIP 2b; berbeda dari 2a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Mahasiswa | Agastya Tristan Dhaniswara |
+| NIM / kelas | 18225093 / K-01 |
+| Tanggal / modalitas | 15 Oktober 2026 / teks |
+| Sesi / target | 2b; Ali (K2-01) |
+| Paket | kasus_2b_18225093.zip; bank 2.0, paket 2.0 |
+| Kelengkapan | Transkrip ringkas/parsial; beberapa arahan fasilitator diringkas. Tidak ada pengamatan kerja nyata di luar simulasi. |
 
 # B) Kasus dan Tujuan
 
-## Kasus dan tujuan tindakan
-
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
-
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
-
-## Profil awal komunikator
-
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
-|---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
-
-## Dugaan awal profil target dan rencana
-
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
-| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
-|---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+Brief kasus: tenggat tugas kelompok 48 jam; Ali belum yakin mampu mengerjakan bagiannya dan khawatir dianggap tidak berguna. Tujuan mahasiswa adalah membagi tugas, menjaga hubungan, dan membantu Ali berkontribusi tanpa mengambil alih pekerjaannya. Percakapan dimulai baru; kepercayaan dari sesi lain tidak dibawa.
+| Unsur | Awal | Bukti |
+|---|---|---|
+| A | Ali ragu dan takut dinilai tidak berguna. | AI001 |
+| K | Instruksi subtugas belum jelas. | AI002 |
+| S | Mampu mencoba langkah dasar; perlu bantuan pada satu subtugas. | AI002–AI003 |
+| Target tindakan | Ali meninjau tombol login secara lokal, sementara mahasiswa memberi materi/petunjuk; review dilakukan sebelum publikasi. | U003–U006 |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+### U001 — Mahasiswa — Tujuan awal
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+“Isi sama saja dengan 2a.”
+### AI001 — Ali — Simulasi awal
 
-### U001 - Mahasiswa - [Tahap]
+Ali: “Terima kasih, tetapi saya belum yakin bisa melakukannya.”
+### U002 — Mahasiswa — Simulasi awal
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+“Ali, aku lihat kamu sedang sibuk, aku menawarkan untuk membagi tugas yang lebih disesuaikan dengan kemampuanmu.”
+### AI002 — Ali — Simulasi awal
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+Ali: “Terima kasih sudah melihat kondisiku. Saya takut dianggap tidak berguna kalau tidak sanggup mengerjakan bagian ini. Saya ingin tetap berkontribusi, tetapi instruksi subtugasnya belum jelas.”
+### U003 — Mahasiswa — Pembagian tugas
 
-[Tempel pesan AI persis seperti sumber.]
+“Ayo bagi tugas dengan aku membuat laporan dan kamu membuat code yang tersisa untuk web ini.”
+### AI003 — Ali — Pembagian tugas
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+Ali: “Saya bersedia mencoba bagian kode yang tersisa, tetapi saya belum tahu file mana yang perlu diubah dan bagaimana kita tahu tugasnya selesai. Saya juga mungkin perlu bantuan pada satu subtugas.”
+### U004 — Mahasiswa — Negosiasi tugas
 
+“Ubah saja file index.html dan upload ke github.”
+### AI004 — Ali — Negosiasi tugas
+
+Ali: “Tampilan dan fitur masih terlalu luas untuk satu subtugas, dan ‘uji semua tombol’ belum memberi saya daftar langkah. Saya bisa mencoba perubahan lokal dengan tenggat 24 jam dan bantuan saat buntu, tetapi saya tidak setuju mengunggah ke GitHub sebelum perubahan direview dan aksesnya jelas.”
+### U005 — Mahasiswa — Penyempitan tugas
+
+“Ali meninjau fitur-fitur button.”
+### U006 — Mahasiswa — Klarifikasi tugas
+
+“Tombol login.”
+### U007 — Mahasiswa — Kriteria dan refleksi
+
+“Ali memeriksa apakah berhasil dan rapi, saya akan mendukung dan menjawab kekhawatiran Ali.”
+### AI005 — Ali — Uji ulang
+
+Ali: “Saya ingin tetap mencoba, tetapi saya belum akan mengunggah perubahan. Kita cek dulu secara lokal: apakah tombol merespons klik dan apakah tampilannya rapi; setelah saya kirim hasil atau tangkapan layar, kamu bisa memberi petunjuk. Kita tentukan review sebelum ada push.”
+### U008 — Mahasiswa — Uji ulang
+
+“Saya akan membantu memberikan materi dan hint agar ia juga paham.”
+### U009 — Mahasiswa — Check-in
+
+“Saya memeriksa saat sudah di-push ke repo.”
+### AI006 — Fasilitator — Refleksi
+
+Fasilitator meminta perubahan pada kemauan, pemahaman, kesiapan Ali, tindakan yang membantu rasa aman, dan pelajaran berikutnya.
+### U010 — Mahasiswa — Refleksi dan konfirmasi
+
+“Ali menjadi lebih semangat mengerjakan tugas, paling membantu saat sudah memahami kesibukannya, saya akan lebih memerhatikan anggota kelompok.” Mahasiswa mengonfirmasi ringkasan sesi.
 # D) Hasil, Evaluasi, dan Refleksi
 
-## Hasil tujuan dan perubahan SWOT/ASK
+| Unsur | Perubahan yang teramati dalam simulasi | Bukti dan batas |
+|---|---|---|
+| A | Ali lebih bersedia mencoba setelah mahasiswa mengakui kesibukannya dan menyempitkan tugas. | AI002–AI005; respons karakter simulasi. |
+| K | Tugas beralih dari perubahan web yang luas menjadi review tombol login: fungsi dan tampilan. | U004–U007; tidak ada hasil teknis yang ditunjukkan. |
+| S | Bantuan berupa materi/petunjuk, bukan mengambil alih. | U008; kemampuan nyata belum diuji. |
+| Relasi | Mahasiswa melaporkan Ali lebih semangat dan ingin lebih memperhatikan anggota kelompok. | U010; interpretasi mahasiswa, bukan ukuran psikologis. |
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
-
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
-|---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+Adaptasi penting terjadi ketika Ali menolak pengunggahan tanpa review. Batas aman adalah menguji perubahan secara lokal, menerima hasil/tangkapan layar, memberi petunjuk, lalu meminta review sebelum publikasi. Tidak ada bukti bahwa tombol telah diuji atau perubahan telah diunggah; tidak ada push dilakukan dalam sesi.
 
 ## Evaluasi stimulus-respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
+### Ringkasan lima langkah diagnosis
 
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| Langkah | Isi untuk Sesi 2b |
+|---|---|
+| Observasi | Pada U001 mahasiswa memulai dengan "Isi sama saja dengan 2a." Pada U004 mahasiswa memberi instruksi "Ubah saja file index.html dan upload ke github." Pada U005-U006 tugas dipersempit menjadi "fitur-fitur button" lalu "Tombol login." |
+| Hipotesis alternatif | (a) Mahasiswa memang menganggap kasus ini identik dengan 2a; (b) mahasiswa menyalin pembuka karena ingin hemat waktu tanpa melihat perbedaan target; (c) mahasiswa belum membaca profil Ali sehingga mengira target sama saja. Hipotesis (b) paling didukung: pada 2a target adalah Fajar yang menolak pembagian, sedangkan pada 2b target adalah Ali yang ragu dan takut dianggap tidak berguna. Dua hambatan itu tidak sama. |
+| Pertanyaan pembeda | "Apa yang berbeda dari sesi sebelumnya untuk Ali, dan apa yang paling ditakuti Ali kalau gagal?" Pertanyaan ini akan memaksa mahasiswa menyiapkan konteks khusus sebelum memberi instruksi. |
+| Kategori status | Rasa aman: rendah; merasa dipahami: rendah ke sedang; kepercayaan: rendah; kesediaan membuka informasi: sedang ke tinggi pada akhir. Dasar kutipannya ada pada tabel pengaruh pesan personal. |
+| Batas inferensi | Kesepakatan bahwa Ali akan memeriksa tombol login secara lokal tidak membuktikan bahwa pemeriksaan itu dilakukan. Tidak ada tangkapan layar atau hasil uji yang dikirim. |
+
+### Pemeriksaan silang: dugaan awal terhadap profil simulator
+
+| Aspek | Dugaan mahasiswa sebelum pengungkahan | Profil simulator Ali (K2-01) | Kecocokan dan koreksi |
+|---|---|---|---|
+| Kebutuhan Ali | Tidak dibahas; sesi dimulai dengan "Isi sama saja dengan 2a." | Butuh instruksi yang jelas dan langkah kecil. | Tidak sesuai. Menyalin pembuka berarti tidak menyiapkan instruksi awal. |
+| Hambatan utama Ali | Tidak dinyatakan. | Takut dianggap tidak berguna. | Tidak dinyatakan. Mahasiswa baru menyadarinya setelah AI002. |
+| Bentuk bantuan yang tepat | "Membuat laporan dan meminta kode" (U003), lalu "ubah file dan upload" (U004). | Perlu pendampingan; bantuan yang menghapus tanggung jawab akan menurunkan rasa percaya. | Tidak sesuai pada U003-U004; U004 bahkan mendorong langkah yang ditolak Ali. |
+| Kewenangan atas publikasi | "Upload ke github" diminta tanpa persetujuan review. | Tidak setuju mengunggah sebelum ada review dan akses yang jelas. | Tidak sesuai. Menyebabkan penolakan pada AI004. |
+
+Dua dari empat aspek tidak dibahas sama sekali, dan dua sisanya sendiri keliru. Ini menjelaskan mengapa dimensi tujuan, repertoar, dan eksekusi berada pada skor 2: bukan karena mahasiswa tidak peduli, melainkan karena konteks Ali tidak pernah disiapkan.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal atau bantuan konkret | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
+| U002 | "Aku lihat kamu sedang sibuk, aku menawarkan membagi tugas yang disesuaikan dengan kemampuanmu." | Ali bergerak dari "belum yakin bisa" ke "saya takut dianggap tidak berguna". | Rasa aman: meningkat. Kesibukan diakui tanpa penghakiman. | A membaik: kekhawatiran sebenarnya terungkap. Batas: ini perilaku teramati, bukan bukti ketulusan batin. |
+| U004 | "Ubah saja file index.html dan upload ke github." | Ali menolak: "saya tidak setuju mengunggah sebelum perubahan direview dan aksesnya jelas." | Kepercayaan: turun sementara, lalu membaik karena batas Ali dihormati. | S tidak naik. Penolakan ini melindungi hubungan karena mahasiswa tidak memaksa. |
+| U005-U007 | Persempitan tugas menjadi tombol login dengan kriteria: berhasil dan rapi. | Ali bergerak dari "terlalu luas" menuju tugas yang dapat diuji. | Kesediaan membuka informasi: meningkat. | K membaik karena tugas menjadi terukur. |
+| U008 | "Saya akan membantu memberikan materi dan hint agar ia juga paham." | Diterima. Batas bantuan berupa materi dan petunjuk, bukan mengerjakan. | Kepercayaan: sedang ke tinggi. | S distabilkan pada bentuk yang tidak menghapus agensi. |
 
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+Perbedaan penting: pada 2a mahasiswa mencoba mengambil pekerjaan Fajar; pada 2b mahasiswa menawarkan materi dan petunjuk. Bentuk kedua inilah yang menjaga hubungan kerja tetap berjalan.
 
 ## Uji ulang dan pembelajaran
 
 | Unsur | Bukti/uraian |
 |---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
+| Kendala baru yang diperkenalkan | Ali tetap enggan mengunggah perubahan dan meminta pemeriksaan lokal terlebih dahulu (AI005). Sesuai ketentuan paket, kendala tetap terkait S. |
+| Respons pada uji ulang | U008 mahasiswa menjawab dengan bentuk bantuan yang tepat: materi dan hint, bukan mengerjakan. |
+| Revisi | Tidak diperlukan. Bentuk bantuan pada U008 sudah konsisten dengan batas yang diminta Ali. |
+| Indikator perbaikan | Pemeriksaan lokal atas fungsi dan tampilan tombol login; hasil berupa tangkapan layar dikirim sebelum review. |
+| Bukti aktual yang tersedia | Hanya kutipan dan kesepakatan dalam transkrip. Tidak ada tangkapan layar, perubahan kode, atau status repositori. |
+| Apa yang tidak dibuktikan | Kesepakatan bahwa Ali akan memeriksa secara lokal tidak membuktikan pemeriksaan itu dilakukan. Tidak ada push dan tidak ada unggahan. |
+| Transfer | Prinsip "review sebelum publikasi" dari AI004 konsisten dengan keputusan mahasiswa pada sesi 3b untuk menambahkan quality check. |
 
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+## Kesalahan yang saya akui dan koreksinya
+
+| Kesalahan | Giliran | Akibatnya | Koreksi yang dijalankan |
+|---|---|---|---|
+| Menyalin pembuka sesi sebelumnya | U001 | Konteks khusus Ali tidak disiapkan sehingga instruksi pertama meleset. | Tidak ada koreksi di dalam sesi karena sesi berjalan sekali. Pelajaran diterapkan pada sesi 3b: setiap sesi dimulai dengan pertanyaan pembuka yang spesifik. |
+| Instruksi terlalu luas | U004 | "Ubah index.html dan upload" mustahil diuji dan ditolak Ali. | Pada U005-U006 tugas dipersempit menjadi tombol login dengan dua kriteria yang dapat diperiksa. |
+| Mendorong publikasi sebelum review | U004 | Meminta tindakan yang belum disepakati dan berisiko merusak martabat Ali. | Batas Ali dihormati; review menjadi syarat sebelum ada publikasi. |
+| Tujuan tidak disiapkan per target | U001 | Skor tujuan dan konteks turun; sesi berjalan tanpa rencana. | Pada U010 refleksi menyebut rencana untuk lebih memperhatikan anggota kelompok, tetapi tanpa indikator yang dapat diperiksa. |
+
+## Evaluasi repertoar TAIDA
+
+| Tahap | Rencana pada bagian B | Yang benar-benar terjadi | Deviasi |
+|---|---|---|---|
+| Target | Ali meninjau tombol login secara lokal; mahasiswa memberi materi dan petunjuk. | Tercapai pada U005-U008 setelah dua koreksi. | Terlambat dua giliran. |
+| Attention | Mengakui keraguan Ali dan kekhawatiran akan dianggap tidak berguna. | Tercapai pada U002. | Tidak ada. |
+| Interest | Menyesuaikan tugas dengan kemampuan Ali. | Tercapai setelah U004 ditolak. | Terlambat. |
+| Desire | Membatasi bantuan pada materi dan petunjuk, bukan mengerjakan. | Tercapai pada U008. | Tidak ada. |
+| Action | Review lokal sebelum ada publikasi; tenggat bayangan 24 jam. | Tercapai dan sesuai permintaan Ali. | Tidak ada. |
+
+Catatan: urutannya terbalik pada tahap Interest. Mahasiswa menawarkan kode yang tersisa (U003) dan upload (U004) sebelum menyusun pembagian yang sesuai kemampuan Ali.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Dimensi | Skor 1-4 | ID dan kutipan bukti | Alasan |
+|---|---:|---|---|
+| Tujuan dan konteks | 2 | U001, U010 | Sesi dibuka dengan "Isi sama saja dengan 2a", sehingga tujuan khusus untuk Ali tidak disiapkan. Target, konteks, dan kriteria selesai tidak dirumuskan. Skor 2 karena ada tujuan yang muncul pada refleksi, tetapi baru pada akhir sesi. |
+| Persepsi dan validasi profil/status | 3 | U002, U007, tabel Pemeriksaan silang | Mahasiswa mengakui kesibukan Ali pada U002 dan menyatakan akan menjawab kekhawatirannya pada U007. Bukan 4 karena pada U001-U004 tiga aspek hambatan Ali tidak divalidasi, dan validasi baru terjadi setelah Ali menyampaikannya. |
+| Pemilihan dan urutan repertoar | 2 | U003-U006 | Tugas sempat terlalu luas, melompat dari laporan ke kode, lalu ke upload GitHub, baru dipersempit ke tombol login. Skor 2 karena urutan berubah drastis dalam dua giliran dan dua di antaranya tidak perlu. |
+| Eksekusi jelas, peduli dan konsisten | 2 | U004, U008-U009 | Dukungan diberikan dalam bentuk materi dan hint, tetapi pada U004 mahasiswa mendorong upload dan pada U009 memeriksa setelah sudah di-push, keduanya melewati review yang diminta Ali. Tidak konsisten dengan batas yang disepakati. |
+| Evaluasi dan adaptasi | 3 | U005-U008 | Tugas akhir dipersempit ke tombol login dengan dua kriteria dan bentuk dukungan diubah menjadi materi serta hint. Bukan 4 karena penyempitan terjadi karena penolakan Ali, bukan karena evaluasi mandiri mahasiswa. |
+| Refleksi dan lesson learned | 3 | U010 | Menyebutkan stimulus yang membantu, yaitu memahami kesibuku, dan pelajaran untuk lebih memperhatikan anggota kelompok. Bukan 4 karena tidak ada batas bukti, tidak ada koreksi dugaan, dan tidak ada indikator tindak lanjut. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+**Usulan nilai AI:** 15/24 x 100 = **62,5/100**. Angka ini dihitung dari bukti transkrip di atas.
 
-## Refleksi dan lesson learned mahasiswa
+**Nilai sesi:** 15/24 x 100 = **62,50/100**, dihitung dari transkrip di atas.
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
-
-## Tindak lanjut dan batas bukti
-
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+{{< include "../../includes/uts-analisis.md" >}}
 
 {{< include "../../includes/uts-penilaian.md" >}}

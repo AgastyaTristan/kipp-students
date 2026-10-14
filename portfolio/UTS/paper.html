@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MBTI, Komunikasi Efektif, dan Pertumbuhan PASK</title>
+<meta name="description" content="Portfolio KIPP-2 — Kajian konseptual empat pertanyaan MBTI/PASK, kerangka inferensi, SWOT-like, dan PASK.">
+<meta name="generator" content="qmd + quarto pandoc">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff; --panel:#ffffff; --fg:#1f2328; --muted:#59636e;
+  --border:#d1d9e0; --stripe:#f6f8fa; --code-bg:#eff1f3;
+  --link:#0969da; --accent:#8250df; --accent-bg:#fbefff;
+  --ok:#1a7f37; --ok-bg:#dafbe1; --warn:#9a6700; --warn-bg:#fff8c5;
+  --todo:#59636e; --todo-bg:#eaeef2;
+  --radius:8px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1117; --panel:#161b22; --fg:#e6edf3; --muted:#9198a1;
+    --border:#3d444d; --stripe:#161b22; --code-bg:#21262d;
+    --link:#4493f8; --accent:#d2a8ff; --accent-bg:#2d1b3d;
+    --ok:#3fb950; --ok-bg:#12261a; --warn:#d29922; --warn-bg:#2b2412;
+    --todo:#9198a1; --todo-bg:#21262d;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 64px}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* header */
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:10px}
+.crumb span+span::before{content:"/";margin:0 8px;opacity:.6}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+.desc{color:var(--muted);margin:0 0 18px}
+
+/* meta */
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.meta li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);
+  background:var(--stripe);border:1px solid var(--border);border-radius:99px;padding:3px 11px}
+.meta b{color:var(--fg);font-weight:600}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;
+  border-radius:99px;border:1px solid transparent;white-space:nowrap}
+.b-ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.b-warn{color:var(--warn);background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-todo{color:var(--todo);background:var(--todo-bg);border-color:var(--border)}
+.b-accent{color:var(--accent);background:var(--accent-bg);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+
+/* week nav */
+nav.weeks{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:8px;margin:0 0 32px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:.85rem}
+nav.weeks .lbl{color:var(--muted);padding:0 8px 0 6px;font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.06em}
+nav.weeks a{padding:4px 10px;border-radius:6px;color:var(--fg);border:1px solid transparent}
+nav.weeks a:hover{background:var(--stripe);border-color:var(--border);text-decoration:none}
+nav.weeks a[aria-current]{background:var(--accent-bg);color:var(--accent);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);font-weight:600}
+
+/* content */
+main h2{font-size:1.22rem;margin:34px 0 12px;padding-bottom:7px;
+  border-bottom:1px solid var(--border);letter-spacing:-.01em}
+main h2:first-child{margin-top:0}
+main h3{font-size:1.03rem;margin:22px 0 8px}
+main p{margin:0 0 12px}
+main ul,main ol{margin:0 0 12px;padding-left:1.4em}
+main li{margin:3px 0}
+main strong{font-weight:650}
+main code{background:var(--code-bg);border-radius:5px;padding:.15em .38em;
+  font-size:.87em;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+
+/* tables */
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);
+  margin:0 0 16px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+thead th{background:var(--stripe);font-weight:650;white-space:nowrap;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--stripe) 55%,transparent)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th.num{text-align:right}
+
+/* index listing */
+td.t-week{white-space:nowrap;font-weight:600}
+td.t-score{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* evidence block */
+.evidence-block{border:1px solid var(--border);border-left:4px solid var(--accent);
+  background:var(--stripe);border-radius:var(--radius);padding:14px 18px;margin:0 0 16px}
+.evidence-block>p:first-child{margin-top:0}
+.evidence-block>p:last-child{margin-bottom:0}
+.evidence-block p,li{white-space:pre-line}
+
+/* callout */
+.callout{border:1px solid var(--border);border-left:4px solid var(--link);
+  background:var(--stripe);border-radius:var(--radius);padding:12px 18px;margin:0 0 18px}
+.callout .t{font-weight:650;display:block;margin-bottom:4px;color:var(--link)}
+
+/* total */
+.total{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:12px 18px;margin:20px 0 0;
+  font-size:1rem;font-weight:650;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.total span{color:var(--muted);font-weight:400;font-size:.85rem}
+.total em{font-style:normal;font-size:1.25rem;color:var(--accent)}
+
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--border);
+  color:var(--muted);font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+@media (max-width:600px){
+  .wrap{padding:24px 14px 48px}
+  h1{font-size:1.5rem}
+}
+@media print{
+  nav.weeks,.crumb,footer{display:none}
+  body{font-size:12px}
+  .wrap{max-width:none;padding:0}
+  .tw{overflow:visible}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><span>Portfolio</span><span>Minggu 8</span><span>UTS</span><span>Makalah</span></nav>
+<nav class="weeks"><span class="lbl">Minggu</span><a href="../week-01.html">Minggu 1</a><a href="../week-02.html">Minggu 2</a><a href="../week-03.html">Minggu 3</a><a href="../week-04.html">Minggu 4</a><a href="../week-05.html">Minggu 5</a><a href="../week-06.html">Minggu 6</a><a href="../week-07.html">Minggu 7</a><a href="../week-08.html" aria-current="page">Minggu 8</a><a href="../index.html">Indeks</a></nav>
+<h1>MBTI, Komunikasi Efektif, dan Pertumbuhan PASK</h1><p class="desc">Kajian konseptual empat pertanyaan MBTI/PASK, kerangka inferensi, SWOT-like, dan PASK.</p><ul class="meta"><li>Minggu <b>8</b></li><li>Bagian <b>10%</b> bobot UTS</li><li>Status <span class="badge b-warn">Draf; belum dinilai</span></li><li><span class="badge b-accent">UTS</span> <span class="badge b-accent">Makalah pra-UTS</span></li></ul>
+<main>
+<h2>Abstrak {.unnumbered}</h2>
+<p>Makalah ini membahas empat hal: kategori MBTI dan kemungkinan implikasinya bagi komunikasi; cara menyesuaikan komunikasi tanpa stereotip; batas mengenali preferensi dari percakapan; serta hubungan stimulus, SWOT-like, dan PASK dalam pendidikan. Untuk mengikat keempatnya, makalah ini menyusun kerangka inferensi empat tingkat yang membedakan preferensi yang dilaporkan, perilaku yang diamati, kemampuan yang diperagakan, dan hipotesis yang belum diuji. Kajian ini merupakan sintesis konseptual atas sumber literatur yang dicantumkan dan kerangka pembelajaran KIPP, bukan penelitian lapangan atau validasi psikometrik. MBTI dapat dipakai sebagai bahasa refleksi preferensi yang dilaporkan, tetapi bukti tidak mendukung pemakaian tipe sebagai diagnosis, prediksi tunggal kemampuan, atau pengganti pertanyaan langsung. Komunikasi efektif lebih dapat dipertanggungjawabkan bila berangkat dari konteks, mendengarkan, memeriksa pemahaman, menyepakati tindakan, dan mengevaluasi dampak. SWOT-like membantu memisahkan tafsir internal dan kondisi eksternal; PASK—persepsi, sikap, keterampilan, pengetahuan—dapat dipakai sebagai kerangka pendidikan untuk memilih latihan dan bukti pertumbuhan. Perubahan perlu dinilai melalui perilaku yang dapat diamati, bukan hanya niat atau kesepakatan.</p>
+<p><strong>Kata kunci:</strong> MBTI, komunikasi interpersonal, SWOT, PASK, refleksi, pendidikan.</p>
+<h2>Pendahuluan</h2>
+<p>Komunikasi efektif bukan sekadar menyampaikan pesan dengan jelas. Dalam kerja kelompok atau pelayanan pelanggan, efektivitas juga memerlukan pemahaman atas kebutuhan pihak lain, pemeriksaan asumsi, pembagian tanggung jawab, dan tindak lanjut yang realistis. Perbedaan preferensi dapat memengaruhi cara seseorang menyukai struktur, bukti, waktu berpikir, atau bentuk interaksi; namun, konteks, pengalaman, beban kerja, dan hubungan juga memengaruhi perilaku.</p>
+<p>MBTI (Myers–Briggs Type Indicator) populer sebagai kerangka untuk membicarakan preferensi. Popularitasnya tidak dengan sendirinya membuktikan bahwa tipe dapat dipakai untuk mendiagnosis seseorang atau menentukan strategi komunikasi yang pasti. Makalah ini karena itu membedakan <strong>preferensi yang dilaporkan</strong>, <strong>perilaku yang diamati</strong>, <strong>kemampuan yang diperagakan</strong>, dan <strong>hipotesis yang masih perlu ditanyakan</strong>.</p>
+<p>Pertanyaan kajian:</p>
+<ol><li>Apa kategori personalitas MBTI dan implikasinya yang mungkin terhadap komunikasi?</li><li>Bagaimana berkomunikasi secara efektif dengan orang yang melaporkan preferensi tertentu?</li><li>Sejauh mana preferensi dapat dikenali dari percakapan dan apa batas inferensinya?</li><li>Bagaimana stimulus dipahami melalui SWOT-like dan PASK, serta bagaimana pendidikan mendukung respons refleks, reaktif, responsif, atau apresiatif?</li></ol>
+<h2>Metode dan Kedudukan Kerangka</h2>
+<p>Makalah ini adalah kajian konseptual ringkas, bukan tinjauan sistematis. Sumber yang digunakan mencakup tulisan psikometri tentang MBTI dan Big Five (McCrae &amp; Costa, 1989), kritik psikometrik (Boyle, 1995), tinjauan kritis penggunaan MBTI dalam organisasi (Pittenger, 2005), serta kerangka SWOT dan PASK yang digunakan sebagai alat refleksi pendidikan. Contoh KIPP dalam makalah ini bersifat ilustratif; tidak diperlakukan sebagai data eksperimen.</p>
+<p>MBTI dibahas sebagai kerangka preferensi yang dilaporkan, bukan diagnosis klinis. SWOT-like digunakan untuk mengorganisasi tafsir individu atas kekuatan, kelemahan, peluang, dan ancaman dalam situasi tertentu. PASK di sini berarti <strong>Persepsi, Attitude/sikap, Skill/keterampilan, dan Knowledge/pengetahuan</strong>, sesuai penggunaan dalam pembelajaran KIPP. PASK bukan tes baku psikometris dalam makalah ini. Respons refleks, reaktif, responsif, dan apresiatif dipakai sebagai kategori pedagogis untuk mengevaluasi jeda, pilihan, dan dampak respons, bukan klasifikasi neurologis atau diagnosis.</p>
+<h2>Kerangka Inferensi: Empat Tingkat dalam Makalah Ini</h2>
+<p>Tabel berikut adalah sumbu pengorganisasian seluruh makalah. Setiap klaim diletakkan pada salah satu tingkat, dan batas tiap tingkat dinyatakan eksplisit.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Tingkat</th>
+<th>Isi</th>
+<th>Cara diperoleh</th>
+<th>Batas yang berlaku</th>
+</tr></thead><tbody>
+<tr>
+<td>1. Preferensi yang dilaporkan</td>
+<td>Ditebak sendiri oleh subjek tentang dirinya, misalnya "saya lebih suka penjelasan singkat".</td>
+<td>Jawaban langsung dalam percakapan.</td>
+<td>Bukan bukti perilaku. Subjek dapat keliru, berubah, atau menyesuaikan untuk situasi.</td>
+</tr>
+<tr>
+<td>2. Perilaku yang diamati</td>
+<td>Pola yang terlihat dalam percakapan, misalnya konsisten meminta contoh sebelum memutuskan.</td>
+<td>Pengamatan berulang lintas giliran.</td>
+<td>Bukan jaminan akan berlaku di konteks lain.</td>
+</tr>
+<tr>
+<td>3. Kemampuan yang diperagakan</td>
+<td>Keterampilan yang ditunjukkan saat itu, misalnya menyusun kueri yang dapat dijalankan.</td>
+<td>Demonstrasi langsung.</td>
+<td>Tidak boleh digeneralisasi menjadi "dia selalu bisa".</td>
+</tr>
+<tr>
+<td>4. Hipotesis yang perlu diuji</td>
+<td>Dugaan sementara yang belum diperiksa, misalnya "ia lebih menyukai informasi ringkas".</td>
+<td>Hipotesis dari satu atau dua giliran.</td>
+<td>Wajib disampaikan sebagai dugaan dan meminta koreksi.</td>
+</tr>
+</tbody></table></div>
+<p>Empat tingkat ini dipakai konsisten di seluruh makalah. Setiap klaim yang muncul, tingkatnya disebut. Dengan demikian pembaca dapat memeriksa apakah sebuah kesimpulan melampaui bukti yang tersedia.</p>
+<p>Tabel di bawah menunjukkan cara empat tingkat tersebut bekerja pada satu kasus.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead><tr>
+<th>Observasi</th>
+<th>Tingkat yang tepat</th>
+<th>Kesimpulan yang tidak boleh diambil</th>
+</tr></thead><tbody>
+<tr>
+<td>Subjek melaporkan "saya tipe ENTJ".</td>
+<td>Tingkat 1: preferensi yang dilaporkan.</td>
+<td>Bukan bukti bahwa ia lebih extraversion atau lebih thinking.</td>
+</tr>
+<tr>
+<td>Subjek dua kali meminta contoh konkret sebelum menyetujui.</td>
+<td>Tingkat 2: perilaku yang diamati.</td>
+<td>Bukan bukti bahwa ia "tipe T" secara permanen.</td>
+</tr>
+<tr>
+<td>Subjek berhasil menulis kueri yang jalan pada sesi itu.</td>
+<td>Tingkat 3: kemampuan yang diperagakan.</td>
+<td>Bukan bukti bahwa ia menguasai semua basis data.</td>
+</tr>
+<tr>
+<td>Dari satu kejadian, ia menyimpulkan "rekan ini tidak tertarik".</td>
+<td>Tingkat 4: hipotesis yang perlu diuji.</td>
+<td>Bukan kesimpulan; harus ditanyakan atau diamati ulang.</td>
+</tr>
+</tbody></table></div>
+<p>Kolom ketiga adalah yang paling sering dilewati dalam praktik. Kesimpulan yang paling meyakinkan sering merupakan lompatan dari tingkat 2 ke tingkat 4.</p>
+<p>Implikasi bagi praktik: amati sebelum menyimpulkan. Menyimpulkan lebih dulu lalu mencari pembenaran adalah confirmation bias. Urutan yang lebih dapat dipertanggungjawabkan adalah observasi, tulis sebagai hipotesis, tanyakan, lalu perbarui.</p>
+<p>Kerangka ini juga menjelaskan mengapa tabel preferensi pada Bagian 4 selalu memuat kolom "pertanyaan validasi". Tanpa kolom itu, penyesuaian komunikasi berubah menjadi stereotip.</p>
+<h2>Kategori MBTI dan Komunikasi Efektif</h2>
+<p>MBTI mengelompokkan preferensi pada empat pasangan dikotomis. Kombinasi satu preferensi dari tiap pasangan menghasilkan 16 kode. Dalam penggunaan yang bertanggung jawab, kode tersebut adalah hipotesis tentang cara seseorang mungkin menyukai pemrosesan informasi atau pengambilan keputusan, bukan uraian lengkap tentang watak, kompetensi, nilai, atau perilaku pada semua konteks.</p>
+<h3 id="empat-pasangan-preferensi">Empat pasangan preferensi</h3>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Pasangan</th>
+<th>Makna dalam kerangka MBTI</th>
+<th>Kemungkinan implikasi komunikasi</th>
+<th>Batas inferensi</th>
+</tr></thead><tbody>
+<tr>
+<td>E / I</td>
+<td>Orientasi perhatian dan interaksi yang cenderung ke dunia luar atau refleksi internal.</td>
+<td>Seseorang mungkin menyukai diskusi langsung atau waktu untuk berpikir sebelum merespons.</td>
+<td>Banyak bicara tidak membuktikan E; diam tidak membuktikan I. Situasi, kelelahan, dan keamanan relasi berpengaruh.</td>
+</tr>
+<tr>
+<td>S / N</td>
+<td>Kecenderungan memperhatikan informasi konkret yang tersedia atau pola, hubungan, dan kemungkinan.</td>
+<td>Contoh, urutan, dan data dapat membantu sebagian orang; gambaran besar atau skenario dapat membantu yang lain.</td>
+<td>Orang yang sama dapat memakai keduanya sesuai tugas dan keahlian.</td>
+</tr>
+<tr>
+<td>T / F</td>
+<td>Preferensi yang digambarkan dalam kerangka ini saat menimbang keputusan melalui konsistensi logis atau dampak/nilai manusia.</td>
+<td>Sebagian orang mungkin meminta kriteria dan alasan; yang lain juga ingin dampak interpersonal dibahas eksplisit.</td>
+<td>T bukan berarti tidak berempati; F bukan berarti tidak logis. Keputusan nyata menggabungkan beberapa pertimbangan.</td>
+</tr>
+<tr>
+<td>J / P</td>
+<td>Preferensi terhadap struktur/penutupan atau keterbukaan/penyesuaian dalam mengelola kehidupan luar.</td>
+<td>Tenggat, agenda, dan keputusan awal mungkin membantu sebagian orang; ruang eksplorasi dapat membantu yang lain.</td>
+<td>Kerapian, spontanitas, dan kebiasaan kerja juga dipengaruhi tuntutan dan pengalaman.</td>
+</tr>
+</tbody></table></div>
+<h3 id="implikasi-dan-batas-ilmiah">Implikasi dan batas ilmiah</h3>
+<p>Komunikasi efektif dapat didefinisikan secara operasional sebagai komunikasi yang mencapai tujuan yang disepakati, menjaga akurasi pemahaman, dan menghormati agensi serta batas pihak yang terlibat. Definisi ini mendorong pemeriksaan hasil: apakah kebutuhan dipahami, apakah tanggung jawab jelas, dan apakah tindakan berikutnya realistis?</p>
+<p>McCrae dan Costa (1989) menemukan bahwa dimensi MBTI berkaitan dengan dimensi kepribadian yang diukur model Big Five, tetapi mengkritik asumsi bahwa perbedaan kontinu sebaiknya dipotong menjadi kategori tipe yang tegas. Boyle (1995) dan Pittenger (2005) juga menguraikan keterbatasan psikometrik dan risiko penggunaan tipe secara berlebihan dalam konteks terapan. Karena itu, empat pasangan sebaiknya tidak dipakai untuk menyaring orang, menetapkan kemampuan, atau memprediksi respons secara deterministik.</p>
+<p>Implikasi yang aman adalah <strong>menawarkan pilihan dan memeriksa preferensi</strong>, bukan menetapkan perlakuan berdasarkan tebakan. Contoh: "Apakah Anda lebih nyaman melihat contoh konkret dahulu atau mendengar gambaran besarnya?" Pertanyaan itu menghormati individu dan dapat dijawab langsung tanpa menyimpulkan tipe.</p>
+<h2>Strategi Komunikasi untuk Preferensi yang Dilaporkan</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Preferensi yang dikonfirmasi</th>
+<th>Kebutuhan yang ditanyakan</th>
+<th>Penyesuaian yang dapat dicoba</th>
+<th>Pemeriksaan efektivitas</th>
+</tr></thead><tbody>
+<tr>
+<td>Menginginkan waktu refleksi</td>
+<td>"Apakah Anda ingin waktu membaca dulu sebelum memutuskan?"</td>
+<td>Kirim ringkasan tertulis dan beri waktu berpikir.</td>
+<td>Minta pihak tersebut menyebutkan bagian yang masih belum jelas.</td>
+</tr>
+<tr>
+<td>Menginginkan bukti konkret</td>
+<td>"Contoh atau data apa yang akan membantu Anda menilai ini?"</td>
+<td>Tampilkan satu contoh dan asumsi/batasnya.</td>
+<td>Minta evaluasi terhadap contoh, bukan meminta persetujuan umum.</td>
+</tr>
+<tr>
+<td>Mengutamakan dampak pada orang</td>
+<td>"Siapa yang terdampak dan apa yang perlu dijaga?"</td>
+<td>Jelaskan dampak pada beban, martabat, atau akses pihak terkait.</td>
+<td>Tanyakan apakah ada dampak penting yang terlewat.</td>
+</tr>
+<tr>
+<td>Menginginkan struktur</td>
+<td>"Tenggat dan pembagian seperti apa yang realistis?"</td>
+<td>Tulis peran, tenggat, dan langkah berikutnya.</td>
+<td>Konfirmasi ulang siapa mengerjakan apa dan kapan.</td>
+</tr>
+</tbody></table></div>
+<p>Penyesuaian bukan berarti menyembunyikan informasi atau mengubah substansi. Komunikator tetap transparan tentang risiko, batas, dan ketidakpastian.</p>
+<h3 id="umpan-balik-dan-konflik">Umpan balik dan konflik</h3>
+<p>Dalam konflik, mulai dengan fakta yang dapat diperiksa dan pengalaman pihak lain, bukan label kepribadian. Urutan yang berguna adalah: (1) jelaskan observasi spesifik; (2) tanyakan dampak atau hambatan; (3) dengarkan tanpa langsung membantah; (4) klarifikasi pembagian dan kebutuhan; (5) ajukan beberapa pilihan; dan (6) tetapkan tanggung jawab serta cara memberi kabar. Validasi perasaan tidak sama dengan menyetujui semua kesimpulan. Bantuan juga tidak boleh menghapus agensi pihak yang dibantu.</p>
+<h2>Mengenali Preferensi melalui Percakapan</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Pola yang terlihat</th>
+<th>Hipotesis sementara</th>
+<th>Penjelasan alternatif</th>
+<th>Pertanyaan validasi</th>
+</tr></thead><tbody>
+<tr>
+<td>Meminta waktu sebelum menjawab</td>
+<td>Mungkin membutuhkan refleksi sebelum committing.</td>
+<td>Belum memahami isu, sedang sibuk, atau tidak nyaman dengan situasi.</td>
+<td>"Apakah Anda ingin waktu meninjau informasi sebelum merespons?"</td>
+</tr>
+<tr>
+<td>Meminta contoh atau data</td>
+<td>Mungkin memerlukan bukti konkret untuk menilai.</td>
+<td>Risiko tinggi atau informasi sebelumnya kurang lengkap.</td>
+<td>"Data apa yang paling relevan untuk keputusan ini?"</td>
+</tr>
+<tr>
+<td>Menanyakan dampak bagi anggota tim</td>
+<td>Mungkin menimbang konsekuensi interpersonal.</td>
+<td>Bertanggung jawab atas beban kerja atau pernah mengalami dampak buruk.</td>
+<td>"Dampak apa yang menurut Anda paling penting kita kendalikan?"</td>
+</tr>
+<tr>
+<td>Meminta agenda dan tenggat</td>
+<td>Mungkin menginginkan struktur dan kepastian.</td>
+<td>Ada tenggat eksternal atau ketergantungan tugas.</td>
+<td>"Urutan dan waktu seperti apa yang dapat Anda penuhi?"</td>
+</tr>
+</tbody></table></div>
+<p>Satu ujaran tidak cukup untuk menentukan MBTI. Praktik yang lebih kuat adalah mengamati pola lintas waktu dan konteks, memisahkan observasi dari interpretasi, menyampaikan hipotesis secara tentatif, lalu meminta koreksi. Bahkan pengamatan berulang tidak mengubahnya menjadi diagnosis. Preferensi dapat berubah menurut peran, tekanan, keterampilan, dan rasa aman.</p>
+<h2>Stimulus, SWOT-like, dan PASK</h2>
+<h3 id="definisi-dan-hubungan-konsep">Definisi dan hubungan konsep</h3>
+<p>Stimulus—misalnya perubahan pembagian tugas, kritik, atau tawaran alat digital—tidak otomatis menghasilkan satu respons. Individu menafsirkan stimulus melalui pengalaman dan konteks. SWOT-like membantu menginventarisasi faktor internal yang dirasakan dan kondisi eksternal yang dinilai. PASK membantu menentukan aspek pembelajaran yang perlu didukung. Keduanya adalah alat refleksi, bukan bukti objektif tanpa pemeriksaan.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead><tr>
+<th>SWOT-like</th>
+<th>Pertanyaan analisis</th>
+<th>Hubungan dengan PASK</th>
+</tr></thead><tbody>
+<tr>
+<td>Strengths / kekuatan</td>
+<td>Sumber daya atau praktik apa yang sudah membantu?</td>
+<td>Skill dan knowledge yang dapat digunakan; attitude yang mendukung.</td>
+</tr>
+<tr>
+<td>Weaknesses / kelemahan</td>
+<td>Kesenjangan apa yang dirasakan atau terlihat?</td>
+<td>Skill yang belum terlatih, knowledge yang belum cukup, atau persepsi hambatan.</td>
+</tr>
+<tr>
+<td>Opportunities / peluang</td>
+<td>Dukungan, waktu, alat, atau hubungan apa yang tersedia?</td>
+<td>Sumber untuk belajar dan mencoba; dapat menguatkan attitude dan kemampuan.</td>
+</tr>
+<tr>
+<td>Threats / ancaman</td>
+<td>Risiko eksternal apa yang dapat menghambat atau merugikan?</td>
+<td>Persepsi risiko dapat memengaruhi kemauan; dukungan perlu mengurangi bahaya yang nyata.</td>
+</tr>
+</tbody></table></div>
+<p>PASK memandu pertanyaan berbeda:</p>
+<ul><li><strong>Persepsi:</strong> Apa yang saya pikir terjadi? Bukti apa yang mendukung dan membantahnya?</li><li><strong>Attitude/sikap:</strong> Nilai, harapan, atau kekhawatiran apa yang memengaruhi kemauan saya?</li><li><strong>Skill/keterampilan:</strong> Tindakan apa yang dapat saya demonstrasikan dan bagian mana memerlukan latihan?</li><li><strong>Knowledge/pengetahuan:</strong> Informasi apa yang sudah diketahui dan apa yang perlu dipelajari?</li></ul>
+<h3 id="bentuk-respons-sebagai-kategori-pembelajaran">Bentuk respons sebagai kategori pembelajaran</h3>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Kategori</th>
+<th>Definisi operasional dalam makalah</th>
+<th>Contoh</th>
+<th>Evaluasi</th>
+</tr></thead><tbody>
+<tr>
+<td>Refleks</td>
+<td>Respons cepat sebelum informasi diproses secara sadar.</td>
+<td>Langsung menyela saat merasa dituduh.</td>
+<td>Jeda dan periksa pemicu; tidak semua respons cepat buruk.</td>
+</tr>
+<tr>
+<td>Reaktif</td>
+<td>Respons yang terutama mengikuti emosi atau tekanan tanpa menilai pilihan.</td>
+<td>Menolak ide karena takut dipersalahkan.</td>
+<td>Kenali emosi, kebutuhan, dan konsekuensi sebelum memilih.</td>
+</tr>
+<tr>
+<td>Responsif</td>
+<td>Respons yang mempertimbangkan konteks, bukti, dan kebutuhan pihak terkait.</td>
+<td>Meminta contoh error dan membagi tugas secara spesifik.</td>
+<td>Periksa apakah tindakan sesuai tujuan dan batas.</td>
+</tr>
+<tr>
+<td>Apresiatif</td>
+<td>Respons yang juga mengakui nilai, kontribusi, atau dukungan tanpa meniadakan masalah.</td>
+<td>"Saya menghargai Anda mengirim catatan; mari kita cek bagian yang belum cocok."</td>
+<td>Pastikan apresiasi spesifik dan tidak dipakai untuk menekan persetujuan.</td>
+</tr>
+</tbody></table></div>
+<p>Istilah tersebut adalah alat refleksi pembelajaran di sini. Respons refleks dapat melindungi dalam keadaan mendesak; respons apresiatif tidak selalu tepat bila digunakan untuk menutupi ketidakadilan. Penilaian perlu mempertimbangkan situasi dan dampak.</p>
+<h2>Pendidikan untuk Menumbuhkan PASK</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Dimensi</th>
+<th>Kebutuhan</th>
+<th>Kegiatan pendidikan</th>
+<th>Bukti pertumbuhan</th>
+</tr></thead><tbody>
+<tr>
+<td>Persepsi</td>
+<td>Membedakan fakta, dugaan, dan interpretasi.</td>
+<td>Analisis skenario, menulis dua hipotesis, mencari bukti pembeda.</td>
+<td>Dapat merevisi dugaan setelah informasi baru.</td>
+</tr>
+<tr>
+<td>Sikap</td>
+<td>Mengelola kemauan, rasa takut, dan penghormatan pada pilihan.</td>
+<td>Refleksi terarah, tujuan kecil, umpan balik tanpa mempermalukan.</td>
+<td>Mengambil langkah yang dipilih dan dapat menjelaskan alasannya.</td>
+</tr>
+<tr>
+<td>Keterampilan</td>
+<td>Mempraktikkan tindakan yang masih sulit.</td>
+<td>Role-play, demonstrasi, latihan bertahap, dan uji ulang dengan kendala.</td>
+<td>Kinerja pada tugas baru, bukan hanya pernyataan percaya diri.</td>
+</tr>
+<tr>
+<td>Pengetahuan</td>
+<td>Memahami konsep, prosedur, dan batas penerapannya.</td>
+<td>Bacaan, contoh, tanya jawab, dan kuis pemahaman.</td>
+<td>Penjelasan kembali dan penerapan yang akurat.</td>
+</tr>
+</tbody></table></div>
+<p>Program yang disarankan adalah siklus: tetapkan tujuan terukur; identifikasi PASK awal; pilih latihan kecil; berikan dukungan; refleksikan hasil; lalu uji transfer pada situasi baru. Preferensi komunikasi dapat ditanyakan untuk mengatur format, tetapi semua peserta tetap memperoleh materi, kesempatan, dan standar evaluasi yang setara.</p>
+<h2>Contoh Integratif</h2>
+<p><strong>Ilustrasi, bukan data penelitian:</strong> seorang rekan belum menyelesaikan query tugas kelompok dan mengatakan pembagian tidak adil. Reaksi awal komunikator mungkin langsung menyatakan pembagian sudah sesuai atau mengambil alih bagian rekan. Analisis SWOT-like dapat menunjukkan peluang membagi tugas ulang, ancaman tenggat, kekuatan pengetahuan laporan, dan kelemahan instruksi query yang belum jelas. Analisis PASK membedakan kemauan rekan (A), pemahaman cakupan tugas (K), serta kemampuan/dukungan (S).</p>
+<p>Komunikator dapat bertanya bagian mana yang terasa tidak seimbang, memeriksa fakta, menyepakati satu deliverable dan tenggat, serta menetapkan cara melaporkan error. Bila ada kendala baru, pembagian direvisi tanpa menghapus tanggung jawab rekan. Keberhasilan dinilai dari artefak dan tindak lanjut nyata, bukan hanya kesepakatan dalam percakapan.</p>
+<h2>Pembahasan dan Keterbatasan</h2>
+<p>MBTI dapat memberi kosakata untukicarakan preferensi, tetapi bukti dan kritik psikometris mengharuskan penggunaannya secara tentatif. Strategi komunikasi yang lebih dapat dipertanggungjawabkan bertumpu pada bertanya, mendengar, memeriksa, dan menyesuaikan pilihan berdasarkan kebutuhan yang dinyatakan. SWOT-like dan PASK membantu mengorganisasi refleksi, tetapi kesimpulan harus diuji terhadap bukti dan tidak boleh diperlakukan sebagai penilaian klinis.</p>
+<p>Kerangka empat tingkat pada Bagian 3 dipakai sebagai alat uji: setiap kesimpulan dalam makalah ini diperiksa apakah ia berhenti pada tingkat bukti yang tersedia. Dengan alat ini, beberapa klaim yang lazim dalam diskusi MBTI dapat langsung ditolak.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead><tr>
+<th>Klaim yang lazim</th>
+<th>Tingkat sebenarnya</th>
+<th>Perlakuan dalam makalah ini</th>
+</tr></thead><tbody>
+<tr>
+<td>"Dia ENTJ, jadi komunikasi harus langsung."</td>
+<td>1</td>
+<td>Ditolak. Dipakai sebagai bahan bertanya, bukan prescribing.</td>
+</tr>
+<tr>
+<td>"Dia selalu minta contoh, berarti dia thinking."</td>
+<td>2</td>
+<td>Ditolak sebagai generalisasi; dipakai untuk merancang pertanyaan.</td>
+</tr>
+<tr>
+<td>"Dia bisa SQL karena dia bisa di sesi ini."</td>
+<td>3</td>
+<td>Diterima terbatas pada konteks yang diamati.</td>
+</tr>
+<tr>
+<td>"Dia tidak tertarik karena tidak menjawab."</td>
+<td>4</td>
+<td>Ditolak sebagai kesimpulan; harus ditanyakan.</td>
+</tr>
+</tbody></table></div>
+<p>Makalah ini tidak mengukur keandalan PASK, tidak memvalidasi MBTI, dan tidak menguji intervensi pendidikan. Referensi dipilih terbatas; kerangka respons dan contoh merupakan sintesis pedagogis yang perlu diselaraskan dengan definisi resmi mata kuliah. Pengembangan selanjutnya dapat menyertakan rubrik kuliah, sumber primer tambahan, dan evaluasi transfer yang disetujui pengajar.</p>
+<h2>Kesimpulan</h2>
+<p>MBTI mengelompokkan preferensi pada empat pasangan, tetapi tipe bukan diagnosis atau prediksi pasti. Komunikasi efektif menyesuaikan proses berdasarkan preferensi yang dikonfirmasi, bukan stereotip. Percakapan hanya menghasilkan hipotesis; validasi langsung dan konteks tetap diperlukan. SWOT-like membantu memetakan faktor yang dirasakan, sedangkan PASK mengarahkan dukungan pada persepsi, sikap, keterampilan, dan pengetahuan. Pendidikan dapat menumbuhkan respons yang lebih reflektif melalui latihan bertahap, umpan balik, uji ulang, dan bukti penerapan.</p>
+<h2>Daftar Pustaka {.unnumbered}</h2>
+<p>Boyle, G. J. (1995). Myers-Briggs Type Indicator (MBTI): Some psychometric limitations. <em>Australian Psychologist, 30</em>(1), 71–74. https://doi.org/10.1111/j.1742-9544.1995.tb01750.x</p>
+<p>McCrae, R. R., &amp; Costa, P. T., Jr. (1989). Reinterpreting the Myers-Briggs Type Indicator from the perspective of the five-factor model of personality. <em>Journal of Personality, 57</em>(1), 17–40. https://doi.org/10.1111/j.1467-6494.1989.tb00759.x</p>
+<p>Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. <em>Consulting Psychology Journal: Practice and Research, 57</em>(3), 210–221. https://doi.org/10.1037/1065-9293.57.3.210</p>
+</main>
+<footer>
+  <span>Agastya Tristan Dhaniswara &middot; 18225093 &middot; KIPP-2</span>
+  <span>Sumber: <code>paper.qmd</code></span>
+</footer>
+</div>
+</body>
+</html>

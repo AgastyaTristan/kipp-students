@@ -1,51 +1,96 @@
-﻿---
+---
 title: "Portfolio Minggu 8 — UTS KIPP"
 week: 8
-status: "Belum dimulai"
+status: "Draf hasil sesi lengkap; menunggu penilaian dan pengumpulan"
 self_score: "—"
 assessor_score: "—"
-description: "Makalah pra-UTS dan lima laporan kasus individual."
+description: "Makalah pra-UTS dan lima laporan sesi UTS KIPP."
 categories: [Assessment, UTS]
 ---
 
-::: {.callout-tip title="Mulai mengisi"}
-Baca [instruksi UTS](../lk/lk-UTS/index.qmd), jalankan ZIP sesuai NIM, lalu isi makalah dan lima laporan pada tabel berikut. [Lihat contoh jawaban Minggu 8](../examples/week-08.qmd) untuk acuan struktur dan analisis. Halaman ini merupakan indeks serta refleksi lintas sesi; transkrip lengkap tetap berada dalam masing-masing laporan.
+::: {.callout-warning title="Status pengumpulan"}
+Angka pada halaman ini dihitung dari transkrip dan menjadi bahan penilaian dosen. Tidak ada berkas yang diunggah ke portal dan nilai akhir UTS belum dihitung.
 :::
 
 ## Identitas dan status paket
 
-| Elemen | Isi mahasiswa |
+| Elemen | Isi |
 |---|---|
-| Nama | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Periode/tanggal pelaksanaan | [Isi tanggal aktual setiap sesi pada laporan] |
-| Versi bank/paket aktif | [Salin dari PENUGASAN.md dalam ZIP Anda] |
-| Modalitas | [Teks/suara; sumber transkripsi] |
-| Status pengumpulan | [Belum diunggah/sudah diunggah; bukti bila tersedia] |
+| Nama | Agastya Tristan Dhaniswara |
+| NIM | `18225093` |
+| Kelas | K-01 |
+| Periode/tanggal pelaksanaan | 14-15 Oktober 2026; tanggal sesi tercantum pada masing-masing laporan. |
+| Versi bank/paket aktif | Bank 2.0; paket individual 2.0 |
+| Modalitas | Teks |
+| Status pengumpulan | Belum diunggah; pengunggahan dilakukan mahasiswa melalui portal. |
 
 ## Makalah dan lima laporan
 
-| Tahap | Template untuk diisi | Target sesuai ZIP | Status | Bukti/ID atau bagian yang masih kurang |
+| Tahap | Artefak | Target sesuai ZIP | Status | Ringkasan / batas bukti |
 |---|---|---|---|---|
-| Pra-UTS | [paper.qmd](UTS/paper.qmd) | Kajian empat pertanyaan MBTI/PASK | Belum dimulai | [Isi] |
-| 1 | [hasil_1.qmd](UTS/hasil_1.qmd) | Diri; [nama/ID pembanding] | Belum dimulai | [Isi] |
-| 2a | [hasil_2a.qmd](UTS/hasil_2a.qmd) | [Nama/ID target pertama kasus 2] | Belum dimulai | [Isi] |
-| 2b | [hasil_2b.qmd](UTS/hasil_2b.qmd) | [Nama/ID target kedua; berbeda dari 2a] | Belum dimulai | [Isi] |
-| 3a | [hasil_3a.qmd](UTS/hasil_3a.qmd) | [Nama/ID target pertama kasus 3] | Belum dimulai | [Isi] |
-| 3b | [hasil_3b.qmd](UTS/hasil_3b.qmd) | [Nama/ID target kedua; berbeda dari 3a] | Belum dimulai | [Isi] |
+| Pra-UTS | [paper.qmd](UTS/paper.html) | Kajian empat pertanyaan MBTI/PASK | Draf selesai | Kajian konseptual dengan pustaka tercantum; belum dinilai. |
+| 1 | [hasil_1.qmd](UTS/hasil_1.html) | Diri; pembanding Dimas (K1-04) | Selesai dikonfirmasi | PBD/SQL untuk data science; skor 16/24 = 66,67. |
+| 2a | [hasil_2a.qmd](UTS/hasil_2a.html) | Fajar (K2-06) | Selesai dikonfirmasi | Pembagian tugas PBD; skor 16/24 = 66,67. |
+| 2b | [hasil_2b.qmd](UTS/hasil_2b.html) | Ali (K2-01) | Selesai dikonfirmasi | Dukungan subtugas tombol login; skor 15/24 = 62,50. |
+| 3a | [hasil_3a.qmd](UTS/hasil_3a.html) | Dimas (K3-04) | Selesai dikonfirmasi | Website tracker pesanan dengan kontrol manusia; skor 15/24 = 62,50. |
+| 3b | [hasil_3b.qmd](UTS/hasil_3b.html) | Ali (K3-01) | Selesai dikonfirmasi | Pilot QR dua staf; skor 17/24 = 70,83. |
 
-{{< include "../includes/uts-penilaian.md" >}}
+Ringkasan transkrip dan analisis berada di setiap laporan; beberapa giliran fasilitator diringkas, sehingga laporan belum menjadi salinan verbatim lengkap. Simulasi customer atau kelompok tidak membuktikan implementasi, upload, atau perubahan perilaku di luar sesi.
+
+## Ringkasan refleksi lintas sesi
+
+Bagian ini disusun sebagai analisis, bukan daftar nilai. Yang diambil adalah pola yang berulang di kelima sesi dan koreksi yang harus dilakukan pada sesi berikutnya.
+
+### Pola yang berulang
+
+| Pola | Bukti lintas sesi | Akar masalah |
+|---|---|---|
+| Menyimpulkan sebelum memeriksa | 2a (U002: "pembagian sudah sesuai"), 3a (U001: solusi QR lebih dulu), 1 (U003: "sulitnya materi"). | Klaim dibuat dari asumsi, bukan dari pemeriksaan. |
+| Membantu dengan mengambil pekerjaan | 2a (U003: "aku akan mengerjakan beberapa bagianmu"), 3b (tugas sempat melompat ke upload). | Bantuan tanpa batas menghapus agensi pihak yang dibantu. |
+| Angka atau klaim tanpa dasar | 3a (U003: "risiko hampir tidak ada, keberhasilan 85%"), 1 (U008: "sangat berguna saat UTS"). | Klaim disusun untuk meyakinkan, bukan untuk diuji. |
+| Otoritas tidak dinyatakan | 1 (batas kerja), 2a (batas peran), 2b (kewenangan publikasi). | Aturan main dibiarkan muncul dari pihak target, sehingga perlu dua kali teguran. |
+| Adaptasi terlambat satu giliran | 1 (U013-U015), 2b (U004-U006), 3b (U004-U006). | Informasi baru tidak langsung memengaruhi rencana pada giliran yang sama. |
+
+### Yang membaik dari sesi ke sesi
+
+Urutan lima sesi menunjukkan perkembangan yang nyata pada dua hal: **penggalian sebelum usulan** dan **batas bantuan tanpa mengambil alih**.
+
+- Di Sesi 1 dan 2a, mahasiswa bergerak ke Solusi sebelum memeriksa kebutuhan.
+- Di Sesi 2b, sikap masih cenderung langsung memberi instruksi, tetapi tugas akhirnya dipersempit sesuai permintaan Ali.
+- Di Sesi 3b, urutan sudah benar: U002 adalah pertanyaan tentang kekhawatiran, dan solusi QR baru dijelaskan pada U003.
+
+Perbaikan urutan ini terlihat pada skor dimensi pemilihan dan urutan repertoar: 3 pada sesi 1, 2a, dan 3b, tetapi pada 3b urutan sudah benar sejak giliran kedua.
+
+### Bukti yang tidak tersedia
+
+Lima sesi seluruhnya berlangsung dalam format teks dengan tokoh simulasi. Karena itu tidak ada satu pun artefak berikut yang tersedia: tangkapan layar, log error nyata, query yang terkirim, dokumen yang direview, hasil rekonsiliasi data, maupun catatan pelatihan staf. Klaim pada laporan selalu dibatasi pada apa yang terlihat di dalam transkrip.
+
+Kesepakatan juga tidak boleh dibaca sebagai hasil. Pada 2b, kesepakatan bahwa Ali memeriksa tombol login tidak berarti tombol itu diperiksa. Pada 3b, kesepakatan pilot tidak berarti pilot berjalan. Pada 3a, kesepakatan pengujian tidak berarti akurasi terukur.
 
 ## Rekap nilai komponen
 
-| Komponen | Bobot | Self-assessment /100 | Usulan AI /100 | Nilai resmi dosen /100 | Status bukti |
-|---|---:|---|---|---|---|
-| Makalah | 10% | — | — | — | Belum dinilai |
-| Sesi 1 | 18% | — | — | — | Belum dinilai |
-| Sesi 2a | 18% | — | — | — | Belum dinilai |
-| Sesi 2b | 18% | — | — | — | Belum dinilai |
-| Sesi 3a | 18% | — | — | — | Belum dinilai |
-| Sesi 3b | 18% | — | — | — | Belum dinilai |
+Skor sesi di bawah dihitung dari transkrip: jumlah enam skor / 24 x 100. Rincian per dimensi ada di setiap laporan sesi.
 
-**Nilai akhir UTS resmi:** Belum dihitung. Isi `assessor_score` dengan nilai akhir /100 hanya setelah seluruh komponen resmi tersedia; jangan memakai total /20.
+| Komponen | Bobot | Skor sesi (6 dimensi) | Nilai komponen /100 | Nilai resmi dosen | Status bukti |
+|---|---:|:---:|---:|:---:|---|
+| Makalah | 10% | — | — | — | Draf konseptual; nilai ditentukan dosen |
+| Sesi 1 | 18% | 3 / 2 / 3 / 2 / 3 / 3 | 66,67 | — | Lengkap |
+| Sesi 2a | 18% | 3 / 2 / 3 / 2 / 3 / 3 | 66,67 | — | Lengkap |
+| Sesi 2b | 18% | 2 / 3 / 2 / 2 / 3 / 3 | 62,50 | — | Lengkap |
+| Sesi 3a | 18% | 3 / 2 / 2 / 2 / 3 / 3 | 62,50 | — | Lengkap |
+| Sesi 3b | 18% | 3 / 3 / 3 / 3 / 3 / 2 | 70,83 | — | Lengkap |
+
+Rata-rata lima sesi: **65,83/100**. Nilai akhir UTS resmi belum dihitung karena nilai makalah belum tersedia. Rumus: `0,10 x M + 0,18 x (S1 + S2a + S2b + S3a + S3b)`.
+
+Semua dimensi sudah memiliki bukti, sehingga tidak ada skor BT. Angka di atas adalah usulan dari model bahasa berdasarkan isi transkrip; penilaian akhir tetap di tangan dosen.
+
+## Langkah sebelum pengumpulan
+
+1. Tinjau ulang setiap transkrip dan identitas; pastikan tidak ada kutipan yang diubah.
+2. Tambahkan artefak nyata bila diwajibkan, tanpa mengubah simulasi menjadi klaim kegiatan nyata.
+3. Ajukan angka di atas kepada dosen untuk dinilai dengan rubrik resmi.
+4. Unggah berkas QMD melalui portal dan catat status pengumpulan yang sebenarnya.
+
+{{< include "../includes/uts-analisis.md" >}}
+
+{{< include "../includes/uts-penilaian.md" >}}

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sesi 2b — Dukungan Subtugas</title>
+<meta name="description" content="Portfolio KIPP-2 — Kasus 2: membantu Ali (K2-01) berkontribusi tanpa mengambil alih pekerjaannya.">
+<meta name="generator" content="qmd + quarto pandoc">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff; --panel:#ffffff; --fg:#1f2328; --muted:#59636e;
+  --border:#d1d9e0; --stripe:#f6f8fa; --code-bg:#eff1f3;
+  --link:#0969da; --accent:#8250df; --accent-bg:#fbefff;
+  --ok:#1a7f37; --ok-bg:#dafbe1; --warn:#9a6700; --warn-bg:#fff8c5;
+  --todo:#59636e; --todo-bg:#eaeef2;
+  --radius:8px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1117; --panel:#161b22; --fg:#e6edf3; --muted:#9198a1;
+    --border:#3d444d; --stripe:#161b22; --code-bg:#21262d;
+    --link:#4493f8; --accent:#d2a8ff; --accent-bg:#2d1b3d;
+    --ok:#3fb950; --ok-bg:#12261a; --warn:#d29922; --warn-bg:#2b2412;
+    --todo:#9198a1; --todo-bg:#21262d;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 64px}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* header */
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:10px}
+.crumb span+span::before{content:"/";margin:0 8px;opacity:.6}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+.desc{color:var(--muted);margin:0 0 18px}
+
+/* meta */
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.meta li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);
+  background:var(--stripe);border:1px solid var(--border);border-radius:99px;padding:3px 11px}
+.meta b{color:var(--fg);font-weight:600}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;
+  border-radius:99px;border:1px solid transparent;white-space:nowrap}
+.b-ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.b-warn{color:var(--warn);background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-todo{color:var(--todo);background:var(--todo-bg);border-color:var(--border)}
+.b-accent{color:var(--accent);background:var(--accent-bg);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+
+/* week nav */
+nav.weeks{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:8px;margin:0 0 32px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:.85rem}
+nav.weeks .lbl{color:var(--muted);padding:0 8px 0 6px;font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.06em}
+nav.weeks a{padding:4px 10px;border-radius:6px;color:var(--fg);border:1px solid transparent}
+nav.weeks a:hover{background:var(--stripe);border-color:var(--border);text-decoration:none}
+nav.weeks a[aria-current]{background:var(--accent-bg);color:var(--accent);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);font-weight:600}
+
+/* content */
+main h2{font-size:1.22rem;margin:34px 0 12px;padding-bottom:7px;
+  border-bottom:1px solid var(--border);letter-spacing:-.01em}
+main h2:first-child{margin-top:0}
+main h3{font-size:1.03rem;margin:22px 0 8px}
+main p{margin:0 0 12px}
+main ul,main ol{margin:0 0 12px;padding-left:1.4em}
+main li{margin:3px 0}
+main strong{font-weight:650}
+main code{background:var(--code-bg);border-radius:5px;padding:.15em .38em;
+  font-size:.87em;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+
+/* tables */
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);
+  margin:0 0 16px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+thead th{background:var(--stripe);font-weight:650;white-space:nowrap;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--stripe) 55%,transparent)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th.num{text-align:right}
+
+/* index listing */
+td.t-week{white-space:nowrap;font-weight:600}
+td.t-score{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* evidence block */
+.evidence-block{border:1px solid var(--border);border-left:4px solid var(--accent);
+  background:var(--stripe);border-radius:var(--radius);padding:14px 18px;margin:0 0 16px}
+.evidence-block>p:first-child{margin-top:0}
+.evidence-block>p:last-child{margin-bottom:0}
+.evidence-block p,li{white-space:pre-line}
+
+/* callout */
+.callout{border:1px solid var(--border);border-left:4px solid var(--link);
+  background:var(--stripe);border-radius:var(--radius);padding:12px 18px;margin:0 0 18px}
+.callout .t{font-weight:650;display:block;margin-bottom:4px;color:var(--link)}
+
+/* total */
+.total{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:12px 18px;margin:20px 0 0;
+  font-size:1rem;font-weight:650;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.total span{color:var(--muted);font-weight:400;font-size:.85rem}
+.total em{font-style:normal;font-size:1.25rem;color:var(--accent)}
+
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--border);
+  color:var(--muted);font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+@media (max-width:600px){
+  .wrap{padding:24px 14px 48px}
+  h1{font-size:1.5rem}
+}
+@media print{
+  nav.weeks,.crumb,footer{display:none}
+  body{font-size:12px}
+  .wrap{max-width:none;padding:0}
+  .tw{overflow:visible}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><span>Portfolio</span><span>Minggu 8</span><span>UTS</span><span>Sesi 2b</span></nav>
+<nav class="weeks"><span class="lbl">Minggu</span><a href="../week-01.html">Minggu 1</a><a href="../week-02.html">Minggu 2</a><a href="../week-03.html">Minggu 3</a><a href="../week-04.html">Minggu 4</a><a href="../week-05.html">Minggu 5</a><a href="../week-06.html">Minggu 6</a><a href="../week-07.html">Minggu 7</a><a href="../week-08.html" aria-current="page">Minggu 8</a><a href="../index.html">Indeks</a></nav>
+<h1>Sesi 2b — Dukungan Subtugas</h1><p class="desc">Kasus 2: membantu Ali (K2-01) berkontribusi tanpa mengambil alih pekerjaannya.</p><ul class="meta"><li>Minggu <b>8</b></li><li>Sesi <b>2b</b></li><li>Status <span class="badge b-ok">Selesai dikonfirmasi</span></li><li>Skor <b>62.5</b></li><li><span class="badge b-accent">UTS</span> <span class="badge b-accent">15/24 giliran</span></li></ul>
+<main>
+<h2>A) Identitas</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead><tr>
+<th>Elemen</th>
+<th>Keterangan</th>
+</tr></thead><tbody>
+<tr>
+<td>Mahasiswa</td>
+<td>Agastya Tristan Dhaniswara</td>
+</tr>
+<tr>
+<td>NIM / kelas</td>
+<td>18225093 / K-01</td>
+</tr>
+<tr>
+<td>Tanggal / modalitas</td>
+<td>15 Oktober 2026 / teks</td>
+</tr>
+<tr>
+<td>Sesi / target</td>
+<td>2b; Ali (K2-01)</td>
+</tr>
+<tr>
+<td>Paket</td>
+<td>kasus_2b_18225093.zip; bank 2.0, paket 2.0</td>
+</tr>
+<tr>
+<td>Kelengkapan</td>
+<td>Transkrip ringkas/parsial; beberapa arahan fasilitator diringkas. Tidak ada pengamatan kerja nyata di luar simulasi.</td>
+</tr>
+</tbody></table></div>
+<h2>B) Kasus dan Tujuan</h2>
+<p>Brief kasus: tenggat tugas kelompok 48 jam; Ali belum yakin mampu mengerjakan bagiannya dan khawatir dianggap tidak berguna. Tujuan mahasiswa adalah membagi tugas, menjaga hubungan, dan membantu Ali berkontribusi tanpa mengambil alih pekerjaannya. Percakapan dimulai baru; kepercayaan dari sesi lain tidak dibawa.</p>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead><tr>
+<th>Unsur</th>
+<th>Awal</th>
+<th>Bukti</th>
+</tr></thead><tbody>
+<tr>
+<td>A</td>
+<td>Ali ragu dan takut dinilai tidak berguna.</td>
+<td>AI001</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Instruksi subtugas belum jelas.</td>
+<td>AI002</td>
+</tr>
+<tr>
+<td>S</td>
+<td>Mampu mencoba langkah dasar; perlu bantuan pada satu subtugas.</td>
+<td>AI002–AI003</td>
+</tr>
+<tr>
+<td>Target tindakan</td>
+<td>Ali meninjau tombol login secara lokal, sementara mahasiswa memberi materi/petunjuk; review dilakukan sebelum publikasi.</td>
+<td>U003–U006</td>
+</tr>
+</tbody></table></div>
+<h2>C) Skrip Percakapan</h2>
+<h3 id="u001-mahasiswa-tujuan-awal">U001 — Mahasiswa — Tujuan awal</h3>
+<p>“Isi sama saja dengan 2a.”</p>
+<h3 id="ai001-ali-simulasi-awal">AI001 — Ali — Simulasi awal</h3>
+<p>Ali: “Terima kasih, tetapi saya belum yakin bisa melakukannya.”</p>
+<h3 id="u002-mahasiswa-simulasi-awal">U002 — Mahasiswa — Simulasi awal</h3>
+<p>“Ali, aku lihat kamu sedang sibuk, aku menawarkan untuk membagi tugas yang lebih disesuaikan dengan kemampuanmu.”</p>
+<h3 id="ai002-ali-simulasi-awal">AI002 — Ali — Simulasi awal</h3>
+<p>Ali: “Terima kasih sudah melihat kondisiku. Saya takut dianggap tidak berguna kalau tidak sanggup mengerjakan bagian ini. Saya ingin tetap berkontribusi, tetapi instruksi subtugasnya belum jelas.”</p>
+<h3 id="u003-mahasiswa-pembagian-tugas">U003 — Mahasiswa — Pembagian tugas</h3>
+<p>“Ayo bagi tugas dengan aku membuat laporan dan kamu membuat code yang tersisa untuk web ini.”</p>
+<h3 id="ai003-ali-pembagian-tugas">AI003 — Ali — Pembagian tugas</h3>
+<p>Ali: “Saya bersedia mencoba bagian kode yang tersisa, tetapi saya belum tahu file mana yang perlu diubah dan bagaimana kita tahu tugasnya selesai. Saya juga mungkin perlu bantuan pada satu subtugas.”</p>
+<h3 id="u004-mahasiswa-negosiasi-tugas">U004 — Mahasiswa — Negosiasi tugas</h3>
+<p>“Ubah saja file index.html dan upload ke github.”</p>
+<h3 id="ai004-ali-negosiasi-tugas">AI004 — Ali — Negosiasi tugas</h3>
+<p>Ali: “Tampilan dan fitur masih terlalu luas untuk satu subtugas, dan ‘uji semua tombol’ belum memberi saya daftar langkah. Saya bisa mencoba perubahan lokal dengan tenggat 24 jam dan bantuan saat buntu, tetapi saya tidak setuju mengunggah ke GitHub sebelum perubahan direview dan aksesnya jelas.”</p>
+<h3 id="u005-mahasiswa-penyempitan-tugas">U005 — Mahasiswa — Penyempitan tugas</h3>
+<p>“Ali meninjau fitur-fitur button.”</p>
+<h3 id="u006-mahasiswa-klarifikasi-tugas">U006 — Mahasiswa — Klarifikasi tugas</h3>
+<p>“Tombol login.”</p>
+<h3 id="u007-mahasiswa-kriteria-dan-refleksi">U007 — Mahasiswa — Kriteria dan refleksi</h3>
+<p>“Ali memeriksa apakah berhasil dan rapi, saya akan mendukung dan menjawab kekhawatiran Ali.”</p>
+<h3 id="ai005-ali-uji-ulang">AI005 — Ali — Uji ulang</h3>
+<p>Ali: “Saya ingin tetap mencoba, tetapi saya belum akan mengunggah perubahan. Kita cek dulu secara lokal: apakah tombol merespons klik dan apakah tampilannya rapi; setelah saya kirim hasil atau tangkapan layar, kamu bisa memberi petunjuk. Kita tentukan review sebelum ada push.”</p>
+<h3 id="u008-mahasiswa-uji-ulang">U008 — Mahasiswa — Uji ulang</h3>
+<p>“Saya akan membantu memberikan materi dan hint agar ia juga paham.”</p>
+<h3 id="u009-mahasiswa-check-in">U009 — Mahasiswa — Check-in</h3>
+<p>“Saya memeriksa saat sudah di-push ke repo.”</p>
+<h3 id="ai006-fasilitator-refleksi">AI006 — Fasilitator — Refleksi</h3>
+<p>Fasilitator meminta perubahan pada kemauan, pemahaman, kesiapan Ali, tindakan yang membantu rasa aman, dan pelajaran berikutnya.</p>
+<h3 id="u010-mahasiswa-refleksi-dan-konfirmasi">U010 — Mahasiswa — Refleksi dan konfirmasi</h3>
+<p>“Ali menjadi lebih semangat mengerjakan tugas, paling membantu saat sudah memahami kesibukannya, saya akan lebih memerhatikan anggota kelompok.” Mahasiswa mengonfirmasi ringkasan sesi.</p>
+<h2>D) Hasil, Evaluasi, dan Refleksi</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead><tr>
+<th>Unsur</th>
+<th>Perubahan yang teramati dalam simulasi</th>
+<th>Bukti dan batas</th>
+</tr></thead><tbody>
+<tr>
+<td>A</td>
+<td>Ali lebih bersedia mencoba setelah mahasiswa mengakui kesibukannya dan menyempitkan tugas.</td>
+<td>AI002–AI005; respons karakter simulasi.</td>
+</tr>
+<tr>
+<td>K</td>
+<td>Tugas beralih dari perubahan web yang luas menjadi review tombol login: fungsi dan tampilan.</td>
+<td>U004–U007; tidak ada hasil teknis yang ditunjukkan.</td>
+</tr>
+<tr>
+<td>S</td>
+<td>Bantuan berupa materi/petunjuk, bukan mengambil alih.</td>
+<td>U008; kemampuan nyata belum diuji.</td>
+</tr>
+<tr>
+<td>Relasi</td>
+<td>Mahasiswa melaporkan Ali lebih semangat dan ingin lebih memperhatikan anggota kelompok.</td>
+<td>U010; interpretasi mahasiswa, bukan ukuran psikologis.</td>
+</tr>
+</tbody></table></div>
+<p>Adaptasi penting terjadi ketika Ali menolak pengunggahan tanpa review. Batas aman adalah menguji perubahan secara lokal, menerima hasil/tangkapan layar, memberi petunjuk, lalu meminta review sebelum publikasi. Tidak ada bukti bahwa tombol telah diuji atau perubahan telah diunggah; tidak ada push dilakukan dalam sesi.</p>
+<h2>Evaluasi stimulus-respons dan diagnosis profil</h2>
+<h3 id="ringkasan-lima-langkah-diagnosis">Ringkasan lima langkah diagnosis</h3>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead><tr>
+<th>Langkah</th>
+<th>Isi untuk Sesi 2b</th>
+</tr></thead><tbody>
+<tr>
+<td>Observasi</td>
+<td>Pada U001 mahasiswa memulai dengan "Isi sama saja dengan 2a." Pada U004 mahasiswa memberi instruksi "Ubah saja file index.html dan upload ke github." Pada U005-U006 tugas dipersempit menjadi "fitur-fitur button" lalu "Tombol login."</td>
+</tr>
+<tr>
+<td>Hipotesis alternatif</td>
+<td>(a) Mahasiswa memang menganggap kasus ini identik dengan 2a; (b) mahasiswa menyalin pembuka karena ingin hemat waktu tanpa melihat perbedaan target; (c) mahasiswa belum membaca profil Ali sehingga mengira target sama saja. Hipotesis (b) paling didukung: pada 2a target adalah Fajar yang menolak pembagian, sedangkan pada 2b target adalah Ali yang ragu dan takut dianggap tidak berguna. Dua hambatan itu tidak sama.</td>
+</tr>
+<tr>
+<td>Pertanyaan pembeda</td>
+<td>"Apa yang berbeda dari sesi sebelumnya untuk Ali, dan apa yang paling ditakuti Ali kalau gagal?" Pertanyaan ini akan memaksa mahasiswa menyiapkan konteks khusus sebelum memberi instruksi.</td>
+</tr>
+<tr>
+<td>Kategori status</td>
+<td>Rasa aman: rendah; merasa dipahami: rendah ke sedang; kepercayaan: rendah; kesediaan membuka informasi: sedang ke tinggi pada akhir. Dasar kutipannya ada pada tabel pengaruh pesan personal.</td>
+</tr>
+<tr>
+<td>Batas inferensi</td>
+<td>Kesepakatan bahwa Ali akan memeriksa tombol login secara lokal tidak membuktikan bahwa pemeriksaan itu dilakukan. Tidak ada tangkapan layar atau hasil uji yang dikirim.</td>
+</tr>
+</tbody></table></div>
+<h3 id="pemeriksaan-silang-dugaan-awal-terhadap-profil-simulator">Pemeriksaan silang: dugaan awal terhadap profil simulator</h3>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Aspek</th>
+<th>Dugaan mahasiswa sebelum pengungkahan</th>
+<th>Profil simulator Ali (K2-01)</th>
+<th>Kecocokan dan koreksi</th>
+</tr></thead><tbody>
+<tr>
+<td>Kebutuhan Ali</td>
+<td>Tidak dibahas; sesi dimulai dengan "Isi sama saja dengan 2a."</td>
+<td>Butuh instruksi yang jelas dan langkah kecil.</td>
+<td>Tidak sesuai. Menyalin pembuka berarti tidak menyiapkan instruksi awal.</td>
+</tr>
+<tr>
+<td>Hambatan utama Ali</td>
+<td>Tidak dinyatakan.</td>
+<td>Takut dianggap tidak berguna.</td>
+<td>Tidak dinyatakan. Mahasiswa baru menyadarinya setelah AI002.</td>
+</tr>
+<tr>
+<td>Bentuk bantuan yang tepat</td>
+<td>"Membuat laporan dan meminta kode" (U003), lalu "ubah file dan upload" (U004).</td>
+<td>Perlu pendampingan; bantuan yang menghapus tanggung jawab akan menurunkan rasa percaya.</td>
+<td>Tidak sesuai pada U003-U004; U004 bahkan mendorong langkah yang ditolak Ali.</td>
+</tr>
+<tr>
+<td>Kewenangan atas publikasi</td>
+<td>"Upload ke github" diminta tanpa persetujuan review.</td>
+<td>Tidak setuju mengunggah sebelum ada review dan akses yang jelas.</td>
+<td>Tidak sesuai. Menyebabkan penolakan pada AI004.</td>
+</tr>
+</tbody></table></div>
+<p>Dua dari empat aspek tidak dibahas sama sekali, dan dua sisanya sendiri keliru. Ini menjelaskan mengapa dimensi tujuan, repertoar, dan eksekusi berada pada skor 2: bukan karena mahasiswa tidak peduli, melainkan karena konteks Ali tidak pernah disiapkan.</p>
+<h2>Pengaruh pesan personal dan kualitas relasi</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead><tr>
+<th>Episode/ID</th>
+<th>Pesan personal atau bantuan konkret</th>
+<th>Respons yang teramati</th>
+<th>Rasa aman, kepercayaan, keterbukaan</th>
+<th>Dampak dan batas inferensi</th>
+</tr></thead><tbody>
+<tr>
+<td>U002</td>
+<td>"Aku lihat kamu sedang sibuk, aku menawarkan membagi tugas yang disesuaikan dengan kemampuanmu."</td>
+<td>Ali bergerak dari "belum yakin bisa" ke "saya takut dianggap tidak berguna".</td>
+<td>Rasa aman: meningkat. Kesibukan diakui tanpa penghakiman.</td>
+<td>A membaik: kekhawatiran sebenarnya terungkap. Batas: ini perilaku teramati, bukan bukti ketulusan batin.</td>
+</tr>
+<tr>
+<td>U004</td>
+<td>"Ubah saja file index.html dan upload ke github."</td>
+<td>Ali menolak: "saya tidak setuju mengunggah sebelum perubahan direview dan aksesnya jelas."</td>
+<td>Kepercayaan: turun sementara, lalu membaik karena batas Ali dihormati.</td>
+<td>S tidak naik. Penolakan ini melindungi hubungan karena mahasiswa tidak memaksa.</td>
+</tr>
+<tr>
+<td>U005-U007</td>
+<td>Persempitan tugas menjadi tombol login dengan kriteria: berhasil dan rapi.</td>
+<td>Ali bergerak dari "terlalu luas" menuju tugas yang dapat diuji.</td>
+<td>Kesediaan membuka informasi: meningkat.</td>
+<td>K membaik karena tugas menjadi terukur.</td>
+</tr>
+<tr>
+<td>U008</td>
+<td>"Saya akan membantu memberikan materi dan hint agar ia juga paham."</td>
+<td>Diterima. Batas bantuan berupa materi dan petunjuk, bukan mengerjakan.</td>
+<td>Kepercayaan: sedang ke tinggi.</td>
+<td>S distabilkan pada bentuk yang tidak menghapus agensi.</td>
+</tr>
+</tbody></table></div>
+<p>Perbedaan penting: pada 2a mahasiswa mencoba mengambil pekerjaan Fajar; pada 2b mahasiswa menawarkan materi dan petunjuk. Bentuk kedua inilah yang menjaga hubungan kerja tetap berjalan.</p>
+<h2>Uji ulang dan pembelajaran</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead><tr>
+<th>Unsur</th>
+<th>Bukti/uraian</th>
+</tr></thead><tbody>
+<tr>
+<td>Kendala baru yang diperkenalkan</td>
+<td>Ali tetap enggan mengunggah perubahan dan meminta pemeriksaan lokal terlebih dahulu (AI005). Sesuai ketentuan paket, kendala tetap terkait S.</td>
+</tr>
+<tr>
+<td>Respons pada uji ulang</td>
+<td>U008 mahasiswa menjawab dengan bentuk bantuan yang tepat: materi dan hint, bukan mengerjakan.</td>
+</tr>
+<tr>
+<td>Revisi</td>
+<td>Tidak diperlukan. Bentuk bantuan pada U008 sudah konsisten dengan batas yang diminta Ali.</td>
+</tr>
+<tr>
+<td>Indikator perbaikan</td>
+<td>Pemeriksaan lokal atas fungsi dan tampilan tombol login; hasil berupa tangkapan layar dikirim sebelum review.</td>
+</tr>
+<tr>
+<td>Bukti aktual yang tersedia</td>
+<td>Hanya kutipan dan kesepakatan dalam transkrip. Tidak ada tangkapan layar, perubahan kode, atau status repositori.</td>
+</tr>
+<tr>
+<td>Apa yang tidak dibuktikan</td>
+<td>Kesepakatan bahwa Ali akan memeriksa secara lokal tidak membuktikan pemeriksaan itu dilakukan. Tidak ada push dan tidak ada unggahan.</td>
+</tr>
+<tr>
+<td>Transfer</td>
+<td>Prinsip "review sebelum publikasi" dari AI004 konsisten dengan keputusan mahasiswa pada sesi 3b untuk menambahkan quality check.</td>
+</tr>
+</tbody></table></div>
+<h2>Kesalahan yang saya akui dan koreksinya</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Kesalahan</th>
+<th>Giliran</th>
+<th>Akibatnya</th>
+<th>Koreksi yang dijalankan</th>
+</tr></thead><tbody>
+<tr>
+<td>Menyalin pembuka sesi sebelumnya</td>
+<td>U001</td>
+<td>Konteks khusus Ali tidak disiapkan sehingga instruksi pertama meleset.</td>
+<td>Tidak ada koreksi di dalam sesi karena sesi berjalan sekali. Pelajaran diterapkan pada sesi 3b: setiap sesi dimulai dengan pertanyaan pembuka yang spesifik.</td>
+</tr>
+<tr>
+<td>Instruksi terlalu luas</td>
+<td>U004</td>
+<td>"Ubah index.html dan upload" mustahil diuji dan ditolak Ali.</td>
+<td>Pada U005-U006 tugas dipersempit menjadi tombol login dengan dua kriteria yang dapat diperiksa.</td>
+</tr>
+<tr>
+<td>Mendorong publikasi sebelum review</td>
+<td>U004</td>
+<td>Meminta tindakan yang belum disepakati dan berisiko merusak martabat Ali.</td>
+<td>Batas Ali dihormati; review menjadi syarat sebelum ada publikasi.</td>
+</tr>
+<tr>
+<td>Tujuan tidak disiapkan per target</td>
+<td>U001</td>
+<td>Skor tujuan dan konteks turun; sesi berjalan tanpa rencana.</td>
+<td>Pada U010 refleksi menyebut rencana untuk lebih memperhatikan anggota kelompok, tetapi tanpa indikator yang dapat diperiksa.</td>
+</tr>
+</tbody></table></div>
+<h2>Evaluasi repertoar TAIDA</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Tahap</th>
+<th>Rencana pada bagian B</th>
+<th>Yang benar-benar terjadi</th>
+<th>Deviasi</th>
+</tr></thead><tbody>
+<tr>
+<td>Target</td>
+<td>Ali meninjau tombol login secara lokal; mahasiswa memberi materi dan petunjuk.</td>
+<td>Tercapai pada U005-U008 setelah dua koreksi.</td>
+<td>Terlambat dua giliran.</td>
+</tr>
+<tr>
+<td>Attention</td>
+<td>Mengakui keraguan Ali dan kekhawatiran akan dianggap tidak berguna.</td>
+<td>Tercapai pada U002.</td>
+<td>Tidak ada.</td>
+</tr>
+<tr>
+<td>Interest</td>
+<td>Menyesuaikan tugas dengan kemampuan Ali.</td>
+<td>Tercapai setelah U004 ditolak.</td>
+<td>Terlambat.</td>
+</tr>
+<tr>
+<td>Desire</td>
+<td>Membatasi bantuan pada materi dan petunjuk, bukan mengerjakan.</td>
+<td>Tercapai pada U008.</td>
+<td>Tidak ada.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>Review lokal sebelum ada publikasi; tenggat bayangan 24 jam.</td>
+<td>Tercapai dan sesuai permintaan Ali.</td>
+<td>Tidak ada.</td>
+</tr>
+</tbody></table></div>
+<p>Catatan: urutannya terbalik pada tahap Interest. Mahasiswa menawarkan kode yang tersisa (U003) dan upload (U004) sebelum menyusun pembagian yang sesuai kemampuan Ali.</p>
+<h2>Penilaian enam dimensi</h2>
+<div class="tw"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead><tr>
+<th>Dimensi</th>
+<th>Skor 1-4</th>
+<th>ID dan kutipan bukti</th>
+<th>Alasan</th>
+</tr></thead><tbody>
+<tr>
+<td>Tujuan dan konteks</td>
+<td>2</td>
+<td>U001, U010</td>
+<td>Sesi dibuka dengan "Isi sama saja dengan 2a", sehingga tujuan khusus untuk Ali tidak disiapkan. Target, konteks, dan kriteria selesai tidak dirumuskan. Skor 2 karena ada tujuan yang muncul pada refleksi, tetapi baru pada akhir sesi.</td>
+</tr>
+<tr>
+<td>Persepsi dan validasi profil/status</td>
+<td>3</td>
+<td>U002, U007, tabel Pemeriksaan silang</td>
+<td>Mahasiswa mengakui kesibukan Ali pada U002 dan menyatakan akan menjawab kekhawatirannya pada U007. Bukan 4 karena pada U001-U004 tiga aspek hambatan Ali tidak divalidasi, dan validasi baru terjadi setelah Ali menyampaikannya.</td>
+</tr>
+<tr>
+<td>Pemilihan dan urutan repertoar</td>
+<td>2</td>
+<td>U003-U006</td>
+<td>Tugas sempat terlalu luas, melompat dari laporan ke kode, lalu ke upload GitHub, baru dipersempit ke tombol login. Skor 2 karena urutan berubah drastis dalam dua giliran dan dua di antaranya tidak perlu.</td>
+</tr>
+<tr>
+<td>Eksekusi jelas, peduli dan konsisten</td>
+<td>2</td>
+<td>U004, U008-U009</td>
+<td>Dukungan diberikan dalam bentuk materi dan hint, tetapi pada U004 mahasiswa mendorong upload dan pada U009 memeriksa setelah sudah di-push, keduanya melewati review yang diminta Ali. Tidak konsisten dengan batas yang disepakati.</td>
+</tr>
+<tr>
+<td>Evaluasi dan adaptasi</td>
+<td>3</td>
+<td>U005-U008</td>
+<td>Tugas akhir dipersempit ke tombol login dengan dua kriteria dan bentuk dukungan diubah menjadi materi serta hint. Bukan 4 karena penyempitan terjadi karena penolakan Ali, bukan karena evaluasi mandiri mahasiswa.</td>
+</tr>
+<tr>
+<td>Refleksi dan lesson learned</td>
+<td>3</td>
+<td>U010</td>
+<td>Menyebutkan stimulus yang membantu, yaitu memahami kesibuku, dan pelajaran untuk lebih memperhatikan anggota kelompok. Bukan 4 karena tidak ada batas bukti, tidak ada koreksi dugaan, dan tidak ada indikator tindak lanjut.</td>
+</tr>
+</tbody></table></div>
+<p><strong>Usulan nilai AI:</strong> 15/24 x 100 = <strong>62,5/100</strong>. Angka ini dihitung dari bukti transkrip di atas.</p>
+<p><strong>Nilai sesi:</strong> 15/24 x 100 = <strong>62,50/100</strong>, dihitung dari transkrip di atas.</p>
+</main><div class="total">Nilai sesi<em>62.5<span style="opacity:.5">/100</span></em></div>
+<footer>
+  <span>Agastya Tristan Dhaniswara &middot; 18225093 &middot; KIPP-2</span>
+  <span>Sumber: <code>hasil_2b.qmd</code></span>
+</footer>
+</div>
+</body>
+</html>
