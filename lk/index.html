@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indeks Lembar Kerja — KIPP-2</title>
+<meta name="description" content="KIPP-2 — Indeks Lembar Kerja Mahasiswa Bab 1 sampai 14">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff; --panel:#ffffff; --fg:#1f2328; --muted:#59636e;
+  --border:#d1d9e0; --stripe:#f6f8fa; --code-bg:#eff1f3;
+  --link:#0969da; --accent:#8250df; --accent-bg:#fbefff;
+  --ok:#1a7f37; --ok-bg:#dafbe1; --warn:#9a6700; --warn-bg:#fff8c5;
+  --todo:#59636e; --todo-bg:#eaeef2;
+  --radius:8px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1117; --panel:#161b22; --fg:#e6edf3; --muted:#9198a1;
+    --border:#3d444d; --stripe:#161b22; --code-bg:#21262d;
+    --link:#4493f8; --accent:#d2a8ff; --accent-bg:#2d1b3d;
+    --ok:#3fb950; --ok-bg:#12261a; --warn:#d29922; --warn-bg:#2b2412;
+    --todo:#9198a1; --todo-bg:#21262d;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  font-size:16px}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 64px}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* header */
+.crumb{font-size:.8rem;color:var(--muted);margin-bottom:10px}
+.crumb span+span::before{content:"/";margin:0 8px;opacity:.6}
+h1{font-size:1.9rem;line-height:1.25;margin:0 0 8px;letter-spacing:-.02em}
+.desc{color:var(--muted);margin:0 0 18px}
+
+/* meta */
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.meta li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);
+  background:var(--stripe);border:1px solid var(--border);border-radius:99px;padding:3px 11px}
+.meta b{color:var(--fg);font-weight:600}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;
+  border-radius:99px;border:1px solid transparent;white-space:nowrap}
+.b-ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 30%,transparent)}
+.b-warn{color:var(--warn);background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 35%,transparent)}
+.b-todo{color:var(--todo);background:var(--todo-bg);border-color:var(--border)}
+.b-accent{color:var(--accent);background:var(--accent-bg);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+
+/* nav */
+nav.weeks{border:1px solid var(--border);border-radius:var(--radius);
+  background:var(--panel);padding:8px;margin:0 0 32px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:.85rem}
+nav.weeks .lbl{color:var(--muted);padding:0 8px 0 6px;font-size:.75rem;
+  text-transform:uppercase;letter-spacing:.06em}
+nav.weeks a{padding:4px 10px;border-radius:6px;color:var(--fg);border:1px solid transparent}
+nav.weeks a:hover{background:var(--stripe);border-color:var(--border);text-decoration:none}
+nav.weeks a[aria-current]{background:var(--accent-bg);color:var(--accent);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);font-weight:600}
+
+/* content */
+main h2{font-size:1.22rem;margin:34px 0 12px;padding-bottom:7px;
+  border-bottom:1px solid var(--border);letter-spacing:-.01em}
+main h2:first-child{margin-top:0}
+main h3{font-size:1.03rem;margin:22px 0 8px}
+main p{margin:0 0 12px}
+main ul,main ol{margin:0 0 12px;padding-left:1.4em}
+main li{margin:3px 0}
+main strong{font-weight:650}
+main code{background:var(--code-bg);border-radius:5px;padding:.15em .38em;
+  font-size:.87em;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+
+/* tables */
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);
+  margin:0 0 16px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:9px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
+thead th{background:var(--stripe);font-weight:650;white-space:nowrap;color:var(--fg)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--stripe) 55%,transparent)}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th.num{text-align:right}
+
+/* listing */
+td.t-week{white-space:nowrap;font-weight:600}
+td.t-score{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+.callout{border:1px solid var(--border);border-left:4px solid var(--link);
+  background:var(--stripe);border-radius:var(--radius);padding:12px 18px;margin:0 0 18px}
+.callout .t{font-weight:650;display:block;margin-bottom:4px;color:var(--link)}
+
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--border);
+  color:var(--muted);font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+@media (max-width:600px){
+  .wrap{padding:24px 14px 48px}
+  h1{font-size:1.5rem}
+}
+@media print{
+  nav.weeks,.crumb,footer{display:none}
+  body{font-size:12px}
+  .wrap{max-width:none;padding:0}
+  .tw{overflow:visible}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><span>Lembar Kerja</span><span>Indeks</span></nav>
+<nav class="weeks"><span class="lbl">Lembar Kerja</span><a href="lk-01.html">LK 01</a><a href="lk-02.html">LK 02</a><a href="lk-03.html">LK 03</a><a href="lk-04.html">LK 04</a><a href="lk-05.html">LK 05</a><a href="lk-06.html">LK 06</a><a href="lk-07.html">LK 07</a><a href="index.html" aria-current="page">Indeks</a></nav>
+<h1>Indeks Lembar Kerja</h1>
+<p class="desc">Daftar lembar kerja (worksheet) terstruktur untuk aktivitas kelas mata kuliah Komunikasi Interpersonal dan Publik.</p>
+<ul class="meta">
+  <li><b>7 dari 14</b> lembar kerja terisi (LK-01 s.d. LK-07)</li>
+  <li>Mahasiswa: <b>Agastya Tristan Dhaniswara (18225093)</b></li>
+  <li>Prodi: <b>Sistem dan Teknologi Informasi (STI) ITB</b></li>
+</ul>
+<main>
+<h2>Daftar Lembar Kerja Bab 01–14</h2>
+<div class="tw">
+<table>
+<thead>
+<tr>
+  <th style="width: 80px;">Bab</th>
+  <th>Judul Aktivitas &amp; Topik</th>
+  <th>Status</th>
+  <th>Tautan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td class="t-week">Bab 01</td>
+  <td><strong>Peta Karakter Komunikasi Pribadi</strong><br><small style="color:var(--muted)">Komunikasi Dimulai dari Manusia, Bukan dari Pesan</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-01.html">Buka LK 01 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 02</td>
+  <td><strong>Tiga Narasi atas Satu Peristiwa</strong><br><small style="color:var(--muted)">Komunikasi Membentuk Makna, Makna Menentukan Tindakan</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-02.html">Buka LK 02 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 03</td>
+  <td><strong>Mendengarkan Tanpa Memperbaiki</strong><br><small style="color:var(--muted)">Hubungan Dibangun Lewat Kehadiran, Bukan Pembuktian Diri</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-03.html">Buka LK 03 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 04</td>
+  <td><strong>Portofolio Terjemahan Lima Bahasa</strong><br><small style="color:var(--muted)">Satu Makna, Berbagai Dunia: Seni Menerjemahkan Konsep</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-04.html">Buka LK 04 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 05</td>
+  <td><strong>Wawancara Penemuan Kebutuhan</strong><br><small style="color:var(--muted)">Menemukan Masalah Bersama Sebelum Menawarkan Solusi</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-05.html">Buka LK 05 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 06</td>
+  <td><strong>Tiga Pitch untuk Tiga Pihak</strong><br><small style="color:var(--muted)">Menjual Perhatian: Adaptasi Pitch Terhadap Tiga Audiens Berbeda</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-06.html">Buka LK 06 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 07</td>
+  <td><strong>Panduan Detoks Fitur &amp; Pitch Minat</strong><br><small style="color:var(--muted)">Menyaring Masalah dan Menguji Minat Solusi</small></td>
+  <td><span class="badge b-ok">Selesai</span></td>
+  <td><a href="lk-07.html">Buka LK 07 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 08</td>
+  <td><strong>Ujian Tengah Semester</strong><br><small style="color:var(--muted)">UTS Performance Evidence Package</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-UTS/index.qmd">Buka Bab 08 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 09</td>
+  <td><strong>Demonstrasi Pembangun Keinginan</strong><br><small style="color:var(--muted)">Desire-State Communication</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-09.qmd">Buka LK 09 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 10</td>
+  <td><strong>Dokumen Kesepakatan dan Lingkar Komitmen</strong><br><small style="color:var(--muted)">Action &amp; Agreement Challenge</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-10.qmd">Buka LK 10 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 11</td>
+  <td><strong>Peta Pemangku Kepentingan dan Deliberasi Banyak Pihak</strong><br><small style="color:var(--muted)">Multi-Person Negotiation Challenge</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-11.qmd">Buka LK 11 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 12</td>
+  <td><strong>Deliberasi Komunitas</strong><br><small style="color:var(--muted)">Community Communication Challenge</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-12.qmd">Buka LK 12 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 13</td>
+  <td><strong>Satu Gagasan, Empat Bahasa Publik</strong><br><small style="color:var(--muted)">Public Contribution Challenge</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-13.qmd">Buka LK 13 &rarr;</a></td>
+</tr>
+<tr>
+  <td class="t-week">Bab 14</td>
+  <td><strong>Spesifikasi Kopilot dan Manajemen Risiko AI</strong><br><small style="color:var(--muted)">AI-Mediated Communication Design</small></td>
+  <td><span class="badge b-todo">Belum dimulai</span></td>
+  <td><a href="lk-14.qmd">Buka LK 14 &rarr;</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="callout">
+  <span class="t">Keterkaitan dengan Portfolio</span>
+  <p>Setiap lembar kerja ini berfungsi sebagai latihan terstruktur dan dasar bukti (evidence artifact) sebelum diolah menjadi portofolio mingguan di folder <a href="../portfolio/index.html"><code>portfolio/</code></a>.</p>
+</div>
+</main>
+
+<footer>
+  <span>Agastya Tristan Dhaniswara &middot; 18225093 &middot; KIPP-2</span>
+  <span>Sumber: <code>lk/index.qmd</code></span>
+</footer>
+</div>
+</body>
+</html>

@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -219,10 +248,10 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="fase-1-konteks-masalah-terkonfirmasi"><strong>Fase 1: Konteks Masalah Terkonfirmasi</strong></h3>
 <p>Sebelum membedah solusi, tuliskan kembali <strong>Pernyataan Masalah Pelanggan (<em>Customer Problem Statement</em>)</strong> yang telah Anda konfirmasikan pada Bab 5. Solusi Anda harus “menempel” secara tepat pada masalah ini (Bab 7.6).</p>
 <ul>
-<li><strong>Siapa perannya?</strong> (Contoh: Ibu-ibu pengelola kantin kampus)</li>
-<li><strong>Masalah konkret apa yang dialami?</strong> (Contoh: Kewalahan mencatat pesanan sekaligus menjawab pertanyaan mahasiswa tentang status makanan saat jam sibuk)</li>
-<li><strong>Apa dampaknya?</strong> (Contoh: Antrean menumpuk, kasir stres, mahasiswa terlambat masuk kelas karena ketidakpastian)</li>
-<li><strong>Kendala nyata apa yang harus dipertimbangkan?</strong> (Contoh: Kasir tidak paham teknologi rumit, pemilik kantin sensitif terhadap biaya tambahan)</li>
+<li><strong>Siapa perannya?</strong> Naufal (Asisten Lab Pemodelan Basis Data) dan Randy (Praktikan).</li>
+<li><strong>Masalah konkret apa yang dialami?</strong> Terjadinya 14 transaksi macet (<em>deadlock</em>) dan laporan data nilai tugas yang tertimpa akibat akun login bersama di PostgreSQL.</li>
+<li><strong>Apa dampaknya?</strong> Praktikan panik nilainya kosong, sesi praktikum terganggu oleh antrean keluhan, dan asisten lab terpaksa membunuh proses server secara manual.</li>
+<li><strong>Kendala nyata apa yang harus dipertimbangkan?</strong> Ketiadaan wewenang membuat akun OS baru dan asisten lab tidak boleh dibebani tiket maintenance manual saat koneksi terputus.</li>
 </ul>
 <hr>
 </section>
@@ -250,44 +279,36 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><em>Contoh</em></td>
-<td style="text-align: left;"><em>Estimasi waktu tunggu dinamis pada layar antrean.</em></td>
-<td style="text-align: left;"><em>Pengguna mengetahui kapan pesanan mereka akan selesai dimasak.</em></td>
-<td style="text-align: left;">* <strong>Bagi Mahasiswa:</strong> Kepastian waktu agar bisa makan tanpa terlambat masuk kuliah.<br>* <strong>Bagi Kasir:</strong> Mengurangi interupsi pertanyaan berulang dari antrean mahasiswa.</td>
-<td style="text-align: left;"><em>Hasil uji coba pada 5 transaksi di jam sibuk.</em></td>
-<td style="text-align: left;"><strong>PERTAHANKAN</strong> (Sangat menempel pada masalah antrean dan interupsi kasir).</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><em>Contoh</em></td>
-<td style="text-align: left;"><em>Login akun menggunakan autentikasi multi-faktor media sosial.</em></td>
-<td style="text-align: left;"><em>Memudahkan pengguna masuk ke sistem dengan aman.</em></td>
-<td style="text-align: left;"><em>Tidak memberikan nilai langsung bagi kasir kantin maupun mahasiswa yang sedang terburu-buru.</em></td>
-<td style="text-align: left;"><em>Belum ada bukti relevansi bagi transaksi mikro kantin.</em></td>
-<td style="text-align: left;"><strong>PANGKAS</strong> (Beban bahasa yang tidak relevan bagi masalah utama).</td>
-</tr>
-<tr class="odd">
 <td style="text-align: center;"><strong>1</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Skrip CLI Wrapper Pembuat Schema Otomatis (<code>pg-session-guard</code>)</strong></td>
+<td style="text-align: left;">Mengarahkan koneksi sesi psql praktikan langsung ke schema privat berbasis NIM tanpa konfigurasi manual.</td>
+<td style="text-align: left;"><strong>Bagi Randy (Praktikan):</strong> Kepastian data tugas aman dari overwrite rekan.<br><strong>Bagi Naufal (Asisten):</strong> Mencegah deadlock sistemik tanpa perlu setup akun OS baru.</td>
+<td style="text-align: left;">Teruji pada simulasi 2 terminal konkuren di portofolio Minggu 7.</td>
+<td style="text-align: left;"><strong>PERTAHANKAN</strong> (Solusi inti yang menjawab langsung masalah shared credentials).</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><strong>2</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Dashboard Web GUI Monitoring Transaksi Realtime</strong></td>
+<td style="text-align: left;">Menampilkan grafik warna-warni utilisasi CPU, memory, dan lock graph di browser web.</td>
+<td style="text-align: left;">Tidak relevan bagi praktikan di terminal. Bagi asisten lab, membuka browser saat praktikum justru memecah konsentrasi pendampingan.</td>
+<td style="text-align: left;">Tidak ada permintaan dashboard visual dari asisten; CLI log sudah mencukupi.</td>
+<td style="text-align: left;"><strong>PANGKAS</strong> (Beban pengembangan berlebih &amp; jebakan <em>feature dumping</em>).</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><strong>3</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Notifikasi Otomatis Bot Telegram saat Terjadi Lock</strong></td>
+<td style="text-align: left;">Mengirimkan pesan peringatan ke ponsel asisten jika ada kueri yang menunggu lock lebih dari 30 detik.</td>
+<td style="text-align: left;">Mengganggu dan menambah kecemasan asisten lab dengan notifikasi bising tanpa menyelesaikan masalah penguncian.</td>
+<td style="text-align: left;">Asisten lab membutuhkan pencegahan deadlock, bukan notifikasi kepanikan.</td>
+<td style="text-align: left;"><strong>PANGKAS</strong> (Interupsi teknologi yang tidak menyelesaikan akar masalah).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;"><strong>Heartbeat Auto-Kill Timeout &amp; Command Self-Reset (<code>--reset</code>)</strong></td>
+<td style="text-align: left;">Memutus transaksi idle dalam 5 menit dan memberi akses satu perintah bagi mahasiswa untuk mereset sesinya sendiri jika jaringan putus.</td>
+<td style="text-align: left;"><strong>Bagi Naufal (Asisten):</strong> Menjamin beban kerja nol saat jaringan lab drop, karena asisten tidak perlu turun tangan manual me-reset koneksi.</td>
+<td style="text-align: left;">Menjawab langsung <em>hidden concern</em> utama yang diutarakan Naufal saat diskusi.</td>
+<td style="text-align: left;"><strong>PERTAHANKAN</strong> (Krusial untuk mengamankan persetujuan uji coba pilot asisten).</td>
 </tr>
 </tbody>
 </table>
@@ -296,18 +317,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="fase-3-menyusun-pitch-masalah-solusi-60-detik" class="level3">
 <h3 class="anchored" data-anchor-id="fase-3-menyusun-pitch-masalah-solusi-60-detik"><strong>Fase 3: Menyusun Pitch Masalah-Solusi 60 Detik</strong></h3>
 <p>Gunakan hasil detoks di atas untuk merajut <strong>Pitch Minat</strong> menggunakan <strong>Komunikasi Berlapis</strong> (Bab 7.9). Sampaikan pesan secara bertahap: mulailah dari kalimat kemungkinan yang memikat, mekanisme ringkas yang masuk akal, demonstrasi/analogi visual, lalu baru rincian teknis jika ditanyakan.</p>
-<p>Gunakan <strong>5 Langkah Pitch Minat</strong> berikut (Bab 7.7.2): 1. <strong>Hubungkan kembali dengan masalah</strong>: <em>“Kemarin Ibu menceritakan bahwa kasir sering kewalahan mencatat pesanan sekaligus meladeni pertanyaan mahasiswa…”</em> 2. <strong>Perkenalkan kemungkinan solusi</strong>: <em>“Untuk membantu mengatasi hal itu, kita bisa mencoba papan antrean digital sederhana di dekat kasir…”</em> 3. <strong>Jelaskan mekanisme secara sederhana (tanpa jargon)</strong>: <em>“Cara kerjanya, kasir hanya perlu memasukkan nomor pesanan ke tablet. Status pengerjaan makanan akan langsung tampil di layar TV antrean, berubah dari ‘Sedang Dimasak’ menjadi ‘Siap Diambil’…”</em> 4. <strong>Nyatakan manfaat &amp; nilai riil</strong>: <em>“Dengan cara ini, kasir bisa fokus mencatat tanpa diganggu pertanyaan berulang, sementara mahasiswa mendapatkan kepastian waktu makan tanpa takut terlambat kelas.”</em> 5. <strong>Undang tanggapan (Cek Minat)</strong>: <em>“Apakah mekanisme sesederhana ini layak kita uji coba dalam skala kecil besok siang?”</em></p>
 <hr>
 </section>
 </section>
 <section id="lembar-kerja-latihan-mandiri" class="level2">
 <h2 class="anchored" data-anchor-id="lembar-kerja-latihan-mandiri">📝 Lembar Kerja Latihan Mandiri</h2>
+<p><strong>Identitas Mahasiswa:</strong> Agastya Tristan Dhaniswara (Agas) / NIM: 18225093 / STI Semester 3<br>
+<strong>Mitra Uji &amp; Kolaborasi:</strong> Naufal (Asisten Lab Basis Data) &amp; Randy (Praktikan)<br>
+<strong>Tanggal Pengisian:</strong> 29 Oktober 2026</p>
 <section id="bagian-1-pernyataan-masalah-sasaran" class="level3">
 <h3 class="anchored" data-anchor-id="bagian-1-pernyataan-masalah-sasaran"><strong>Bagian 1: Pernyataan Masalah Sasaran</strong></h3>
 <blockquote class="blockquote">
 <p><em>Tuliskan Pernyataan Masalah Pelanggan (CPS) secara presisi berdasarkan formula Bab 5:</em></p>
 <p><strong>[Pribadi/Peran]</strong> mengalami <strong>[Keadaan yang teramati]</strong> ketika <strong>[Konteks]</strong>, sehingga <strong>[Dampak]</strong>. Ia membutuhkan <strong>[Hasil/Kemampuan]</strong>, dengan mempertimbangkan <strong>[Kendala]</strong>.</p>
-<p><strong>Tulis jawaban Anda di sini:</strong></p>
+<p><strong>Tulis jawaban Anda di sini:</strong><br>
+<strong>Naufal selaku Asisten Lab Basis Data</strong> mengalami <strong>terjadinya 14 transaksi macet (<em>deadlock</em>) dan laporan data nilai tugas yang tertimpa</strong> ketika <strong>mahasiswa praktikan mengeksekusi kueri konkuren menggunakan akun user bersama pada sesi praktikum di lab</strong>, sehingga <strong>sesi praktikum terganggu oleh antrean keluhan mahasiswa dan asisten harus membunuh proses server secara manual</strong>. Ia membutuhkan <strong>mekanisme pemisahan ruang kerja (<em>schema isolation</em>) transaksi antarpraktikan yang berjalan otomatis dan bebas deadlock</strong>, dengan mempertimbangkan <strong>ketiadaan wewenang merombak akun sistem operasi server fakultas serta tidak menambah beban tiket pemeliharaan harian asisten lab</strong>.</p>
 </blockquote>
 </section>
 <section id="bagian-2-matriks-detoks-fitur-anda" class="level3">
@@ -334,35 +358,44 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Fitur A:</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Fitur 1: Skrip CLI Wrapper Pembuat Schema Otomatis (<code>pg-session-guard</code>)</strong></td>
+<td style="text-align: left;">Mengarahkan koneksi sesi psql praktikan langsung ke schema privat berbasis NIM tanpa konfigurasi manual.</td>
+<td style="text-align: left;"><strong>Bagi Randy (Praktikan):</strong> Kepastian data tugas aman dari overwrite rekan.<br><strong>Bagi Naufal (Asisten):</strong> Mencegah deadlock sistemik tanpa perlu setup akun OS baru.</td>
+<td style="text-align: left;">Teruji pada simulasi 2 terminal konkuren di portofolio Minggu 7.</td>
+<td style="text-align: left;"><strong>PERTAHANKAN</strong> (Solusi inti yang menjawab langsung masalah shared credentials).</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Fitur B:</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Fitur 2: Dashboard Web GUI Monitoring Transaksi Realtime</strong></td>
+<td style="text-align: left;">Menampilkan grafik warna-warni utilisasi CPU, memory, dan lock graph di browser web.</td>
+<td style="text-align: left;">Tidak relevan bagi praktikan di terminal. Bagi asisten lab, membuka browser saat praktikum justru memecah konsentrasi pendampingan.</td>
+<td style="text-align: left;">Tidak ada permintaan dashboard visual dari asisten; CLI log sudah mencukupi.</td>
+<td style="text-align: left;"><strong>PANGKAS</strong> (Beban pengembangan berlebih &amp; jebakan <em>feature dumping</em>).</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Fitur C:</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Fitur 3: Notifikasi Otomatis Bot Telegram saat Terjadi Lock</strong></td>
+<td style="text-align: left;">Mengirimkan pesan peringatan ke ponsel asisten jika ada kueri yang menunggu lock lebih dari 30 detik.</td>
+<td style="text-align: left;">Mengganggu dan menambah kecemasan asisten lab dengan notifikasi bising tanpa menyelesaikan masalah penguncian.</td>
+<td style="text-align: left;">Asisten lab membutuhkan pencegahan deadlock, bukan notifikasi kepanikan.</td>
+<td style="text-align: left;"><strong>PANGKAS</strong> (Interupsi teknologi yang tidak menyelesaikan akar masalah).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Fitur 4: Heartbeat Auto-Kill Timeout &amp; Command Self-Reset (<code>--reset</code>)</strong></td>
+<td style="text-align: left;">Memutus transaksi idle dalam 5 menit dan memberi akses satu perintah bagi mahasiswa untuk mereset sesinya sendiri jika jaringan putus.</td>
+<td style="text-align: left;"><strong>Bagi Naufal (Asisten):</strong> Menjamin beban kerja nol saat jaringan lab drop, karena asisten tidak perlu turun tangan manual me-reset koneksi.</td>
+<td style="text-align: left;">Menjawab langsung <em>hidden concern</em> utama yang diutarakan Naufal saat diskusi.</td>
+<td style="text-align: left;"><strong>PERTAHANKAN</strong> (Krusial untuk mengamankan persetujuan uji coba pilot asisten).</td>
 </tr>
 </tbody>
 </table>
-<p><em>Catatan Etis: Menyembunyikan risiko atau keterbatasan solusi demi terlihat menarik adalah pelanggaran integritas profesional. Jika solusi Anda memiliki keterbatasan (misalnya: tidak berjalan lancar tanpa jaringan internet), sampaikan hal itu secara jujur. Kejujuran terhadap batas justru meningkatkan kredibilitas Anda (Bab 7.8, 9.8).</em></p>
+<p><em>Catatan Etis: Keterbatasan solusi ini dinyatakan secara terbuka sejak awal: skrip ini hanya memitigasi deadlock pada tingkat schema database lokal dan membutuhkan koneksi terminal aktif; jika praktikan salah mengetik logika kueri SQL di dalam schemanya sendiri, verifikasi sintaks tetap menjadi tanggung jawab belajar mandiri praktikan.</em></p>
 </section>
 <section id="bagian-3-draf-pitch-minat-60-detik" class="level3">
 <h3 class="anchored" data-anchor-id="bagian-3-draf-pitch-minat-60-detik"><strong>Bagian 3: Draf Pitch Minat 60 Detik</strong></h3>
 <blockquote class="blockquote">
 <p><em>Tuliskan draf lisan Anda (maksimal 120 kata) berdasarkan 5 langkah Pitch Minat Bab 7:</em></p>
 </blockquote>
+<p>“Naufal, minggu lalu kita sudah mengonfirmasi adanya 14 benturan transaksi deadlock akibat akun lab yang dipakai bersama <em>(Langkah 1: Masalah)</em>. Untuk mengatasi hal itu tanpa harus repot migrasi akun server kampus, aku membuatkan prototipe skrip CLI ringan bernama <code>pg-session-guard</code> <em>(Langkah 2: Kemungkinan Solusi)</em>. Cara kerjanya, saat praktikan login psql, skrip ini otomatis membuatkan schema privat berbasis NIM dan memasang timeout 5 menit, sehingga kueri Randy dan teman-teman tidak akan saling kunci <em>(Langkah 3: Mekanisme Ringkas)</em>. Dengan cara ini, tugas mahasiswa tidak tertimpa dan asisten lab terbebas dari repotnya mereset server secara manual <em>(Langkah 4: Nilai Riil)</em>. Apakah mekanisme sesederhana ini layak kita uji coba pada satu kelompok di sesi Rabu depan? <em>(Langkah 5: Cek Minat)</em>”<br>
+<em>(Total: 114 kata — Memenuhi syarat <span class="math inline">\(\le\)</span> 120 kata).</em></p>
 <hr>
 </section>
 </section>
@@ -371,49 +404,37 @@ ul.task-list li input[type="checkbox"] {
 <p>Setelah menyelesaikan lembar kerja ini, ujilah draf pitch Anda bersama rekan sejawat. Mintalah mereka memberikan skor berdasarkan rubrik berikut (Bab 7.15):</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Kriteria</th>
-<th style="text-align: left;">Skor 1 (Awal)</th>
-<th style="text-align: left;">Skor 2 (Berkembang)</th>
-<th style="text-align: left;">Skor 3 (Cakap)</th>
-<th style="text-align: left;">Skor 4 (Unggul)</th>
+<th style="text-align: center;">Tingkat Capaian</th>
+<th style="text-align: left;">Bukti Evaluasi Singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>Kecocokan (<em>Fit</em>)</strong></td>
-<td style="text-align: left;">Solusi terasa generik, tidak menempel pada masalah yang telah disepakati.</td>
-<td style="text-align: left;">Solusi mulai terhubung dengan masalah tetapi masih terlalu luas.</td>
-<td style="text-align: left;">Solusi menempel secara spesifik pada aspek-aspek utama masalah yang diakui.</td>
-<td style="text-align: left;">Solusi menempel sempurna pada masalah dan mampu mengintegrasikan batas kendala sasaran.</td>
+<td style="text-align: center;"><strong>Unggul (4)</strong></td>
+<td style="text-align: left;">Solusi menempel sempurna pada masalah shared-account lab dan mengakomodasi kendala hak akses asisten.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Kejelasan Mekanisme</strong></td>
-<td style="text-align: left;">Menjejalkan daftar fitur teknis (terjadi <em>Feature Dumping</em>).</td>
-<td style="text-align: left;">Cara kerja mulai dijelaskan tetapi masih didominasi jargon teknis.</td>
-<td style="text-align: left;">Cara kerja dijelaskan secara ringkas dan mudah dibayangkan oleh pendengar awam.</td>
-<td style="text-align: left;">Cara kerja sangat jernih, didukung analogi membumi atau prototipe yang siap dicoba.</td>
+<td style="text-align: center;"><strong>Unggul (4)</strong></td>
+<td style="text-align: left;">Menghindari feature dumping, mendetoks 2 fitur tidak relevan (Dashboard &amp; Bot), mekanisme schema CLI sangat jernih.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>Penerjemahan Nilai</strong></td>
-<td style="text-align: left;">Manfaat/nilai dianggap sama saja bagi semua peran yang terlibat.</td>
-<td style="text-align: left;">Mulai menyebutkan manfaat, tetapi belum membedakan nilai spesifik tiap peran.</td>
-<td style="text-align: left;">Mampu menerjemahkan fitur menjadi nilai fungsional yang berbeda bagi tiap peran.</td>
-<td style="text-align: left;">Nilai relasional disampaikan secara presisi dan bermakna bagi tanggung jawab spesifik sasaran.</td>
+<td style="text-align: center;"><strong>Unggul (4)</strong></td>
+<td style="text-align: left;">Nilai diterjemahkan spesifik: integritas nilai bagi Randy/praktikan, dan nol beban tiket bagi Naufal/asisten.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Kejujuran &amp; Batas</strong></td>
-<td style="text-align: left;">Mengklaim solusi sempurna tanpa cela (janji berlebihan / <em>overpromise</em>).</td>
-<td style="text-align: left;">Mengakui adanya batas kemampuan solusi tetapi hanya jika ditanya.</td>
-<td style="text-align: left;">Menyatakan batas kemampuan dan risiko solusi secara terbuka dan realistis sejak awal.</td>
-<td style="text-align: left;">Menunjukkan batas solusi secara ksatria serta menawarkan rencana mitigasi atau bukti pendukung.</td>
+<td style="text-align: center;"><strong>Unggul (4)</strong></td>
+<td style="text-align: left;">Batas kemampuan skrip diakui terbuka (hanya mengisolasi schema, bukan memperbaiki kesalahan logika kueri).</td>
 </tr>
 </tbody>
 </table>

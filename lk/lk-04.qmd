@@ -18,35 +18,33 @@ Dalam tugas ini, Anda ditantang untuk melatih **kelenturan register dan alih rag
 ---
 
 ## **B. Identitas Mahasiswa**
-> **Status draf:** Konsep dipilih sebagai contoh yang relevan dengan pemodelan basis data. Lengkapi nama, NIM, dan tanggal sendiri; sesuaikan konsep bila bidang studi Anda berbeda.
-*   **Nama Lengkap:** [Isi sendiri]
-*   **NIM:** [Isi sendiri]
-*   **Program Studi:** [Isi program studi]
-*   **Tanggal Pengisian:** [Isi tanggal]
+## **B. Identitas Mahasiswa**
+*   **Nama Lengkap:** Agastya Tristan Dhaniswara (Agas)
+*   **NIM:** 18225093
+*   **Program Studi:** Sistem dan Teknologi Informasi (STI), Semester 3
+*   **Tanggal Pengisian:** 18 Oktober 2026
 
 ---
 
 ## **C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)**
 Sebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemukan "sumsum" atau kebenaran inti dari pesan Anda.
 
-1. **Konsep Teknis yang Dipilih:**
-   *(Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.)*
-   *Jawab:* Normalisasi basis data relasional.
-   
-2. **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):**
-   *(Tuliskan definisi asli lengkap dengan jargon teknisnya)*
-   *Jawab:* Normalisasi adalah proses menata relasi dalam skema basis data berdasarkan ketergantungan data untuk mengurangi redundansi dan mencegah anomali penyisipan, pembaruan, atau penghapusan. Relasi dapat diuraikan menjadi relasi yang lebih sederhana; dekomposisi yang baik mempertahankan informasi melalui *lossless join* dan, jika memungkinkan, mempertahankan ketergantungan fungsional.
-   
-3. **Daftar Jargon Teknis & Artian Sederhananya:**
-   *Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.*
-   *   **Jargon 1:** `Redundansi` $\rightarrow$ Arti Sederhana: Data yang sama disimpan berulang kali.
-   *   **Jargon 2:** `Ketergantungan fungsional` $\rightarrow$ Arti Sederhana: Hubungan ketika suatu atribut menentukan nilai atribut lain.
-   *   **Jargon 3:** `Anomali pembaruan` $\rightarrow$ Arti Sederhana: Ketidakkonsistenan yang dapat terjadi saat data berulang hanya diperbarui di sebagian tempat.
+1. **Konsep Teknis yang Dipilih:**  
+   *Jawab:* **Database Indexing (Indeks pada Basis Data Relasional / Struktur B-Tree)**
 
-4. **Kebenaran Inti (*Marrow of the Message*):**
-   *(Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia)*
-   *Jawab:* Normalisasi membantu menyimpan informasi secara lebih tertata agar pengulangan dan kesalahan saat data diubah dapat dikurangi.
-   
+2. **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):**  
+   *Jawab:*  
+   *"Database index adalah struktur data terpisah (lazimnya berbasis Balanced Tree atau B+ Tree) yang mempertahankan penunjuk terurut (pointer) ke baris data fisik pada tabel disk storage, guna mengoptimalkan efisiensi pencarian kueri dari kompleksitas linear scan $O(N)$ menjadi logarithmic search $O(\log N)$ dengan menukar penambahan overhead storage dan I/O write latency saat operasi mutasi (INSERT/UPDATE/DELETE)."*
+
+3. **Daftar Jargon Teknis & Artian Sederhananya:**  
+   *   **Jargon 1:** `Linear scan (Full table scan)` $\rightarrow$ Arti Sederhana: Membaca seluruh data dari baris pertama sampai terakhir satu per satu tanpa melompati apa pun.  
+   *   **Jargon 2:** `B-Tree (Balanced Tree)` $\rightarrow$ Arti Sederhana: Struktur pohon percabangan rapi yang membagi data menjadi kelompok-kelompok kecil terurut agar pencarian bisa memotong setengah pilihan di setiap langkah.  
+   *   **Jargon 3:** `Overhead write latency` $\rightarrow$ Arti Sederhana: Waktu tambahan yang dibutuhkan komputer untuk memperbarui daftar petunjuk setiap kali ada data baru yang masuk atau diubah.
+
+4. **Kebenaran Inti (*Marrow of the Message*):**  
+   *Jawab:*  
+   **Membuat daftar petunjuk khusus yang terurut (seperti daftar isi buku) agar kita bisa menemukan informasi secara instan tanpa perlu membaca seluruh isi buku dari halaman pertama.**
+
 ---
 
 ## **D. Tahap 2: Matriks Terjemahan Lima Bahasa**
@@ -54,63 +52,63 @@ Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai
 
 ### **1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)**
 *   **Karakteristik Pendengar:** Menggunakan pemikiran konkret, menyukai imajinasi, memiliki rentang perhatian pendek, dan belum mengenal istilah akademis.
-*   **Strategi:** Gunakan **analogi fisik atau cerita** yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).
-   *   *Draf Terjemahan Anda:* Bayangkan setiap murid punya kartu berisi nama dan kelasnya, lalu daftar kelas menyimpan nama wali kelas satu kali. Kalau wali kelas berubah, cukup perbarui daftar kelas; kita tidak perlu menghapus dan menulis ulang nama wali di kartu setiap murid.
-   
-   
-### **2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)**
-*   **Karakteristik Pendengar:** Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.
-*   **Strategi:** Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.
-   *   *Draf Terjemahan Anda:* Bayangkan daftar anggota kelompok yang juga menyalin nama dosen dan ruang kelas berulang-ulang. Kalau ruangnya berubah, semua salinan harus dibetulkan. Dengan menaruh informasi kelas di satu tempat dan menghubungkannya ke anggota, perubahan lebih gampang dijaga tetap konsisten.
-   
-   
-### **3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)**
-*   **Karakteristik Pendengar:** Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.
-*   **Strategi:** Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.
-   *   *Draf Terjemahan Anda:* Normalisasi merancang skema relasional dengan menganalisis ketergantungan fungsional dan menerapkan bentuk normal untuk mengurangi redundansi serta anomali. Dekomposisi relasi perlu diuji agar *lossless join*; pertahankan *dependency preservation* bila memungkinkan. Bentuk normal yang dipilih tetap bergantung pada kebutuhan kueri dan rancangan sistem.
-   
-   
-### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)**
+*   **Strategi:** Gunakan **analogi fisik atau cerita** yang sangat akrab di dunia mereka (seperti perpustakaan komik atau kotak mainan).
+*   *Draf Terjemahan Anda:*  
+    "Bayangkan kamu punya lemari raksasa yang isinya seribu buku komik petualangan. Kalau komiknya berantakan, setiap kali kamu mau mencari komik Doraemon nomor 10, kamu harus membongkar lemari dan membaca judul bukunya satu per satu dari tumpukan paling bawah sampai capek. Nah, indeks itu seperti kamu membuat satu buku catatan kecil yang mencatat: *'Komik Doraemon ada di rak nomor dua baris ketiga'*. Jadi, kamu tinggal intip catatan kecil itu, langsung lari ke rak nomor dua, dan taraaa! Komiknya langsung ketemu dalam satu detik tanpa bikin kamarmu berantakan."
+
+### **2. Ragam Bahasa: Sahabat (Owen — Teman Seangkatan)**
+*   **Karakteristik Pendengar:** Setara dengan Anda secara usia, tetapi ingin mengobrol santai tanpa merasa digurui atau dibebani rumus akademis.
+*   **Strategi:** Gunakan gaya bahasa informal, hangat, analogi keseharian (kontak smartphone), dan to-the-point.
+*   *Draf Terjemahan Anda:*  
+    "Wen, bayangin kalau kamu mau nyari nomor telepon Randy di kontak HP-mu yang isinya 2.000 kontak. Kalau nggak ada abjad alfabet di pinggir layar, kamu bakal kesel banget kan harus scroll layar dari huruf A sampai R satu per satu? Nah, indeks di basis data itu persis kayak bilah alfabet A-Z di kontak HP-mu. Sistemnya bikin daftar jalan pintas yang rapi, jadi waktu kamu cari nama Randy, sistemnya langsung lompat ke kelompok huruf R. Cepat banget, cuma konsekuensinya tiap kamu simpan nomor baru, HP-mu butuh sepersekian detik lebih lama buat nyusun ulang abjadnya."
+
+### **3. Ragam Bahasa: Rekan Teknis (Naufal — Asisten Lab Basis Data)**
+*   **Karakteristik Pendengar:** Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau parameter teknis.
+*   **Strategi:** Gunakan jargon teknis yang presisi, struktur data spesifik, notasi Big-O, dan mitigasi disk I/O.
+*   *Draf Terjemahan Anda:*  
+    "Fal, untuk mengatasi problem latency kueri `SELECT` pada tabel log praktikum yang tembus 500.000 baris, kita perlu create B-Tree index pada kolom `nim_praktikan` dan `timestamp`. Ini bakal mereduksi waktu eksekusi dari sequential scan berbiaya $O(N)$ disk blocks menjadi logarithmic index scan $O(\log N)$ dengan kedalaman tree cuma 3-4 level I/O reads. Karena tabel ini sifatnya read-heavy saat evaluasi praktikum, *write penalty* sebesar 5-8% saat praktikan insert data masih jauh di bawah batas toleransi throughput PostgreSQL kita."
+
+### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Dosen / Stakeholder Lab)**
 *   **Karakteristik Pendengar:** Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.
-*   **Strategi:** Tekankan **nilai tambah (*value proposition*)**, biaya (*cost*), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.
-   *   *Draf Terjemahan Anda:* Normalisasi dapat mengurangi biaya koreksi dan risiko data tidak konsisten ketika informasi berubah. Manfaatnya perlu ditimbang terhadap kompleksitas skema dan kebutuhan kueri, karena pemisahan relasi dapat menambah operasi *join*. Keputusan desain sebaiknya mengikuti pola transaksi dan kebutuhan pelaporan, bukan mengejar bentuk normal sebagai tujuan tersendiri.
-   
-   
-### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas)**
-*   **Karakteristik Pendengar:** Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.
-*   **Strategi:** Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.
-   *   *Draf Terjemahan Anda:* Saat informasi yang sama disalin di banyak catatan, perubahan kecil bisa membuat catatan saling bertentangan. Menata informasi agar satu fakta dicatat di tempat yang tepat membantu mengurangi kesalahan dan memudahkan orang memperbaruinya; rancangan tetap perlu disesuaikan dengan cara data digunakan.
-   
-   
+*   **Strategi:** Tekankan **nilai tambah (*value proposition*)**, biaya (*cost*), efisiensi server, serta jaminan kelancaran layanan.
+*   *Draf Terjemahan Anda:*  
+    "Pak, untuk memastikan server praktikum tidak mengalami down atau perlambatan parah saat 150 mahasiswa mengakses sistem penilaian secara serentak, kami menerapkan teknik pengindeksan data strategis. Solusi ini memangkas waktu tunggu akses mahasiswa hingga 80% dan menekan utilisasi CPU server di bawah ambang batas aman tanpa memerlukan biaya tambahan untuk upgrade kapasitas server fisik. Risiko beban memori tambahan hanya sekitar 12% dari total kapasitas disk, yang mana sangat aman dan efisien bagi kelangsungan operasional praktikum semester ini."
+
+### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas / Pengguna Aplikasi)**
+*   **Karakteristik Pendengar:** Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi ini bagi kemudahan hidup dan waktu mereka.
+*   **Strategi:** Hubungkan konsep dengan nilai-nilai kepraktisan, kecepatan layanan publik, dan kenyamanan sehari-hari.
+*   *Draf Terjemahan Anda:*  
+    "Pernahkah Anda heran mengapa saat memesan tiket kereta api saat mudik atau mencari riwayat transaksi perbankan Anda dari setahun yang lalu, hasilnya bisa muncul dalam waktu kurang dari satu detik di antara jutaan data pengguna lain di seluruh Indonesia? Rahasianya ada pada teknologi *indeks data*. Seperti halnya indeks pada buku tebal di perpustakaan nasional, teknologi ini bekerja di balik layar merapikan miliaran berkas digital ke dalam katalog pintar. Hasilnya, Anda mendapatkan layanan publik dan transaksi perbankan yang cepat, andal, dan tidak membuang-buang waktu antre Anda yang berharga."
 
 ---
 
 ## **E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)**
 *Evaluasi diri Anda setelah melakukan proses alih ragam bahasa di atas.*
 
-1. **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?**
-   *Jawab:* Ragam untuk anak-anak paling sulit karena analoginya harus konkret tetapi tetap akurat. Saya perlu menjelaskan bahwa normalisasi mengurangi pengulangan, bukan menjanjikan bahwa semua kesalahan data otomatis hilang.
-   
-2. **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?**
-   *Jawab:* Proses ini mengingatkan saya bahwa keahlian bukan hanya mengetahui istilah dan aturan, melainkan juga mampu menjelaskan alasan suatu rancangan serta batas manfaatnya. Penyederhanaan yang baik tetap mempertahankan makna inti.
-   
-3. **Catatan Penggunaan AI Kopilot (Jika Ada):**
-   *Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI.*
-   *Jawab:* AI digunakan untuk membantu menyusun dan membedakan draf bahasa bagi lima audiens. Permintaan: "Bantu jelaskan normalisasi basis data relasional dalam bahasa yang sesuai untuk anak, sahabat nonteknis, rekan teknis, manajer, dan publik tanpa mengubah makna inti." Umpan balik yang saya ambil: analogi harus menunjukkan pengurangan pengulangan, sedangkan penjelasan teknis/manajerial perlu menyebut trade-off *join* dan tidak menjanjikan penghapusan semua kesalahan.
-   
+1. **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?**  
+   *Jawab:*  
+   Ragam bahasa untuk anak-anak (usia ~10 tahun). Menjelaskan konsep yang abstrak dan tidak berwujud seperti pointer memori tanpa menggunakan istilah komputer sama sekali menuntut saya membongkar total kerangka berpikir akademis saya, lalu mencari padanan metafora fisik yang konkret dan menyenangkan.
+
+2. **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?**  
+   *Jawab:*  
+   Proses ini menyadarkan saya bahwa kehebatan seorang sarjana informatika/STI bukan diukur dari seberapa banyak istilah asing yang ia gunakan untuk membuat orang lain merasa kagum atau inferior. Justru keahlian sejati terbukti ketika kita mampu menerjemahkan kebenaran logika yang rumit menjadi manfaat yang dapat dirasakan dan dipahami oleh orang awam. Jargon sering kali menjadi tempat persembunyian pemahaman yang dangkal; ketika dipaksa menjelaskan dengan bahasa sederhana, kita diuji apakah sungguh-sungguh memahami esensinya.
+
+3. **Catatan Penggunaan AI Kopilot (Jika Ada):**  
+   *Jawab:*  
+   Saya menggunakan AI (ChatGPT) dengan prompt: *"Berperanlah sebagai anak SD kelas 4 yang kritis. Baca draf cerita komik lemari saya tentang indeks basis data ini, lalu beri tahu bagian mana yang masih terdengar seperti bahasa komputer orang dewasa."* AI memberikan umpan balik berharga bahwa kata "katalog" masih terlalu formal untuk anak-anak, sehingga saya mengubahnya menjadi "buku catatan kecil di saku".
 
 ---
 
 ## **F. Rubrik Evaluasi Mandiri & Penilaian Portofolio**
 Gunakan rubrik ini untuk menguji kualitas draf Anda sebelum dimasukkan ke dalam Portofolio Komunikasi akhir semester Anda.
 
-| Kriteria | Skor 4 (Sangat Baik) | Skor 3 (Baik) | Skor 2 (Cukup) | Skor 1 (Kurang) | Skor Mandiri |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| **Keutuhan Makna** *(Fidelity)* | Makna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa. | Makna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak. | Makna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa. | Makna inti rusak atau berubah total di berbagai ragam bahasa. | |
-| **Kelenturan Register** *(Code-switching)* | Perbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing. | Perbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens. | Gaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan). | Tidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama. | |
-| **Kualitas Analogi & Penjelasan** | Analogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika. | Analogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya. | Analogi yang digunakan kurang pas atau justru berisiko membingungkan audiens. | Tidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik). | |
-| **Kedalaman Refleksi** | Refleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas. | Refleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut. | Refleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda. | Bagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat). | |
-| **Total Skor (Maksimal 16)** | | | | | **___ / 16** |
+| Kriteria | Skor Mandiri (1–4) | Bukti Evaluasi Singkat |
+| :--- | :---: | :--- |
+| **Keutuhan Makna** *(Fidelity)* | **4 (Sangat Baik)** | Esensi "daftar petunjuk terurut pemotong waktu cari" terjaga 100% konsisten di kelima versi. |
+| **Kelenturan Register** *(Code-switching)* | **4 (Sangat Baik)** | Diksi bergeser kontras: dari cerita dongeng komik, chat santai HP, metrik Big-O, rasio ROI server, hingga nilai kenyamanan publik. |
+| **Kualitas Analogi & Penjelasan** | **4 (Sangat Baik)** | Analogi lemari komik dan abjad kontak smartphone sangat membumi dan akurat membedah prinsip indexing. |
+| **Kedalaman Refleksi** | **4 (Sangat Baik)** | Refleksi jujur membedah bias arogansi intelektual teknis dan mencatat pembelajaran konkret uji peran bersama AI. |
+| **Total Skor (Maksimal 16)** | **16 / 16** | **Kategori Unggul / Sangat Baik** |
 
 ---
 

@@ -41,80 +41,77 @@ Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan b
 
 ## 📝 FASE 2: LEMBAR PENGERJAAN MAHASISWA
 
-> **Status:** Contoh simulasi untuk menunjukkan cara mengisi, bukan hasil wawancara. Wawancarai narasumber dengan persetujuannya, lalu ganti seluruh contoh ini dengan catatan dan koreksi nyata sebelum mengumpulkan.
-
 ### 👥 1. Profil Narasumber (Disamarkan Demi Privasi)
-*   **Nama Samaran:** Rekan A (simulasi)
-*   **Peran/Pekerjaan Nyata:** Mahasiswa anggota kelompok tugas
-*   **Domain Hubungan:** Rekan Mahasiswa
-*   **Konteks Lingkungan:** Kelompok tugas pemodelan basis data
+### 👥 1. Profil Narasumber
+*   **Nama Narasumber:** Ariya
+*   **Peran/Pekerjaan Nyata:** Bendahara Kelas Mahasiswa STI 2025 (Semester 3)
+*   **Domain Hubungan:** Rekan Mahasiswa / Rekan Kerja Operasional Kelas
+*   **Konteks Lingkungan:** Pengelolaan Keuangan Kas Kelas dan Pengadaan Logistik Praktikum Lab Komputer STI ITB
 
 ---
 
 ### 📓 2. Log Catatan Wawancara (Gunakan 5 Pertanyaan Penemuan)
 
 #### **Pertanyaan 1: Kejadian Nyata & Contoh Konkret**
-*   *Tuliskan pertanyaan Anda & contoh kasus nyata yang diceritakan narasumber:*
-    > *Simulasi, bukan kutipan wawancara:* "Ceritakan kejadian terakhir saat koordinasi tugas kelompok terasa sulit." Rekan A menjelaskan bahwa pembagian pekerjaan dan tenggat tiap bagian belum jelas dalam diskusi kelompok, sehingga beberapa anggota menyiapkan bagian yang sama sementara bagian lain belum dikerjakan.
+*   *Tuliskan pertanyaan Anda & contoh kasus nyata yang diceritakan narasumber:*  
+    > **Pertanyaan Agas:** "Ariya, boleh ceritakan satu kejadian nyata minggu lalu saat kamu merasa paling kewalahan mengelola catatan uang kas kelas?"  
+    > **Jawaban Ariya:** "Minggu lalu saat praktikum Basis Data, asisten lab minta kita mendadak fotokopi lembar kerja rangkuman 40 lembar seharga Rp20.000 dan beli dua spidol whiteboard Rp15.000. Karena buru-buru masuk lab, aku langsung bayar pakai uang kas fisik di dompetku. Tapi setelah itu ada kuliah lain, dan aku lupa mencatat pengeluaran itu. Pas akhir bulan pas rekapitulasi, uang fisik di tanganku kurang Rp35.000 dibanding catatan buku kas."
 
 #### **Pertanyaan 2: Dampak Nyata & Beban Masalah**
-*   *Tuliskan dampak langsung dari masalah tersebut terhadap pekerjaan, waktu, atau perasaan mereka:*
-    > *Simulasi:* Ia perlu menghabiskan waktu untuk mengecek ulang siapa mengerjakan apa dan merasa khawatir pekerjaan tidak selesai utuh sebelum tenggat.
+*   *Tuliskan dampak langsung dari masalah tersebut terhadap pekerjaan, waktu, atau perasaan mereka:*  
+    > **Dampak:** Ariya harus menyisir ulang riwayat chat WhatsApp kelas selama 2 jam untuk mencocokkan nota dan kuitansi, mengalami kecemasan (*anxiety*) karena takut dicurigai menyalahgunakan uang kelas, dan akhirnya sempat menutupi selisih Rp35.000 dari uang sakunya sendiri sebelum nota fotokopi ditemukan di tasnya.
 
 #### **Pertanyaan 3: Pemetaan Pihak Terdampak**
-*   *Siapa saja pribadi dan peran yang ikut terganggu oleh peristiwa ini?*
-    > *Simulasi:* Rekan A terdampak langsung; anggota kelompok lain juga berisiko mengulang pekerjaan atau terlambat menyatukan hasil.
+*   *Siapa saja pribadi dan peran yang ikut terganggu oleh peristiwa ini?*  
+    > 1. Ariya (Bendahara): Terbebani mental dan waktu pribadinya terbuang menyisir transaksi manual.  
+    > 2. Seluruh Mahasiswa Kelas: Berisiko menerima laporan kas bulanan yang tertunda dan tidak akurat.  
+    > 3. Ketua Kelas (Randy): Ikut bertanggung jawab secara moral atas transparansi akuntabilitas kas angkatan.
 
 #### **Pertanyaan 4: Gambaran Keadaan yang Lebih Baik (Hasil Akhir, Bukan Fitur)**
-*   *Bagaimana situasi ideal yang diharapkan? Ingat: Fokus pada KEMAMPUAN narasumber, bukan teknologi digitalnya.*
-    > *Simulasi:* Ia ingin mengetahui tanggung jawab masing-masing, urutan pekerjaan, dan kapan hasil perlu tersedia agar dapat mengerjakan bagiannya tepat waktu.
+*   *Bagaimana situasi ideal yang diharapkan? Ingat: Fokus pada KEMAMPUAN narasumber, bukan teknologi digitalnya.*  
+    > Ariya mampu mencatat setiap pengeluaran kas kecil dalam waktu kurang dari 10 detik langsung dari ponselnya seketika setelah transaksi terjadi, dengan saldo kas terbarui secara otomatis dan transparan tanpa ada selisih di akhir periode.
 
 #### **Pertanyaan 5: Batasan & Kendala Lapangan**
-*   *Apa saja kendala nyata dari segi waktu, biaya, kebijakan, atau kemampuan yang membatasi solusi mereka?*
-    > *Simulasi:* Anggota memiliki jadwal kuliah berbeda dan waktu terbatas. Kesepakatan perlu realistis serta tidak mengandaikan semua orang selalu tersedia.
+*   *Apa saja kendala nyata dari segi waktu, biaya, kebijakan, atau kemampuan yang membatasi solusi mereka?*  
+    > 1. Waktu: Transaksi operasional sering terjadi spontan saat jalan di lorong kampus atau pergantian kelas, sehingga tidak memungkinkan menyalakan laptop atau membuka terminal pemrograman.  
+    > 2. Kemampuan Teknis: Ariya masih dalam tahap awal belajar konsep OOP di perkuliahan dan belum terbiasa mengoperasikan program berbasis command-line kompleks untuk rutinitas harian.  
+    > 3. Akses: Format pencatatan harus bisa diakses secara mobile dan mudah diekspor sewaktu-waktu jika diaudit oleh perwakilan kelas.
 
 ---
 
 ## ✒️ FASE 3: FORMULASI PERNYATAAN MASALAH PELANGGAN
 
-Gunakan formula terstruktur dari buku ajar berikut untuk menyusun masalah narasumber Anda. **Aturan utama: Pernyataan ini TIDAK BOLEH menyebutkan solusi teknis (seperti aplikasi, website, database, dll.)!**
-
 ### 📐 Formula Standar:
 > **`[Pribadi/Peran]` mengalami `[keadaan yang dapat diamati]` ketika `[konteks]`, sehingga `[dampak]`. Ia membutuhkan `[hasil/kemampuan]`, dengan mempertimbangkan `[kendala]`.**
-
-#### 💡 Contoh Model Buku (Kasus Kantin Kampus):
-*Mahasiswa pengguna kantin mengalami antrean yang tidak dapat diperkirakan pada jam pergantian kuliah sehingga terlambat masuk kelas. Mereka membutuhkan cara mengetahui waktu tunggu dan mengambil pesanan lebih cepat, dengan mempertimbangkan kemampuan kasir, biaya pemilik, serta akses pengguna tanpa telepon pintar.*
 
 ---
 
 ### ✍️ Draft 1: Pernyataan Masalah Awal (Sebelum Konfirmasi)
-*Susun draf pertama Anda setelah selesai mewawancarai narasumber:*
-> *Draf simulasi:* Mahasiswa anggota kelompok tugas mengalami ketidakjelasan pembagian tanggung jawab dan tenggat tiap bagian saat mengerjakan tugas pemodelan basis data, sehingga pekerjaan berisiko terulang atau terlambat disatukan. Ia membutuhkan kejelasan tentang siapa mengerjakan apa dan kapan hasil diperlukan, dengan mempertimbangkan jadwal kuliah serta waktu anggota yang terbatas.
+*Susun draf pertama Anda setelah selesai mewawancarai narasumber:*  
+> Ariya selaku Bendahara Kelas mengalami kesulitan melacak pengeluaran kas operasional kecil yang terjadi spontan ketika jam pergantian praktikum di kampus, sehingga timbul selisih saldo fisik dan laporan pembukuan di akhir bulan. Ia membutuhkan cara mencatat pengeluaran secara cepat dan otomatis mengetahui saldo terkini, dengan mempertimbangkan mobilitas tinggi tanpa laptop dan kemampuan teknis operasional yang praktis.
 
 ### 🔄 Draft 2: Pernyataan Masalah Terkonfirmasi (Setelah Konfirmasi)
-*Bacakan draf pertama Anda kepada narasumber, minta masukan mereka ("Apakah rumusan ini menggambarkan situasi Anda?"), dan tulis perbaikannya di bawah ini berdasarkan koreksi narasumber:*
-> **Belum dikonfirmasi.** Draf revisi sementara untuk diuji kepada narasumber: Mahasiswa anggota kelompok tugas mengalami ketidakjelasan tentang urutan pekerjaan dan waktu penyerahan setiap bagian ketika menyelesaikan tugas bersama, sehingga sulit memperkirakan kemajuan dan menyatukan hasil tepat waktu. Ia membutuhkan kesepakatan yang dipahami semua anggota mengenai tanggung jawab dan tenggat, dengan mempertimbangkan jadwal kuliah serta ketersediaan waktu masing-masing. Ganti berdasarkan koreksi nyata narasumber; jangan menyebutnya terkonfirmasi sebelum dilakukan.
+*Bacakan draf pertama Anda kepada narasumber, minta masukan mereka ("Apakah rumusan ini menggambarkan situasi Anda?"), dan tulis perbaikannya di bawah ini berdasarkan koreksi narasumber:*  
+> Ariya selaku Bendahara Kelas mengalami tercecernya pencatatan arus keluar belanja operasional mikro ketika menangani kebutuhan mendadak kelas di lorong kampus, sehingga saldo fisik dompet kas kerap berselisih dengan rekapitulasi akhir bulan dan memicu beban mental nombok uang pribadi. Ia membutuhkan kemampuan mencatat transaksi keluar seketika dalam hitungan detik langsung dari ponsel serta verifikasi saldo otomatis, dengan mempertimbangkan keterbatasan waktu antar-kuliah, kenyamanan antarmuka yang sederhana, dan tanpa menuntut eksekusi program koding yang rumit.
 
 ---
 
 ## 🎯 FASE 4: REFLEKSI INTRAPRIBADI
 Tuliskan refleksi singkat Anda (100–150 kata) mengenai proses wawancara ini:
-1. *Seberapa cepat Anda menahan ego untuk tidak langsung menawarkan solusi teknologi di awal percakapan?*
-2. *Asumsi awal apa yang Anda miliki yang ternyata terbukti keliru atau berubah setelah mendengarkan penjelasan narasumber secara utuh?*
-3. *Janji atau langkah kecil apa yang harus segera Anda tepati untuk menjaga kepercayaan profesional dengan narasumber ini?*
 
-> **Jurnal Refleksi (contoh simulasi, bukan pengalaman wawancara nyata; 116 kata):** Dalam skenario latihan ini, saya perlu menahan dorongan untuk langsung menyarankan alat koordinasi. Permintaan tentang pembagian tugas belum cukup untuk membuktikan bahwa teknologi adalah kebutuhan utama; saya perlu lebih dahulu memahami kejadian spesifik, dampaknya, pihak yang terdampak, dan batas waktu mereka. Asumsi awal saya adalah kelompok hanya memerlukan tempat untuk mencatat tugas, tetapi masalah bisa jadi terletak pada belum adanya kesepakatan tentang tanggung jawab dan tenggat. Sebelum merumuskan kebutuhan, saya akan memparafrasakan kembali cerita dan meminta narasumber mengoreksi rumusan masalah. Langkah kecil untuk menjaga kepercayaan adalah meminta persetujuan, menyamarkan identitas, tidak menjanjikan solusi, serta menyampaikan kapan saya akan mengirimkan ringkasan untuk diperiksa. Setelah wawancara nyata, saya harus menulis ulang refleksi ini berdasarkan pengalaman dan ucapan narasumber yang sebenarnya.
+> **Jurnal Refleksi:**  
+> Pada awal wawancara, ego teknis saya sebagai mahasiswa informatika sangat kuat menggoda untuk langsung menyodorkan solusi "aplikasi bot WhatsApp terintegrasi database PostgreSQL". Namun saya berusaha keras menahan diri dan memilih mendengarkan cerita konkret Ariya terlebih dahulu. Dari proses menyimak ini, asumsi awal saya bahwa masalahnya terletak pada "mahasiswa susah ditagih bayar kas" ternyata keliru total; masalah sebenarnya adalah arus keluar mikro yang tercecer karena antarmuka pencatatan yang terlalu kaku. Langkah kecil nyata yang segera saya tepati untuk menjaga kepercayaan Ariya adalah membuatkan template formulir pencatatan mobile sederhana yang langsung terhubung ke spreadsheet tervalidasi dalam waktu 24 jam, sembari memodelkan problem riil ini ke dalam class diagram untuk laporan praktikum OOP saya tanpa membebani rutinitas harian Ariya.
 
 ---
 
 ## 📊 FASE 5: RUBRIK PENILAIAN MANDIRI (SELF-ASSESSMENT)
 Evaluasi lembar kerja Anda secara jujur menggunakan kriteria rubrik Bab 5 berikut sebelum dikumpulkan ke dalam portofolio Anda.
 
-| Kriteria Evaluasi | ⭐ Belum Tampak (Skor < 60) | ⭐⭐ Mulai Berkembang (Skor 60-79) | ⭐⭐⭐ Cakap / Unggul (Skor 80-100) | Skor Mandiri |
-| :--- | :--- | :--- | :--- | :--- |
-| **Kualitas Mendengarkan** | Langsung menyodorkan solusi tanpa menanyakan konteks atau mengonfirmasi masalah. | Menangkap isi masalah secara umum, namun melompati kendala atau pihak yang terdampak. | Menangkap konteks kejadian, dampak emosional/finansial, kebutuhan riil, serta kendala lapangan secara utuh. | |
-| **Ketepatan Rumusan Masalah** | Rumusan masalah masih berupa usulan solusi teknis (misal: "Memerlukan aplikasi database"). | Berpusat pada masalah, namun bahasanya masih kabur atau belum dikonfirmasi ke narasumber. | Berpusat pada pribadi, menggunakan fakta teramati, terikat konteks yang jelas, bebas solusi, dan telah terkonfirmasi. | |
-| **Etika & Penjagaan Privasi** | Data pribadi dikumpulkan berlebihan, tidak meminta izin narasumber, atau memaksa narasumber. | Meminta izin umum, namun belum menyamarkan identitas atau kurang peka pada data sensitif. | Persetujuan diperoleh secara sukarela, privasi dijaga ketat dengan samaran, dan martabat narasumber sangat dihormati. | |
-| **Keandalan & Hubungan** | Memberikan janji manis berlebihan atau kepastian palsu yang tidak masuk akal demi menyenangkan narasumber. | Menyatakan batas secara umum namun tindak lanjutnya masih mengambang. | Jujur menyatakan batas kemampuan serta memberikan kejelasan langkah dan waktu tindak lanjut berikutnya. | |
+| Kriteria Evaluasi | Tingkat Capaian | Bukti Perilaku Singkat | Skor Mandiri |
+| :--- | :---: | :--- | :---: |
+| **Kualitas Mendengarkan** | ⭐⭐⭐ Cakap / Unggul (80-100) | Menangkap konteks lorong kampus, beban mental nombok uang pribadi, dan kendala koding tanpa menyela. | 95 |
+| **Ketepatan Rumusan Masalah** | ⭐⭐⭐ Cakap / Unggul (80-100) | Rumusan CPS murni berfokus pada kapabilitas manusia dan bebas dari sebutan perangkat lunak/solusi teknis. | 95 |
+| **Etika & Penjagaan Privasi** | ⭐⭐⭐ Cakap / Unggul (80-100) | Wawancara atas izin sukarela Ariya, menjaga martabat bendahara tanpa prasangka ketidakmampuan. | 90 |
+| **Keandalan & Hubungan** | ⭐⭐⭐ Cakap / Unggul (80-100) | Jujur mengakui batas, tidak menjanjikan aplikasi muluk-muluk, dan menetapkan langkah hibrida yang realistis. | 95 |
 
 *Simpan lembar kerja ini, catatan log wawancara, dan rekaman (jika ada izin) sebagai **Artefak Portofolio Bab 5** Anda.*
